@@ -1,0 +1,95 @@
+G:\Unoeste\IA\2 Bimestre\Redes Neurais\Trabalho\Trabalho_BackPropagation\Backpropagation\Backpropagation\bin\Debug\Backpropagation.exe
+G:\Unoeste\IA\2 Bimestre\Redes Neurais\Trabalho\Trabalho_BackPropagation\Backpropagation\Backpropagation\bin\Debug\Backpropagation.pdb
+G:\Unoeste\IA\2 Bimestre\Redes Neurais\Trabalho\Trabalho_BackPropagation\Backpropagation\Backpropagation\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\Unoeste\IA\2 Bimestre\Redes Neurais\Trabalho\Trabalho_BackPropagation\Backpropagation\Backpropagation\obj\x86\Debug\Backpropagation.frmPrincipal.resources
+G:\Unoeste\IA\2 Bimestre\Redes Neurais\Trabalho\Trabalho_BackPropagation\Backpropagation\Backpropagation\obj\x86\Debug\Backpropagation.Properties.Resources.resources
+G:\Unoeste\IA\2 Bimestre\Redes Neurais\Trabalho\Trabalho_BackPropagation\Backpropagation\Backpropagation\obj\x86\Debug\GenerateResource.read.1.tlog
+G:\Unoeste\IA\2 Bimestre\Redes Neurais\Trabalho\Trabalho_BackPropagation\Backpropagation\Backpropagation\obj\x86\Debug\GenerateResource.write.1.tlog
+G:\Unoeste\IA\2 Bimestre\Redes Neurais\Trabalho\Trabalho_BackPropagation\Backpropagation\Backpropagation\obj\x86\Debug\Backpropagation.exe
+G:\Unoeste\IA\2 Bimestre\Redes Neurais\Trabalho\Trabalho_BackPropagation\Backpropagation\Backpropagation\obj\x86\Debug\Backpropagation.pdb
+I:\Unoeste\IA\2 Bimestre\Redes Neurais\Trabalho\Trabalho_BackPropagation\Backpropagation\Backpropagation\obj\x86\Debug\Backpropagation.exe
+I:\Unoeste\IA\2 Bimestre\Redes Neurais\Trabalho\Trabalho_BackPropagation\Backpropagation\Backpropagation\obj\x86\Debug\Backpropagation.pdb
+I:\Unoeste\IA\2 Bimestre\Redes Neurais\Trabalho\Trabalho_BackPropagation\Backpropagation\Backpropagation\bin\Debug\Backpropagation.exe
+I:\Unoeste\IA\2 Bimestre\Redes Neurais\Trabalho\Trabalho_BackPropagation\Backpropagation\Backpropagation\bin\Debug\Backpropagation.pdb
+I:\Unoeste\IA\2 Bimestre\Redes Neurais\Trabalho\Trabalho_BackPropagation\Backpropagation\Backpropagation\obj\x86\Debug\ResolveAssemblyReference.cache
+I:\Unoeste\IA\2 Bimestre\Redes Neurais\Trabalho\Trabalho_BackPropagation\Backpropagation\Backpropagation\obj\x86\Debug\Backpropagation.frmPrincipal.resources
+I:\Unoeste\IA\2 Bimestre\Redes Neurais\Trabalho\Trabalho_BackPropagation\Backpropagation\Backpropagation\obj\x86\Debug\Backpropagation.Properties.Resources.resources
+I:\Unoeste\IA\2 Bimestre\Redes Neurais\Trabalho\Trabalho_BackPropagation\Backpropagation\Backpropagation\obj\x86\Debug\GenerateResource.read.1.tlog
+I:\Unoeste\IA\2 Bimestre\Redes Neurais\Trabalho\Trabalho_BackPropagation\Backpropagation\Backpropagation\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Unoeste\IA\2 Bimestre\Redes Neurais\Trabalho\Trabalho_BackPropagation\Backpropagation\Backpropagation\obj\x86\Debug\Backpropagation.exe
+E:\Unoeste\IA\2 Bimestre\Redes Neurais\Trabalho\Trabalho_BackPropagation\Backpropagation\Backpropagation\obj\x86\Debug\Backpropagation.pdb
+E:\Unoeste\IA\2 Bimestre\Redes Neurais\Trabalho\Trabalho_BackPropagation\Backpropagation\Backpropagation\bin\Debug\Backpropagation.exe
+E:\Unoeste\IA\2 Bimestre\Redes Neurais\Trabalho\Trabalho_BackPropagation\Backpropagation\Backpropagation\bin\Debug\Backpropagation.pdb
+E:\Unoeste\IA\2 Bimestre\Redes Neurais\Trabalho\Trabalho_BackPropagation\Backpropagation\Backpropagation\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Unoeste\IA\2 Bimestre\Redes Neurais\Trabalho\Trabalho_BackPropagation\Backpropagation\Backpropagation\obj\x86\Debug\Backpropagation.frmPrincipal.resources
+E:\Unoeste\IA\2 Bimestre\Redes Neurais\Trabalho\Trabalho_BackPropagation\Backpropagation\Backpropagation\obj\x86\Debug\Backpropagation.Properties.Resources.resources
+E:\Unoeste\IA\2 Bimestre\Redes Neurais\Trabalho\Trabalho_BackPropagation\Backpropagation\Backpropagation\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Unoeste\IA\2 Bimestre\Redes Neurais\Trabalho\Trabalho_BackPropagation\Backpropagation\Backpropagation\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\Unoeste\IA\2 Bimestre\Redes Neurais\Trabalho\Trabalho_BackPropagation\Backpropagation\Backpropagation\obj\x86\Debug\Backpropagation.exe
+F:\Unoeste\IA\2 Bimestre\Redes Neurais\Trabalho\Trabalho_BackPropagation\Backpropagation\Backpropagation\obj\x86\Debug\Backpropagation.pdb
+F:\Unoeste\IA\2 Bimestre\Redes Neurais\Trabalho\Trabalho_BackPropagation\Backpropagation\Backpropagation\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\Unoeste\IA\2 Bimestre\Redes Neurais\Trabalho\Trabalho_BackPropagation\Backpropagation\Backpropagation\obj\x86\Debug\Backpropagation.frmPrincipal.resources
+F:\Unoeste\IA\2 Bimestre\Redes Neurais\Trabalho\Trabalho_BackPropagation\Backpropagation\Backpropagation\obj\x86\Debug\Backpropagation.Properties.Resources.resources
+F:\Unoeste\IA\2 Bimestre\Redes Neurais\Trabalho\Trabalho_BackPropagation\Backpropagation\Backpropagation\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\Unoeste\IA\2 Bimestre\Redes Neurais\Trabalho\Trabalho_BackPropagation\Backpropagation\Backpropagation\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\Unoeste\IA\2 Bimestre\Redes Neurais\Trabalho\Trabalho_BackPropagation\Backpropagation\Backpropagation\bin\Debug\Backpropagation.exe
+F:\Unoeste\IA\2 Bimestre\Redes Neurais\Trabalho\Trabalho_BackPropagation\Backpropagation\Backpropagation\bin\Debug\Backpropagation.pdb
+G:\Unoeste\IA\2 Bimestre\Redes Neurais\Trabalho\Trabalho_BackPropagation - COPIA MODIFICA ESTOURO VARIAVEL\Backpropagation\Backpropagation\obj\x86\Debug\Backpropagation.exe
+G:\Unoeste\IA\2 Bimestre\Redes Neurais\Trabalho\Trabalho_BackPropagation - COPIA MODIFICA ESTOURO VARIAVEL\Backpropagation\Backpropagation\obj\x86\Debug\Backpropagation.pdb
+G:\Unoeste\IA\2 Bimestre\Redes Neurais\Trabalho\Trabalho_BackPropagation - COPIA MODIFICA ESTOURO VARIAVEL\Backpropagation\Backpropagation\bin\Debug\Backpropagation.exe
+G:\Unoeste\IA\2 Bimestre\Redes Neurais\Trabalho\Trabalho_BackPropagation - COPIA MODIFICA ESTOURO VARIAVEL\Backpropagation\Backpropagation\bin\Debug\Backpropagation.pdb
+G:\Unoeste\IA\2 Bimestre\Redes Neurais\Trabalho\Trabalho_BackPropagation - COPIA MODIFICA ESTOURO VARIAVEL\Backpropagation\Backpropagation\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\Unoeste\IA\2 Bimestre\Redes Neurais\Trabalho\Trabalho_BackPropagation - COPIA MODIFICA ESTOURO VARIAVEL\Backpropagation\Backpropagation\obj\x86\Debug\Backpropagation.frmPrincipal.resources
+G:\Unoeste\IA\2 Bimestre\Redes Neurais\Trabalho\Trabalho_BackPropagation - COPIA MODIFICA ESTOURO VARIAVEL\Backpropagation\Backpropagation\obj\x86\Debug\Backpropagation.Properties.Resources.resources
+G:\Unoeste\IA\2 Bimestre\Redes Neurais\Trabalho\Trabalho_BackPropagation - COPIA MODIFICA ESTOURO VARIAVEL\Backpropagation\Backpropagation\obj\x86\Debug\GenerateResource.read.1.tlog
+G:\Unoeste\IA\2 Bimestre\Redes Neurais\Trabalho\Trabalho_BackPropagation - COPIA MODIFICA ESTOURO VARIAVEL\Backpropagation\Backpropagation\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\root\Desktop\Trabalho_BackPropagation\Backpropagation\Backpropagation\obj\x86\Debug\Backpropagation.exe
+C:\Users\root\Desktop\Trabalho_BackPropagation\Backpropagation\Backpropagation\obj\x86\Debug\Backpropagation.pdb
+C:\Users\root\Desktop\Trabalho_BackPropagation\Backpropagation\Backpropagation\bin\Debug\Backpropagation.exe
+C:\Users\root\Desktop\Trabalho_BackPropagation\Backpropagation\Backpropagation\bin\Debug\Backpropagation.pdb
+C:\Users\root\Desktop\Trabalho_BackPropagation\Backpropagation\Backpropagation\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\root\Desktop\Trabalho_BackPropagation\Backpropagation\Backpropagation\obj\x86\Debug\Backpropagation.frmPrincipal.resources
+C:\Users\root\Desktop\Trabalho_BackPropagation\Backpropagation\Backpropagation\obj\x86\Debug\Backpropagation.Properties.Resources.resources
+C:\Users\root\Desktop\Trabalho_BackPropagation\Backpropagation\Backpropagation\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\root\Desktop\Trabalho_BackPropagation\Backpropagation\Backpropagation\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\Unoeste\IA\2 Bimestre\Redes Neurais\Trabalho\Trabalho_BackPropagation - Trabalhando\Backpropagation\Backpropagation\obj\x86\Debug\Backpropagation.exe
+F:\Unoeste\IA\2 Bimestre\Redes Neurais\Trabalho\Trabalho_BackPropagation - Trabalhando\Backpropagation\Backpropagation\obj\x86\Debug\Backpropagation.pdb
+F:\Unoeste\IA\2 Bimestre\Redes Neurais\Trabalho\Trabalho_BackPropagation - Trabalhando\Backpropagation\Backpropagation\bin\Debug\Backpropagation.exe
+F:\Unoeste\IA\2 Bimestre\Redes Neurais\Trabalho\Trabalho_BackPropagation - Trabalhando\Backpropagation\Backpropagation\bin\Debug\Backpropagation.pdb
+F:\Unoeste\IA\2 Bimestre\Redes Neurais\Trabalho\Trabalho_BackPropagation - Trabalhando\Backpropagation\Backpropagation\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\Unoeste\IA\2 Bimestre\Redes Neurais\Trabalho\Trabalho_BackPropagation - Trabalhando\Backpropagation\Backpropagation\obj\x86\Debug\Backpropagation.frmPrincipal.resources
+F:\Unoeste\IA\2 Bimestre\Redes Neurais\Trabalho\Trabalho_BackPropagation - Trabalhando\Backpropagation\Backpropagation\obj\x86\Debug\Backpropagation.Properties.Resources.resources
+F:\Unoeste\IA\2 Bimestre\Redes Neurais\Trabalho\Trabalho_BackPropagation - Trabalhando\Backpropagation\Backpropagation\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\Unoeste\IA\2 Bimestre\Redes Neurais\Trabalho\Trabalho_BackPropagation - Trabalhando\Backpropagation\Backpropagation\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Unoeste\IA\2 Bimestre\Redes Neurais\Trabalho\Trabalho_BackPropagation - Trabalhando\Backpropagation\Backpropagation\obj\x86\Debug\Backpropagation.exe
+E:\Unoeste\IA\2 Bimestre\Redes Neurais\Trabalho\Trabalho_BackPropagation - Trabalhando\Backpropagation\Backpropagation\obj\x86\Debug\Backpropagation.pdb
+E:\Unoeste\IA\2 Bimestre\Redes Neurais\Trabalho\Trabalho_BackPropagation - Trabalhando\Backpropagation\Backpropagation\bin\Debug\Backpropagation.exe
+E:\Unoeste\IA\2 Bimestre\Redes Neurais\Trabalho\Trabalho_BackPropagation - Trabalhando\Backpropagation\Backpropagation\bin\Debug\Backpropagation.pdb
+E:\Unoeste\IA\2 Bimestre\Redes Neurais\Trabalho\Trabalho_BackPropagation - Trabalhando\Backpropagation\Backpropagation\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Unoeste\IA\2 Bimestre\Redes Neurais\Trabalho\Trabalho_BackPropagation - Trabalhando\Backpropagation\Backpropagation\obj\x86\Debug\Backpropagation.frmPrincipal.resources
+E:\Unoeste\IA\2 Bimestre\Redes Neurais\Trabalho\Trabalho_BackPropagation - Trabalhando\Backpropagation\Backpropagation\obj\x86\Debug\Backpropagation.Properties.Resources.resources
+E:\Unoeste\IA\2 Bimestre\Redes Neurais\Trabalho\Trabalho_BackPropagation - Trabalhando\Backpropagation\Backpropagation\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Unoeste\IA\2 Bimestre\Redes Neurais\Trabalho\Trabalho_BackPropagation - Trabalhando\Backpropagation\Backpropagation\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\info_cipola\Desktop\Backpropagation\Backpropagation\obj\x86\Debug\Backpropagation.exe
+C:\Documents and Settings\info_cipola\Desktop\Backpropagation\Backpropagation\obj\x86\Debug\Backpropagation.pdb
+C:\Documents and Settings\info_cipola\Desktop\Backpropagation\Backpropagation\bin\Debug\Backpropagation.exe
+C:\Documents and Settings\info_cipola\Desktop\Backpropagation\Backpropagation\bin\Debug\Backpropagation.pdb
+C:\Documents and Settings\info_cipola\Desktop\Backpropagation\Backpropagation\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\info_cipola\Desktop\Backpropagation\Backpropagation\obj\x86\Debug\Backpropagation.frmPrincipal.resources
+C:\Documents and Settings\info_cipola\Desktop\Backpropagation\Backpropagation\obj\x86\Debug\Backpropagation.Properties.Resources.resources
+C:\Documents and Settings\info_cipola\Desktop\Backpropagation\Backpropagation\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\info_cipola\Desktop\Backpropagation\Backpropagation\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\Nova pasta\Trabalho - Redes Neurais\Backpropagation\Backpropagation\obj\x86\Debug\Backpropagation.exe
+F:\Nova pasta\Trabalho - Redes Neurais\Backpropagation\Backpropagation\obj\x86\Debug\Backpropagation.pdb
+H:\Nova pasta\Trabalho - Redes Neurais\Backpropagation\Backpropagation\obj\x86\Debug\Backpropagation.exe
+H:\Nova pasta\Trabalho - Redes Neurais\Backpropagation\Backpropagation\obj\x86\Debug\Backpropagation.pdb
+G:\6 Termo\Trabalho IA ROLO\Trabalho - Redes Neurais\Backpropagation\Backpropagation\obj\x86\Debug\Backpropagation.exe
+G:\6 Termo\Trabalho IA ROLO\Trabalho - Redes Neurais\Backpropagation\Backpropagation\obj\x86\Debug\Backpropagation.pdb
+C:\Users\Victor\Desktop\Trabalho - Redes Neurais\Backpropagation\Backpropagation\obj\x86\Debug\Backpropagation.exe
+C:\Users\Victor\Desktop\Trabalho - Redes Neurais\Backpropagation\Backpropagation\obj\x86\Debug\Backpropagation.pdb
+C:\Users\Victor\Desktop\Trabalho - Redes Neurais\Backpropagation\Backpropagation\bin\Debug\Backpropagation.exe
+C:\Users\Victor\Desktop\Trabalho - Redes Neurais\Backpropagation\Backpropagation\bin\Debug\Backpropagation.pdb
+C:\Users\Victor\Desktop\Trabalho - Redes Neurais\Backpropagation\Backpropagation\obj\x86\Debug\Backpropagation.csprojResolveAssemblyReference.cache
+C:\Users\Victor\Desktop\Trabalho - Redes Neurais\Backpropagation\Backpropagation\obj\x86\Debug\Backpropagation.frmPrincipal.resources
+C:\Users\Victor\Desktop\Trabalho - Redes Neurais\Backpropagation\Backpropagation\obj\x86\Debug\Backpropagation.Properties.Resources.resources
+C:\Users\Victor\Desktop\Trabalho - Redes Neurais\Backpropagation\Backpropagation\obj\x86\Debug\Backpropagation.csproj.GenerateResource.Cache
