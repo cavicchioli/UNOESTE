@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Copa2010.CamadaNegocio.Grupos">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAADAAAgABgAAAAIAAAAIAAAACAAAAAI=</HashCode>
+      <FileName>CamadaNegocio\Grupos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Copa2010.CamadaNegocio.Fases">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAkAAAAABAAAAQBgAAAAAAAAAIAAAACAAAACA=</HashCode>
+      <FileName>CamadaNegocio\Fases.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Copa2010.CamadaNegocio.Jogos">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwZABAAABQIAAEAAAAAACABAAAAAAAIAAACAAIAAiA=</HashCode>
+      <FileName>CamadaNegocio\Jogos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Copa2010.CamadaNegocio.Equipes">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAgEAAAAAAAAAkAAgAAAEBAAAAIAAAAAAAEAAI=</HashCode>
+      <FileName>CamadaNegocio\Equipes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Copa2010.CamadaLogica.BancoDados">
+    <Position X="0.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAEAgIAAGAAAAAAAAAiJQAAAAAAAAAAACEBAAAQA=</HashCode>
+      <FileName>CamadaLogica\BancoDados.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Copa2010.CamadaNegocio.Jogadores">
+    <Position X="8" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>IAgAAAAAABAAAAAEAEAAoCAACAAAAAAIAAAAAAQEQAA=</HashCode>
+      <FileName>CamadaNegocio\Jogadores.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

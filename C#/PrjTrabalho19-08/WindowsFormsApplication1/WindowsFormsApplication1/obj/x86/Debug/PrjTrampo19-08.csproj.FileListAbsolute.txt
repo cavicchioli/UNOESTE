@@ -1,0 +1,10 @@
+G:\__2 SEMESTRE\LP2\PrjTrabalho19-08\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\__2 SEMESTRE\LP2\PrjTrabalho19-08\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.FrmPrincipal.resources
+G:\__2 SEMESTRE\LP2\PrjTrabalho19-08\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.FrmTrabalhoPratico.resources
+G:\__2 SEMESTRE\LP2\PrjTrabalho19-08\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+G:\__2 SEMESTRE\LP2\PrjTrabalho19-08\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.read.1.tlog
+G:\__2 SEMESTRE\LP2\PrjTrabalho19-08\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.write.1.tlog
+G:\__2 SEMESTRE\LP2\PrjTrabalho19-08\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+G:\__2 SEMESTRE\LP2\PrjTrabalho19-08\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+G:\__2 SEMESTRE\LP2\PrjTrabalho19-08\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+G:\__2 SEMESTRE\LP2\PrjTrabalho19-08\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb

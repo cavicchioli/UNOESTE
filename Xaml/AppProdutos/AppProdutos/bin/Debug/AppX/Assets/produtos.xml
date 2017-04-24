@@ -1,0 +1,68 @@
+<produtos>
+	<produto>
+		<id>1</id>
+		<descricao>Mouse Óptico Microsoft 200 c/ Design Ambidestro Preto JUD-00001</descricao>
+		<preco>35,61</preco>
+		<url>http://static.kabum.com.br/produtos/fotos/7519/7519_index_g.jpg</url>
+	</produto>
+	<produto>
+		<id>2</id>
+		<descricao>Mouse Coletek Óptico MS3203-2 USB Preto/Prata</descricao>
+		<preco>11,81</preco>
+		<url>http://static.kabum.com.br/produtos/fotos/6728/6728_index_g.jpg</url>
+	</produto>
+	<produto>
+		<id>3</id>
+		<descricao>Razer Mouse Gamer Deathadder 2013 Óptico 5 Botões 4G 6400 dpi RZ01-00840100-R3UI</descricao>
+		<preco>318,00</preco>
+		<url>http://static.kabum.com.br/produtos/fotos/49841/49841_index_g.jpg</url>
+	</produto>
+	<produto>
+		<id>4</id>
+		<descricao>Kit Microsoft Teclado Desktop 800 Wireless e Mouse Óptico 2LF-00023</descricao>
+		<preco>107,87</preco>
+		<url>http://static.kabum.com.br/produtos/fotos/13078/13078_index_g.jpg</url>
+	</produto>
+	<produto>
+		<id>5</id>
+		<descricao>Gigabyte Teclado Slim e Mouse com Fio USB GK-KM5300</descricao>
+		<preco>65,37</preco>
+		<url>http://static.kabum.com.br/produtos/fotos/51715/51715_index_g.jpg</url>
+	</produto>
+	<produto>
+		<id>6</id>
+		<descricao>Kingston SSD 2.5´ 120GB V300 SATA III SV300S37A/120G</descricao>
+		<preco>279,90</preco>
+		<url>http://static.kabum.com.br/produtos/fotos/35749/35749_index_g.jpg</url>
+	</produto>
+	<produto>
+		<id>7</id>
+		<descricao>PNY SSD 2.5´ 480GB SATA III 6Gb/s SSD7SC480G0PT-RB</descricao>
+		<preco>779,90</preco>
+		<url>http://static.kabum.com.br/produtos/fotos/56049/56049_index_g.jpg</url>
+	</produto>
+	<produto>
+		<id>8</id>
+		<descricao>Pen Drive SanDisk USB 8GB Cruzer Pop Rio Edition - SDCZ53R-008G-B35</descricao>
+		<preco>21,16</preco>
+		<url>http://static.kabum.com.br/produtos/fotos/39770/39770_index_g.jpg</url>
+	</produto>
+	<produto>
+		<id>9</id>
+		<descricao>Pen Drive SanDisk Dual USB Drive para Smartphone 32GB SDDD-032G-L46</descricao>
+		<preco>86,62</preco>
+		<url>http://static.kabum.com.br/produtos/fotos/49843/49843_index_g.jpg</url>
+	</produto>
+	<produto>
+		<id>10</id>
+		<descricao>Monitor LG LED LCD 23´ IPS D-Sub, HDMI,Full HD 23MP55HQ-P Preto</descricao>
+		<preco>499,90</preco>
+		<url>http://static.kabum.com.br/produtos/fotos/54259/54259_index_g.jpg</url>
+	</produto>
+	<produto>
+		<id>11</id>
+		<descricao>Monitor LG 25´ IPS´ UltraWide Dual link DVI, HDMI x2, DP, Split 4-Screen 25UM65</descricao>
+		<preco>769,90</preco>
+		<url>http://static.kabum.com.br/produtos/fotos/54257/54257_index_g.jpg</url>
+	</produto>
+</produtos>

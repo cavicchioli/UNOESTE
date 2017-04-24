@@ -1,0 +1,12 @@
+C:\Users\f5361091\documents\visual studio 2010\Projects\EF4_Crud_DAL\EF4_Crud_DAL\bin\Release\EF4_Crud_DAL.exe.config
+C:\Users\f5361091\documents\visual studio 2010\Projects\EF4_Crud_DAL\EF4_Crud_DAL\bin\Release\EF4_Crud_DAL.exe
+C:\Users\f5361091\documents\visual studio 2010\Projects\EF4_Crud_DAL\EF4_Crud_DAL\bin\Release\EF4_Crud_DAL.pdb
+C:\Users\f5361091\documents\visual studio 2010\Projects\EF4_Crud_DAL\EF4_Crud_DAL\bin\Release\UI.dll
+C:\Users\f5361091\documents\visual studio 2010\Projects\EF4_Crud_DAL\EF4_Crud_DAL\bin\Release\UI.pdb
+C:\Users\f5361091\documents\visual studio 2010\Projects\EF4_Crud_DAL\EF4_Crud_DAL\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\f5361091\documents\visual studio 2010\Projects\EF4_Crud_DAL\EF4_Crud_DAL\obj\x86\Release\EF4_Crud_DAL.Form1.resources
+C:\Users\f5361091\documents\visual studio 2010\Projects\EF4_Crud_DAL\EF4_Crud_DAL\obj\x86\Release\EF4_Crud_DAL.Properties.Resources.resources
+C:\Users\f5361091\documents\visual studio 2010\Projects\EF4_Crud_DAL\EF4_Crud_DAL\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\f5361091\documents\visual studio 2010\Projects\EF4_Crud_DAL\EF4_Crud_DAL\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\f5361091\documents\visual studio 2010\Projects\EF4_Crud_DAL\EF4_Crud_DAL\obj\x86\Release\EF4_Crud_DAL.exe
+C:\Users\f5361091\documents\visual studio 2010\Projects\EF4_Crud_DAL\EF4_Crud_DAL\obj\x86\Release\EF4_Crud_DAL.pdb

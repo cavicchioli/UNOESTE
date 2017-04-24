@@ -1,0 +1,33 @@
+G:\Pós Fipp\Desktop I\Lab Game\LabGame6\LabGame6\bin\Debug\LabGame6.exe.config
+G:\Pós Fipp\Desktop I\Lab Game\LabGame6\LabGame6\bin\Debug\LabGame6.exe
+G:\Pós Fipp\Desktop I\Lab Game\LabGame6\LabGame6\bin\Debug\LabGame6.pdb
+G:\Pós Fipp\Desktop I\Lab Game\LabGame6\LabGame6\obj\Debug\LabGame6.csprojResolveAssemblyReference.cache
+G:\Pós Fipp\Desktop I\Lab Game\LabGame6\LabGame6\obj\Debug\LabGame6.fPrincipal.resources
+G:\Pós Fipp\Desktop I\Lab Game\LabGame6\LabGame6\obj\Debug\LabGame6.Properties.Resources.resources
+G:\Pós Fipp\Desktop I\Lab Game\LabGame6\LabGame6\obj\Debug\LabGame6.csproj.GenerateResource.Cache
+G:\Pós Fipp\Desktop I\Lab Game\LabGame6\LabGame6\obj\Debug\LabGame6.exe
+G:\Pós Fipp\Desktop I\Lab Game\LabGame6\LabGame6\obj\Debug\LabGame6.pdb
+F:\Pós Fipp\Desktop I\Lab Game\LabGame6\LabGame6\bin\Debug\LabGame6.exe.config
+F:\Pós Fipp\Desktop I\Lab Game\LabGame6\LabGame6\obj\Debug\LabGame6.exe
+F:\Pós Fipp\Desktop I\Lab Game\LabGame6\LabGame6\obj\Debug\LabGame6.pdb
+F:\Pós Fipp\Desktop I\Lab Game\LabGame6\LabGame6\bin\Debug\LabGame6.exe
+F:\Pós Fipp\Desktop I\Lab Game\LabGame6\LabGame6\bin\Debug\LabGame6.pdb
+F:\Pós Fipp\Desktop I\Lab Game\LabGame6\LabGame6\obj\Debug\LabGame6.csprojResolveAssemblyReference.cache
+F:\Pós Fipp\Desktop I\Lab Game\LabGame6\LabGame6\obj\Debug\LabGame6.fPrincipal.resources
+F:\Pós Fipp\Desktop I\Lab Game\LabGame6\LabGame6\obj\Debug\LabGame6.Properties.Resources.resources
+F:\Pós Fipp\Desktop I\Lab Game\LabGame6\LabGame6\obj\Debug\LabGame6.csproj.GenerateResource.Cache
+C:\Users\leonardo\Desktop\LabGame6\LabGame6\bin\Debug\LabGame6.exe.config
+C:\Users\leonardo\Desktop\LabGame6\LabGame6\obj\Debug\LabGame6.exe
+C:\Users\leonardo\Desktop\LabGame6\LabGame6\obj\Debug\LabGame6.pdb
+G:\__pos\desktop1\LabGame6\LabGame6\bin\Debug\LabGame6.exe.config
+G:\__pos\desktop1\LabGame6\LabGame6\obj\Debug\LabGame6.exe
+G:\__pos\desktop1\LabGame6\LabGame6\obj\Debug\LabGame6.pdb
+G:\__pos\desktop1\LabGame6\LabGame6\bin\Debug\LabGame6.exe
+G:\__pos\desktop1\LabGame6\LabGame6\bin\Debug\LabGame6.pdb
+G:\__pos\desktop1\LabGame6\LabGame6\obj\Debug\LabGame6.csprojResolveAssemblyReference.cache
+G:\__pos\desktop1\LabGame6\LabGame6\obj\Debug\LabGame6.fPrincipal.resources
+G:\__pos\desktop1\LabGame6\LabGame6\obj\Debug\LabGame6.Properties.Resources.resources
+G:\__pos\desktop1\LabGame6\LabGame6\obj\Debug\LabGame6.csproj.GenerateResource.Cache
+C:\Users\Victor\Desktop\LabGame6\LabGame6\bin\Debug\LabGame6.exe.config
+C:\Users\Victor\Desktop\LabGame6\LabGame6\obj\Debug\LabGame6.exe
+C:\Users\Victor\Desktop\LabGame6\LabGame6\obj\Debug\LabGame6.pdb

@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrjTrampo19-08", "WindowsFormsApplication1\PrjTrampo19-08.csproj", "{88720D00-D324-4FA5-A0B6-D598E0242F7C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88720D00-D324-4FA5-A0B6-D598E0242F7C}.Debug|x86.ActiveCfg = Debug|x86
+		{88720D00-D324-4FA5-A0B6-D598E0242F7C}.Debug|x86.Build.0 = Debug|x86
+		{88720D00-D324-4FA5-A0B6-D598E0242F7C}.Release|x86.ActiveCfg = Release|x86
+		{88720D00-D324-4FA5-A0B6-D598E0242F7C}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>VICTOR-PC</Machine>
+    <WindowsUser>Victor</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>7FC4F8A959319EDC605A85BD96376C03CC678C4FF232AC275020A610AD4BE1DE</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>a9523bd5-98de-49f0-9d29-4b49aac1b699_1.0.0.0_neutral__e3700t8fwz802</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>a9523bd5-98de-49f0-9d29-4b49aac1b699_e3700t8fwz802!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>a9523bd5-98de-49f0-9d29-4b49aac1b699</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Aluno</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Victor\Desktop\Atividade\CarrinhoCompras\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-12-13T15:20:14.406</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Victor\Desktop\Atividade\CarrinhoCompras\bin\Debug\CarrinhoCompras.exe">
+      <PackagePath>CarrinhoCompras.exe</PackagePath>
+      <Modified>2014-12-20T14:35:23.248</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Victor\Desktop\Atividade\CarrinhoCompras\bin\Debug\CarrinhoCompras.pdb">
+      <PackagePath>CarrinhoCompras.pdb</PackagePath>
+      <Modified>2014-12-20T14:35:23.223</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Victor\Desktop\Atividade\CarrinhoCompras\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-15T22:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Victor\Desktop\Atividade\CarrinhoCompras\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-15T22:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Victor\Desktop\Atividade\CarrinhoCompras\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-15T22:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Victor\Desktop\Atividade\CarrinhoCompras\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-15T22:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Victor\Desktop\Atividade\CarrinhoCompras\Assets\produtos.xml">
+      <PackagePath>Assets\produtos.xml</PackagePath>
+      <Modified>2014-12-13T12:41:30.504</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Victor\Desktop\Atividade\CarrinhoCompras\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2014-12-13T13:37:30.967</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Victor\Desktop\Atividade\CarrinhoCompras\bin\Debug\Common\recursos.xaml">
+      <PackagePath>Common\recursos.xaml</PackagePath>
+      <Modified>2014-12-13T17:10:42.957</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Victor\Desktop\Atividade\CarrinhoCompras\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2012-06-26T18:19:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Victor\Desktop\Atividade\CarrinhoCompras\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+      <Modified>2014-12-13T12:40:52.271</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Victor\Desktop\Atividade\CarrinhoCompras\bin\Debug\view\carrinho.xaml">
+      <PackagePath>view\carrinho.xaml</PackagePath>
+      <Modified>2014-12-20T14:23:26.213</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Victor\Desktop\Atividade\CarrinhoCompras\bin\Debug\view\exibeproduto.xaml">
+      <PackagePath>view\exibeproduto.xaml</PackagePath>
+      <Modified>2014-12-20T14:01:50.655</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Victor\Desktop\Atividade\CarrinhoCompras\bin\Debug\view\listaprodutos.xaml">
+      <PackagePath>view\listaprodutos.xaml</PackagePath>
+      <Modified>2014-12-20T14:35:20.432</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Victor\Desktop\Atividade\CarrinhoCompras\bin\Debug\view\principal.xaml">
+      <PackagePath>view\principal.xaml</PackagePath>
+      <Modified>2014-12-13T17:44:14.233</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Victor\Desktop\Atividade\CarrinhoCompras\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-12-13T15:20:14.330</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

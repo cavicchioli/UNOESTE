@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="HelpDeskModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="HelpDeskEntities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="Atividade" EntityType="HelpDeskModel.Atividade" />
+    <EntitySet Name="Classificacao" EntityType="HelpDeskModel.Classificacao" />
+    <EntitySet Name="Funcionario" EntityType="HelpDeskModel.Funcionario" />
+    <EntitySet Name="Solicitante" EntityType="HelpDeskModel.Solicitante" />
+    <EntitySet Name="Status" EntityType="HelpDeskModel.Status" />
+    <AssociationSet Name="FK_Atividade_Funcionario" Association="HelpDeskModel.FK_Atividade_Funcionario">
+      <End Role="Funcionario" EntitySet="Funcionario" />
+      <End Role="Atividade" EntitySet="Atividade" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Atividade_Solicitante" Association="HelpDeskModel.FK_Atividade_Solicitante">
+      <End Role="Solicitante" EntitySet="Solicitante" />
+      <End Role="Atividade" EntitySet="Atividade" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Atividade_StatusAtividade" Association="HelpDeskModel.FK_Atividade_StatusAtividade">
+      <End Role="Status" EntitySet="Status" />
+      <End Role="Atividade" EntitySet="Atividade" />
+    </AssociationSet>
+    <AssociationSet Name="AtividadeClassificacao" Association="HelpDeskModel.AtividadeClassificacao">
+      <End Role="Atividade" EntitySet="Atividade" />
+      <End Role="Classificacao" EntitySet="Classificacao" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Atividade">
+    <Key>
+      <PropertyRef Name="Codigo" />
+    </Key>
+    <Property Name="Codigo" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Descricao" Type="String" Nullable="false" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="DataInicio" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="DataFim" Type="DateTime" Precision="3" />
+    <Property Name="CodigoFuncionario" Type="Int32" Nullable="false" />
+    <Property Name="CodigoStatus" Type="Int16" Nullable="false" />
+    <Property Name="EmailSolicitante" Type="String" Nullable="false" MaxLength="70" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="Funcionario" Relationship="HelpDeskModel.FK_Atividade_Funcionario" FromRole="Atividade" ToRole="Funcionario" />
+    <NavigationProperty Name="Solicitante" Relationship="HelpDeskModel.FK_Atividade_Solicitante" FromRole="Atividade" ToRole="Solicitante" />
+    <NavigationProperty Name="Status" Relationship="HelpDeskModel.FK_Atividade_StatusAtividade" FromRole="Atividade" ToRole="Status" />
+    <NavigationProperty Name="Classificacao" Relationship="HelpDeskModel.AtividadeClassificacao" FromRole="Atividade" ToRole="Classificacao" />
+  </EntityType>
+  <EntityType Name="Classificacao">
+    <Key>
+      <PropertyRef Name="Codigo" />
+    </Key>
+    <Property Name="Codigo" Type="Int16" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Nome" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Ativa" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="true" />
+    <NavigationProperty Name="Atividade" Relationship="HelpDeskModel.AtividadeClassificacao" FromRole="Classificacao" ToRole="Atividade" />
+  </EntityType>
+  <EntityType Name="Funcionario">
+    <Key>
+      <PropertyRef Name="Codigo" />
+    </Key>
+    <Property Name="Codigo" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Nome" Type="String" Nullable="false" MaxLength="70" Unicode="false" FixedLength="false" />
+    <Property Name="DataContratacao" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="DataDemissao" Type="DateTime" Precision="0" />
+    <Property Name="Ativo" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="Senha" Type="String" Nullable="false" MaxLength="15" Unicode="false" FixedLength="false" />
+    <Property Name="Tipo" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="true" />
+    <NavigationProperty Name="Atividade" Relationship="HelpDeskModel.FK_Atividade_Funcionario" FromRole="Funcionario" ToRole="Atividade" />
+  </EntityType>
+  <EntityType Name="Solicitante">
+    <Key>
+      <PropertyRef Name="Email" />
+    </Key>
+    <Property Name="Email" Type="String" Nullable="false" MaxLength="70" Unicode="false" FixedLength="false" />
+    <Property Name="Nome" Type="String" Nullable="false" MaxLength="70" Unicode="false" FixedLength="false" />
+    <Property Name="Telefone" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="Observacao" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="Atividade" Relationship="HelpDeskModel.FK_Atividade_Solicitante" FromRole="Solicitante" ToRole="Atividade" />
+  </EntityType>
+  <EntityType Name="Status">
+    <Key>
+      <PropertyRef Name="Codigo" />
+    </Key>
+    <Property Name="Codigo" Type="Int16" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Descricao" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="Ativo" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="true" />
+    <NavigationProperty Name="Atividade" Relationship="HelpDeskModel.FK_Atividade_StatusAtividade" FromRole="Status" ToRole="Atividade" />
+  </EntityType>
+  <Association Name="FK_Atividade_Funcionario">
+    <End Role="Funcionario" Type="HelpDeskModel.Funcionario" Multiplicity="1" />
+    <End Role="Atividade" Type="HelpDeskModel.Atividade" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Funcionario">
+        <PropertyRef Name="Codigo" />
+      </Principal>
+      <Dependent Role="Atividade">
+        <PropertyRef Name="CodigoFuncionario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Atividade_Solicitante">
+    <End Role="Solicitante" Type="HelpDeskModel.Solicitante" Multiplicity="1" />
+    <End Role="Atividade" Type="HelpDeskModel.Atividade" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Solicitante">
+        <PropertyRef Name="Email" />
+      </Principal>
+      <Dependent Role="Atividade">
+        <PropertyRef Name="EmailSolicitante" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Atividade_StatusAtividade">
+    <End Role="Status" Type="HelpDeskModel.Status" Multiplicity="1" />
+    <End Role="Atividade" Type="HelpDeskModel.Atividade" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Status">
+        <PropertyRef Name="Codigo" />
+      </Principal>
+      <Dependent Role="Atividade">
+        <PropertyRef Name="CodigoStatus" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="AtividadeClassificacao">
+    <End Role="Atividade" Type="HelpDeskModel.Atividade" Multiplicity="*" />
+    <End Role="Classificacao" Type="HelpDeskModel.Classificacao" Multiplicity="*" />
+  </Association>
+</Schema>

@@ -1,0 +1,4 @@
+C:\Users\Victor\Desktop\LINQ_Pratico1\LINQ_Pratico1\bin\Debug\LINQ_Pratico1.exe
+C:\Users\Victor\Desktop\LINQ_Pratico1\LINQ_Pratico1\bin\Debug\LINQ_Pratico1.pdb
+C:\Users\Victor\Desktop\LINQ_Pratico1\LINQ_Pratico1\obj\x86\Debug\LINQ_Pratico1.exe
+C:\Users\Victor\Desktop\LINQ_Pratico1\LINQ_Pratico1\obj\x86\Debug\LINQ_Pratico1.pdb

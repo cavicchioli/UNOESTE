@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>LF105M08</Machine>
+    <WindowsUser>Aluno</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="G:\AppProdutos\AppProdutos\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="G:\AppProdutos\AppProdutos\bin\Debug\AppProdutos.exe">
+      <PackagePath>AppProdutos.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\AppProdutos\AppProdutos\bin\Debug\AppProdutos.pdb">
+      <PackagePath>AppProdutos.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\AppProdutos\AppProdutos\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\AppProdutos\AppProdutos\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\AppProdutos\AppProdutos\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\AppProdutos\AppProdutos\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\AppProdutos\AppProdutos\Assets\produtos.xml">
+      <PackagePath>Assets\produtos.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\AppProdutos\AppProdutos\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\AppProdutos\AppProdutos\bin\Debug\Common\Recursos.xaml">
+      <PackagePath>Common\Recursos.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\AppProdutos\AppProdutos\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\AppProdutos\AppProdutos\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\AppProdutos\AppProdutos\bin\Debug\View\Carrinho.xaml">
+      <PackagePath>View\Carrinho.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\AppProdutos\AppProdutos\bin\Debug\View\ExibeProduto.xaml">
+      <PackagePath>View\ExibeProduto.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\AppProdutos\AppProdutos\bin\Debug\View\ListaProdutos.xaml">
+      <PackagePath>View\ListaProdutos.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\AppProdutos\AppProdutos\bin\Debug\View\Principal.xaml">
+      <PackagePath>View\Principal.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\AppProdutos\AppProdutos\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

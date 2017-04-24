@@ -1,0 +1,30 @@
+D:\Trabalho\Especializacao\Frameworks para Persistência de Dados\Turma 2013-2014\Avaliacao2B\Avaliacao2BWeb\bin\Avaliacao2BWeb.dll
+D:\Trabalho\Especializacao\Frameworks para Persistência de Dados\Turma 2013-2014\Avaliacao2B\Avaliacao2BWeb\bin\Avaliacao2BWeb.pdb
+D:\Trabalho\Especializacao\Frameworks para Persistência de Dados\Turma 2013-2014\Avaliacao2B\Avaliacao2BWeb\bin\EntityFramework.dll
+D:\Trabalho\Especializacao\Frameworks para Persistência de Dados\Turma 2013-2014\Avaliacao2B\Avaliacao2BWeb\bin\EntityFramework.xml
+D:\Trabalho\Especializacao\Frameworks para Persistência de Dados\Turma 2013-2014\Avaliacao2B\Avaliacao2BWeb\obj\Debug\ExemploPosWeb.csprojResolveAssemblyReference.cache
+D:\Trabalho\Especializacao\Frameworks para Persistência de Dados\Turma 2013-2014\Avaliacao2B\Avaliacao2BWeb\obj\Debug\Avaliacao2BWeb.dll
+D:\Trabalho\Especializacao\Frameworks para Persistência de Dados\Turma 2013-2014\Avaliacao2B\Avaliacao2BWeb\obj\Debug\Avaliacao2BWeb.pdb
+D:\Trabalho\Especializacao\Frameworks para Persistência de Dados\Turma 2013-2014\Avaliacao2B\Avaliacao2BWeb\bin\ExemploPos.dll
+D:\Trabalho\Especializacao\Frameworks para Persistência de Dados\Turma 2013-2014\Avaliacao2B\Avaliacao2BWeb\bin\ExemploPos.pdb
+D:\Trabalho\Especializacao\Frameworks para Persistência de Dados\Turma 2013-2014\ExemploPos\ExemploPosWeb\bin\ExemploPos.dll
+D:\Trabalho\Especializacao\Frameworks para Persistência de Dados\Turma 2013-2014\ExemploPos\ExemploPosWeb\bin\EntityFramework.dll
+D:\Trabalho\Especializacao\Frameworks para Persistência de Dados\Turma 2013-2014\ExemploPos\ExemploPosWeb\bin\ExemploPos.pdb
+D:\Trabalho\Especializacao\Frameworks para Persistência de Dados\Turma 2013-2014\ExemploPos\ExemploPosWeb\bin\EntityFramework.xml
+D:\Trabalho\Especializacao\Frameworks para Persistência de Dados\Turma 2013-2014\ExemploPos\ExemploPosWeb\obj\Debug\ExemploPosWeb.csprojResolveAssemblyReference.cache
+D:\Trabalho\Especializacao\Frameworks para Persistência de Dados\Turma 2013-2014\ExemploPos\ExemploPosWeb\bin\ExemploPosWeb.dll
+D:\Trabalho\Especializacao\Frameworks para Persistência de Dados\Turma 2013-2014\ExemploPos\ExemploPosWeb\bin\ExemploPosWeb.pdb
+D:\Trabalho\Especializacao\Frameworks para Persistência de Dados\Turma 2013-2014\ExemploPos\ExemploPosWeb\obj\Debug\ExemploPosWeb.dll
+D:\Trabalho\Especializacao\Frameworks para Persistência de Dados\Turma 2013-2014\ExemploPos\ExemploPosWeb\obj\Debug\ExemploPosWeb.pdb
+C:\Users\Eduardo\Desktop\Pos\ExemploPos\ExemploPosWeb\bin\ExemploPosWeb.dll.config
+C:\Users\Eduardo\Desktop\Pos\ExemploPos\ExemploPosWeb\bin\ExemploPosWeb.dll
+C:\Users\Eduardo\Desktop\Pos\ExemploPos\ExemploPosWeb\bin\ExemploPosWeb.pdb
+C:\Users\Eduardo\Desktop\Pos\ExemploPos\ExemploPosWeb\bin\ExemploPos.dll
+C:\Users\Eduardo\Desktop\Pos\ExemploPos\ExemploPosWeb\bin\EntityFramework.dll
+C:\Users\Eduardo\Desktop\Pos\ExemploPos\ExemploPosWeb\bin\ExemploPos.pdb
+C:\Users\Eduardo\Desktop\Pos\ExemploPos\ExemploPosWeb\bin\EntityFramework.xml
+C:\Users\Eduardo\Desktop\Pos\ExemploPos\ExemploPosWeb\obj\Debug\ExemploPosWeb.csprojResolveAssemblyReference.cache
+C:\Users\Eduardo\Desktop\Pos\ExemploPos\ExemploPosWeb\obj\Debug\ExemploPosWeb.dll
+C:\Users\Eduardo\Desktop\Pos\ExemploPos\ExemploPosWeb\obj\Debug\ExemploPosWeb.pdb
+G:\entity\ExemploPos\ExemploPosWeb\obj\Debug\ExemploPosWeb.csprojResolveAssemblyReference.cache
+G:\entity\ExemploPos\ExemploPosWeb\obj\Debug\ExemploPosWeb.dll

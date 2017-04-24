@@ -1,0 +1,11 @@
+Assets\Logo.png
+Assets\SmallLogo.png
+Assets\SplashScreen.png
+Assets\StoreLogo.png
+App.xaml
+Common\recursos.xaml
+Common\StandardStyles.xaml
+MainPage.xaml
+view\cadastranoticia.xaml
+view\listanoticias.xaml
+view\principal.xaml

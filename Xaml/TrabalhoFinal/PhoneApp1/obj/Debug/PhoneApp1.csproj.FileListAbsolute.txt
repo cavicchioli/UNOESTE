@@ -1,0 +1,303 @@
+d:\Projects\PhoneApp1\PhoneApp1\Bin\Debug\Assets\ApplicationIcon.png
+d:\Projects\PhoneApp1\PhoneApp1\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+d:\Projects\PhoneApp1\PhoneApp1\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+d:\Projects\PhoneApp1\PhoneApp1\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+d:\Projects\PhoneApp1\PhoneApp1\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+d:\Projects\PhoneApp1\PhoneApp1\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+d:\Projects\PhoneApp1\PhoneApp1\Bin\Debug\PhoneApp1.dll
+d:\Projects\PhoneApp1\PhoneApp1\Bin\Debug\PhoneApp1.pdb
+d:\Projects\PhoneApp1\PhoneApp1\Bin\Debug\AppManifest.xaml
+d:\Projects\PhoneApp1\PhoneApp1\Bin\Debug\PhoneApp1_Debug_AnyCPU.xap
+d:\Projects\PhoneApp1\PhoneApp1\obj\Debug\App.g.cs
+d:\Projects\PhoneApp1\PhoneApp1\obj\Debug\MainPage.g.cs
+d:\Projects\PhoneApp1\PhoneApp1\obj\Debug\PhoneApp1.g.resources
+d:\Projects\PhoneApp1\PhoneApp1\obj\Debug\PhoneApp1.Resources.AppResources.resources
+d:\Projects\PhoneApp1\PhoneApp1\obj\Debug\PhoneApp1.csproj.GenerateResource.Cache
+d:\Projects\PhoneApp1\PhoneApp1\obj\Debug\PhoneApp1.dll
+d:\Projects\PhoneApp1\PhoneApp1\obj\Debug\PhoneApp1.pdb
+d:\Projects\PhoneApp1\PhoneApp1\obj\Debug\XapCacheFile.xml
+D:\Projects\PhoneApp1\PhoneApp1\obj\Debug\Orientacao.g.cs
+D:\Projects\PhoneApp1\PhoneApp1\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+D:\Projects\PhoneApp1\PhoneApp1\Bin\Debug\ar-SA\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Projects\PhoneApp1\PhoneApp1\Bin\Debug\az-Latn-AZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Projects\PhoneApp1\PhoneApp1\Bin\Debug\be-BY\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Projects\PhoneApp1\PhoneApp1\Bin\Debug\bg-BG\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Projects\PhoneApp1\PhoneApp1\Bin\Debug\ca-ES\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Projects\PhoneApp1\PhoneApp1\Bin\Debug\cs-CZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Projects\PhoneApp1\PhoneApp1\Bin\Debug\da-DK\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Projects\PhoneApp1\PhoneApp1\Bin\Debug\de-DE\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Projects\PhoneApp1\PhoneApp1\Bin\Debug\el-GR\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Projects\PhoneApp1\PhoneApp1\Bin\Debug\en-GB\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Projects\PhoneApp1\PhoneApp1\Bin\Debug\es-ES\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Projects\PhoneApp1\PhoneApp1\Bin\Debug\es-MX\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Projects\PhoneApp1\PhoneApp1\Bin\Debug\et-EE\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Projects\PhoneApp1\PhoneApp1\Bin\Debug\fa-IR\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Projects\PhoneApp1\PhoneApp1\Bin\Debug\fi-FI\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Projects\PhoneApp1\PhoneApp1\Bin\Debug\fil-PH\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Projects\PhoneApp1\PhoneApp1\Bin\Debug\fr-CA\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Projects\PhoneApp1\PhoneApp1\Bin\Debug\fr-FR\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Projects\PhoneApp1\PhoneApp1\Bin\Debug\he-IL\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Projects\PhoneApp1\PhoneApp1\Bin\Debug\hi-IN\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Projects\PhoneApp1\PhoneApp1\Bin\Debug\hr-HR\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Projects\PhoneApp1\PhoneApp1\Bin\Debug\hu-HU\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Projects\PhoneApp1\PhoneApp1\Bin\Debug\id-ID\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Projects\PhoneApp1\PhoneApp1\Bin\Debug\it-IT\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Projects\PhoneApp1\PhoneApp1\Bin\Debug\ja-JP\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Projects\PhoneApp1\PhoneApp1\Bin\Debug\kk-KZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Projects\PhoneApp1\PhoneApp1\Bin\Debug\ko-KR\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Projects\PhoneApp1\PhoneApp1\Bin\Debug\lt-LT\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Projects\PhoneApp1\PhoneApp1\Bin\Debug\lv-LV\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Projects\PhoneApp1\PhoneApp1\Bin\Debug\mk-MK\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Projects\PhoneApp1\PhoneApp1\Bin\Debug\ms-MY\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Projects\PhoneApp1\PhoneApp1\Bin\Debug\nb-NO\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Projects\PhoneApp1\PhoneApp1\Bin\Debug\nl-NL\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Projects\PhoneApp1\PhoneApp1\Bin\Debug\pl-PL\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Projects\PhoneApp1\PhoneApp1\Bin\Debug\pt-BR\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Projects\PhoneApp1\PhoneApp1\Bin\Debug\pt-PT\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Projects\PhoneApp1\PhoneApp1\Bin\Debug\ro-RO\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Projects\PhoneApp1\PhoneApp1\Bin\Debug\ru-RU\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Projects\PhoneApp1\PhoneApp1\Bin\Debug\sk-SK\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Projects\PhoneApp1\PhoneApp1\Bin\Debug\sl-SI\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Projects\PhoneApp1\PhoneApp1\Bin\Debug\sq-AL\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Projects\PhoneApp1\PhoneApp1\Bin\Debug\sr-Latn-CS\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Projects\PhoneApp1\PhoneApp1\Bin\Debug\sv-SE\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Projects\PhoneApp1\PhoneApp1\Bin\Debug\th-TH\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Projects\PhoneApp1\PhoneApp1\Bin\Debug\tr-TR\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Projects\PhoneApp1\PhoneApp1\Bin\Debug\uk-UA\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Projects\PhoneApp1\PhoneApp1\Bin\Debug\uz-Latn-UZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Projects\PhoneApp1\PhoneApp1\Bin\Debug\vi-VN\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Projects\PhoneApp1\PhoneApp1\Bin\Debug\zh-CN\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Projects\PhoneApp1\PhoneApp1\Bin\Debug\zh-TW\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Projects\PhoneApp1\PhoneApp1\obj\Debug\PhoneApp1.csprojResolveAssemblyReference.cache
+D:\Projects\PhoneApp1\PhoneApp1\obj\Debug\Teclado.g.cs
+D:\Projects\PhoneApp1\PhoneApp1\obj\Debug\Assuntos.g.cs
+D:\Projects\PhoneApp1\PhoneApp1\obj\Debug\Parametros.g.cs
+D:\Projects\PhoneApp1\PhoneApp1\Bin\Debug\Microsoft.Phone.Controls.dll
+D:\Projects\PhoneApp1\PhoneApp1\obj\Debug\DataHora.g.cs
+D:\Projects\PhoneApp1\PhoneApp1\obj\Debug\Listas.g.cs
+D:\PhoneApp1\PhoneApp1\Bin\Debug\Assets\ApplicationIcon.png
+D:\PhoneApp1\PhoneApp1\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+D:\PhoneApp1\PhoneApp1\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+D:\PhoneApp1\PhoneApp1\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+D:\PhoneApp1\PhoneApp1\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+D:\PhoneApp1\PhoneApp1\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+D:\PhoneApp1\PhoneApp1\Bin\Debug\PhoneApp1.dll
+D:\PhoneApp1\PhoneApp1\Bin\Debug\PhoneApp1.pdb
+D:\PhoneApp1\PhoneApp1\Bin\Debug\AppManifest.xaml
+D:\PhoneApp1\PhoneApp1\Bin\Debug\PhoneApp1_Debug_AnyCPU.xap
+D:\PhoneApp1\PhoneApp1\Bin\Debug\Microsoft.Phone.Controls.dll
+D:\PhoneApp1\PhoneApp1\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+D:\PhoneApp1\PhoneApp1\Bin\Debug\ar-SA\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\PhoneApp1\PhoneApp1\Bin\Debug\az-Latn-AZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\PhoneApp1\PhoneApp1\Bin\Debug\be-BY\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\PhoneApp1\PhoneApp1\Bin\Debug\bg-BG\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\PhoneApp1\PhoneApp1\Bin\Debug\ca-ES\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\PhoneApp1\PhoneApp1\Bin\Debug\cs-CZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\PhoneApp1\PhoneApp1\Bin\Debug\da-DK\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\PhoneApp1\PhoneApp1\Bin\Debug\de-DE\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\PhoneApp1\PhoneApp1\Bin\Debug\el-GR\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\PhoneApp1\PhoneApp1\Bin\Debug\en-GB\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\PhoneApp1\PhoneApp1\Bin\Debug\es-ES\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\PhoneApp1\PhoneApp1\Bin\Debug\es-MX\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\PhoneApp1\PhoneApp1\Bin\Debug\et-EE\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\PhoneApp1\PhoneApp1\Bin\Debug\fa-IR\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\PhoneApp1\PhoneApp1\Bin\Debug\fi-FI\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\PhoneApp1\PhoneApp1\Bin\Debug\fil-PH\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\PhoneApp1\PhoneApp1\Bin\Debug\fr-CA\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\PhoneApp1\PhoneApp1\Bin\Debug\fr-FR\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\PhoneApp1\PhoneApp1\Bin\Debug\he-IL\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\PhoneApp1\PhoneApp1\Bin\Debug\hi-IN\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\PhoneApp1\PhoneApp1\Bin\Debug\hr-HR\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\PhoneApp1\PhoneApp1\Bin\Debug\hu-HU\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\PhoneApp1\PhoneApp1\Bin\Debug\id-ID\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\PhoneApp1\PhoneApp1\Bin\Debug\it-IT\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\PhoneApp1\PhoneApp1\Bin\Debug\ja-JP\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\PhoneApp1\PhoneApp1\Bin\Debug\kk-KZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\PhoneApp1\PhoneApp1\Bin\Debug\ko-KR\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\PhoneApp1\PhoneApp1\Bin\Debug\lt-LT\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\PhoneApp1\PhoneApp1\Bin\Debug\lv-LV\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\PhoneApp1\PhoneApp1\Bin\Debug\mk-MK\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\PhoneApp1\PhoneApp1\Bin\Debug\ms-MY\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\PhoneApp1\PhoneApp1\Bin\Debug\nb-NO\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\PhoneApp1\PhoneApp1\Bin\Debug\nl-NL\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\PhoneApp1\PhoneApp1\Bin\Debug\pl-PL\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\PhoneApp1\PhoneApp1\Bin\Debug\pt-BR\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\PhoneApp1\PhoneApp1\Bin\Debug\pt-PT\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\PhoneApp1\PhoneApp1\Bin\Debug\ro-RO\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\PhoneApp1\PhoneApp1\Bin\Debug\ru-RU\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\PhoneApp1\PhoneApp1\Bin\Debug\sk-SK\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\PhoneApp1\PhoneApp1\Bin\Debug\sl-SI\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\PhoneApp1\PhoneApp1\Bin\Debug\sq-AL\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\PhoneApp1\PhoneApp1\Bin\Debug\sr-Latn-CS\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\PhoneApp1\PhoneApp1\Bin\Debug\sv-SE\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\PhoneApp1\PhoneApp1\Bin\Debug\th-TH\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\PhoneApp1\PhoneApp1\Bin\Debug\tr-TR\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\PhoneApp1\PhoneApp1\Bin\Debug\uk-UA\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\PhoneApp1\PhoneApp1\Bin\Debug\uz-Latn-UZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\PhoneApp1\PhoneApp1\Bin\Debug\vi-VN\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\PhoneApp1\PhoneApp1\Bin\Debug\zh-CN\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\PhoneApp1\PhoneApp1\Bin\Debug\zh-TW\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\PhoneApp1\PhoneApp1\obj\Debug\PhoneApp1.csprojResolveAssemblyReference.cache
+D:\PhoneApp1\PhoneApp1\obj\Debug\App.g.cs
+D:\PhoneApp1\PhoneApp1\obj\Debug\Assuntos.g.cs
+D:\PhoneApp1\PhoneApp1\obj\Debug\DataHora.g.cs
+D:\PhoneApp1\PhoneApp1\obj\Debug\Listas.g.cs
+D:\PhoneApp1\PhoneApp1\obj\Debug\MainPage.g.cs
+D:\PhoneApp1\PhoneApp1\obj\Debug\Orientacao.g.cs
+D:\PhoneApp1\PhoneApp1\obj\Debug\Parametros.g.cs
+D:\PhoneApp1\PhoneApp1\obj\Debug\Teclado.g.cs
+D:\PhoneApp1\PhoneApp1\obj\Debug\PhoneApp1.g.resources
+D:\PhoneApp1\PhoneApp1\obj\Debug\PhoneApp1.Resources.AppResources.resources
+D:\PhoneApp1\PhoneApp1\obj\Debug\PhoneApp1.csproj.GenerateResource.Cache
+D:\PhoneApp1\PhoneApp1\obj\Debug\PhoneApp1.dll
+D:\PhoneApp1\PhoneApp1\obj\Debug\PhoneApp1.pdb
+D:\PhoneApp1\PhoneApp1\obj\Debug\XapCacheFile.xml
+D:\PhoneApp1\PhoneApp1\obj\Debug\IsoStorageSettingsFile.g.cs
+D:\PhoneApp1\PhoneApp1\obj\Debug\Notepad.g.cs
+D:\PhoneApp1\PhoneApp1\obj\Debug\Database.g.cs
+D:\PhoneApp1\PhoneApp1\obj\Debug\Geo.g.cs
+D:\PhoneApp1\PhoneApp1\obj\Debug\Mapa.g.cs
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\obj\Debug\PhoneApp1.csprojResolveAssemblyReference.cache
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\obj\Debug\App.g.cs
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\obj\Debug\Principal.g.cs
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\obj\Debug\PhoneApp1.g.resources
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\obj\Debug\PhoneApp1.Resources.AppResources.resources
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\obj\Debug\PhoneApp1.csproj.GenerateResource.Cache
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\obj\Debug\PhoneApp1.dll
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\obj\Debug\PhoneApp1.pdb
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\Bin\Debug\Assets\ApplicationIcon.png
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\Bin\Debug\PhoneApp1.dll
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\Bin\Debug\PhoneApp1.pdb
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\Bin\Debug\AppManifest.xaml
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\Bin\Debug\Properties\WMAppManifest.xml
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\Bin\Debug\PhoneApp1_Debug_AnyCPU.xap
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\Bin\Debug\Microsoft.Phone.Controls.dll
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\Bin\Debug\ar-SA\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\Bin\Debug\az-Latn-AZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\Bin\Debug\be-BY\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\Bin\Debug\bg-BG\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\Bin\Debug\ca-ES\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\Bin\Debug\cs-CZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\Bin\Debug\da-DK\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\Bin\Debug\de-DE\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\Bin\Debug\el-GR\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\Bin\Debug\en-GB\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\Bin\Debug\es-ES\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\Bin\Debug\es-MX\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\Bin\Debug\et-EE\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\Bin\Debug\fa-IR\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\Bin\Debug\fi-FI\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\Bin\Debug\fil-PH\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\Bin\Debug\fr-CA\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\Bin\Debug\fr-FR\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\Bin\Debug\he-IL\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\Bin\Debug\hi-IN\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\Bin\Debug\hr-HR\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\Bin\Debug\hu-HU\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\Bin\Debug\id-ID\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\Bin\Debug\it-IT\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\Bin\Debug\ja-JP\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\Bin\Debug\kk-KZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\Bin\Debug\ko-KR\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\Bin\Debug\lt-LT\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\Bin\Debug\lv-LV\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\Bin\Debug\mk-MK\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\Bin\Debug\ms-MY\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\Bin\Debug\nb-NO\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\Bin\Debug\nl-NL\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\Bin\Debug\pl-PL\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\Bin\Debug\pt-BR\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\Bin\Debug\pt-PT\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\Bin\Debug\ro-RO\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\Bin\Debug\ru-RU\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\Bin\Debug\sk-SK\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\Bin\Debug\sl-SI\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\Bin\Debug\sq-AL\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\Bin\Debug\sr-Latn-CS\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\Bin\Debug\sv-SE\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\Bin\Debug\th-TH\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\Bin\Debug\tr-TR\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\Bin\Debug\uk-UA\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\Bin\Debug\uz-Latn-UZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\Bin\Debug\vi-VN\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\Bin\Debug\zh-CN\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\Bin\Debug\zh-TW\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Unoeste\PosGraducao\Framework2\Windows8\TrabalhoFinal\PhoneApp1\obj\Debug\XapCacheFile.xml
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\Bin\Debug\Assets\ApplicationIcon.png
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\Bin\Debug\PhoneApp1.dll
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\Bin\Debug\PhoneApp1.pdb
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\Bin\Debug\AppManifest.xaml
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\Bin\Debug\PhoneApp1_Debug_AnyCPU.xap
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\Bin\Debug\Microsoft.Phone.Controls.dll
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\Bin\Debug\ar-SA\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\Bin\Debug\az-Latn-AZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\Bin\Debug\be-BY\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\Bin\Debug\bg-BG\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\Bin\Debug\ca-ES\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\Bin\Debug\cs-CZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\Bin\Debug\da-DK\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\Bin\Debug\de-DE\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\Bin\Debug\el-GR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\Bin\Debug\en-GB\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\Bin\Debug\es-ES\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\Bin\Debug\es-MX\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\Bin\Debug\et-EE\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\Bin\Debug\fa-IR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\Bin\Debug\fi-FI\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\Bin\Debug\fil-PH\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\Bin\Debug\fr-CA\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\Bin\Debug\fr-FR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\Bin\Debug\he-IL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\Bin\Debug\hi-IN\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\Bin\Debug\hr-HR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\Bin\Debug\hu-HU\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\Bin\Debug\id-ID\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\Bin\Debug\it-IT\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\Bin\Debug\ja-JP\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\Bin\Debug\kk-KZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\Bin\Debug\ko-KR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\Bin\Debug\lt-LT\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\Bin\Debug\lv-LV\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\Bin\Debug\mk-MK\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\Bin\Debug\ms-MY\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\Bin\Debug\nb-NO\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\Bin\Debug\nl-NL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\Bin\Debug\pl-PL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\Bin\Debug\pt-BR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\Bin\Debug\pt-PT\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\Bin\Debug\ro-RO\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\Bin\Debug\ru-RU\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\Bin\Debug\sk-SK\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\Bin\Debug\sl-SI\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\Bin\Debug\sq-AL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\Bin\Debug\sr-Latn-CS\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\Bin\Debug\sv-SE\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\Bin\Debug\th-TH\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\Bin\Debug\tr-TR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\Bin\Debug\uk-UA\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\Bin\Debug\uz-Latn-UZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\Bin\Debug\vi-VN\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\Bin\Debug\zh-CN\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\Bin\Debug\zh-TW\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\obj\Debug\PhoneApp1.csprojResolveAssemblyReference.cache
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\obj\Debug\App.g.cs
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\obj\Debug\Principal.g.cs
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\obj\Debug\PhoneApp1.g.resources
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\obj\Debug\PhoneApp1.Resources.AppResources.resources
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\obj\Debug\PhoneApp1.csproj.GenerateResource.Cache
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\obj\Debug\PhoneApp1.dll
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\obj\Debug\PhoneApp1.pdb
+C:\Users\Victor Prado\Desktop\TrabalhoFinal\PhoneApp1\obj\Debug\XapCacheFile.xml

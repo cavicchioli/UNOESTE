@@ -1,0 +1,16 @@
+D:\Faculdade\7º Termo\T.T.Comp\2 Bimestre\Trabalho\InfoAcademicas\InfoAcademicas\bin\InfoAcademicas.dll
+D:\Faculdade\7º Termo\T.T.Comp\2 Bimestre\Trabalho\InfoAcademicas\InfoAcademicas\bin\InfoAcademicas.pdb
+D:\Faculdade\7º Termo\T.T.Comp\2 Bimestre\Trabalho\InfoAcademicas\InfoAcademicas\obj\Debug\ResolveAssemblyReference.cache
+D:\Faculdade\7º Termo\T.T.Comp\2 Bimestre\Trabalho\InfoAcademicas\InfoAcademicas\obj\Debug\InfoAcademicas.dll
+D:\Faculdade\7º Termo\T.T.Comp\2 Bimestre\Trabalho\InfoAcademicas\InfoAcademicas\obj\Debug\InfoAcademicas.pdb
+D:\Faculdade\7_Termo\T.T.Comp - (Pronto)\2 Bimestre\Trabalho\InfoAcademicas\InfoAcademicas\bin\InfoAcademicas.dll
+D:\Faculdade\7_Termo\T.T.Comp - (Pronto)\2 Bimestre\Trabalho\InfoAcademicas\InfoAcademicas\bin\InfoAcademicas.pdb
+D:\Faculdade\7_Termo\T.T.Comp - (Pronto)\2 Bimestre\Trabalho\InfoAcademicas\InfoAcademicas\bin\AjaxControlToolkit.dll
+D:\Faculdade\7_Termo\T.T.Comp - (Pronto)\2 Bimestre\Trabalho\InfoAcademicas\InfoAcademicas\obj\Debug\ResolveAssemblyReference.cache
+D:\Faculdade\7_Termo\T.T.Comp - (Pronto)\2 Bimestre\Trabalho\InfoAcademicas\InfoAcademicas\obj\Debug\InfoAcademicas.dll
+D:\Faculdade\7_Termo\T.T.Comp - (Pronto)\2 Bimestre\Trabalho\InfoAcademicas\InfoAcademicas\obj\Debug\InfoAcademicas.pdb
+D:\Trabalho\InfoAcademicas\InfoAcademicas\bin\InfoAcademicas.dll
+D:\Trabalho\InfoAcademicas\InfoAcademicas\bin\InfoAcademicas.pdb
+D:\Trabalho\InfoAcademicas\InfoAcademicas\obj\Debug\InfoAcademicas.csprojResolveAssemblyReference.cache
+D:\Trabalho\InfoAcademicas\InfoAcademicas\obj\Debug\InfoAcademicas.dll
+D:\Trabalho\InfoAcademicas\InfoAcademicas\obj\Debug\InfoAcademicas.pdb

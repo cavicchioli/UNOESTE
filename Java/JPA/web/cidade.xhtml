@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core">
+    <h:head>
+        <title>Cadastro de Cidades</title>
+    </h:head>
+    <h:body>
+        <h1>Cadastro de Cidades</h1>
+        <h:form>
+            <h:messages/>
+            Código<br/>
+            <h:inputText id="txtCodigo" value="#{cidadeForm.cidade.codigo}"
+                         size="5" maxlength="5"
+                         required="true" requiredMessage="O Código não foi informado!"
+                         validatorMessage="Código deve ser maior que Zero!"
+                         converterMessage="O Código deve ser um número inteiro positivo!">
+                <f:validateLongRange minimum="1"/>
+            </h:inputText>
+            <br/>
+            Nome<br/>
+            <h:inputText id="txtNome" value="#{cidadeForm.cidade.nome}" 
+                         size="80" maxlength="60"
+                         required="true" requiredMessage="Nome não informado!"
+                         validatorMessage="O nome deve ter no máximo 60 letras!">
+                <f:validateLength maximum="60"/>
+            </h:inputText>
+            <br/>
+            Estado<br/>
+            <h:selectOneMenu id="selEstado"
+                             value="#{cidadeForm.cidade.uf}">
+                <f:converter converterId="UfConverter"/>
+                <f:selectItem itemLabel="--- Escolha um ---" 
+                              itemValue="#{null}"/>
+                <f:selectItems value="#{cidadeForm.estados}" 
+                               var="estado"
+                               itemLabel="#{estado.nome}" 
+                               itemValue="#{estado}"
+                               />
+            </h:selectOneMenu>
+            <br/>
+            <h:commandButton value="Inserir" action="#{cidadeForm.inserir()}"/>
+            
+            <h:commandButton id="btnAtualizar" value="Alterar" 
+                             action="#{cidadeForm.alterar()}"/>
+            <h:commandButton id="btnLimpar" value="Limpar" 
+                             action="#{cidadeForm.limpar()}"/>
+        </h:form>
+        <ul>
+            <li>
+                <h:link outcome="cidades.xhtml" value="Lista de Cidades"/>
+            </li>
+            <li>
+                <h:link outcome="principal.xhtml" value="Página Principal"/>
+            </li>
+        </ul>
+    </h:body>
+</html>
+

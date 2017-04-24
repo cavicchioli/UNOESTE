@@ -1,0 +1,71 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CarrinhoCompras.Common"
+    xmlns:cnv="using:CarrinhoCompras.Converter">
+
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="/Common/StandardStyles.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+
+    <cnv:DecimalConverter x:Key="DecimalConverter" />
+
+    <Style x:Key="BackAppBarButtonStyle" TargetType="Button"
+        BasedOn="{StaticResource AppBarButtonStyle}" >
+        <Setter Property="Content" Value="&#xe0d5;" />
+    </Style>
+
+    <Style x:Key="ProdutoAppBarButtonStyle" TargetType="Button"
+        BasedOn="{StaticResource AppBarButtonStyle}" >
+        <Setter Property="AutomationProperties.Name" Value="Produtos" />
+        <Setter Property="Content" Value="&#xe26e;" />
+    </Style>
+
+    <Style x:Key="CarrinhoProdutoAppBarButtonStyle" TargetType="Button"
+        BasedOn="{StaticResource AppBarButtonStyle}" >
+        <Setter Property="AutomationProperties.Name" Value="Carrinho" />
+        <Setter Property="Content" Value="&#xe1cb;" />
+    </Style>
+
+    <Style x:Key="PesquisarAppBarButtonStyle" TargetType="Button"
+        BasedOn="{StaticResource AppBarButtonStyle}" >
+        <Setter Property="AutomationProperties.Name" Value="Pesquisar" />
+        <Setter Property="Content" Value="&#xe11a;" />
+    </Style>
+
+    <Style x:Key="RestauraProdAppBarButtonStyle" TargetType="Button"
+        BasedOn="{StaticResource AppBarButtonStyle}" >
+        <Setter Property="AutomationProperties.Name" Value="Exibir Todos" />
+        <Setter Property="Content" Value="&#xe1c5;" />
+    </Style>
+
+    <Style x:Key="LimpaCarrinhoAppBarButtonStyle" TargetType="Button"
+        BasedOn="{StaticResource AppBarButtonStyle}" >
+        <Setter Property="AutomationProperties.Name" Value="Limpar Carrinho" />
+        <Setter Property="Content" Value="&#xe107;" />
+    </Style>
+
+    <DataTemplate x:Key="ProdutoTemplate">
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+            <Image Width="200" Height="100" Source="{Binding Url}" />
+            <StackPanel>
+                <TextBlock Margin="10" TextWrapping="NoWrap" Text="{Binding Descricao}" FontSize="12"/>
+                <TextBlock Margin="10" TextWrapping="Wrap" Text="{Binding Preco, Converter={StaticResource DecimalConverter}}"/>
+            </StackPanel>
+        </StackPanel>
+    </DataTemplate>
+
+    <DataTemplate x:Key="CarrinhoTemplate">
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+            <Image Width="200" Height="100" Source="{Binding Url}" />
+            <StackPanel>
+                <TextBlock Margin="10" TextWrapping="NoWrap" Text="{Binding Descricao}" FontSize="12"/>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Margin="10" TextWrapping="Wrap" Text="{Binding Preco, Converter={StaticResource DecimalConverter}}"/>
+                    <TextBlock Margin="10" TextWrapping="Wrap" Text="Quantidade"/>
+                    <TextBlock Margin="10" TextWrapping="Wrap" Text="{Binding Quantidade, Mode=TwoWay}"/>
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
+    </DataTemplate>
+</ResourceDictionary>

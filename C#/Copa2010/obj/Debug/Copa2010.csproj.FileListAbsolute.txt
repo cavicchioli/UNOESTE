@@ -1,0 +1,60 @@
+C:\Marcelo\2010\Especializacao\Exemplos\Copa2010\Copa2010\bin\Debug\Copa2010.exe
+C:\Marcelo\2010\Especializacao\Exemplos\Copa2010\Copa2010\bin\Debug\Copa2010.pdb
+C:\Marcelo\2010\Especializacao\Exemplos\Copa2010\Copa2010\obj\Debug\ResolveAssemblyReference.cache
+C:\Marcelo\2010\Especializacao\Exemplos\Copa2010\Copa2010\obj\Debug\Copa2010.CamadaApresentacao.frmGrupos.resources
+C:\Marcelo\2010\Especializacao\Exemplos\Copa2010\Copa2010\obj\Debug\Copa2010.frmPrincipal.resources
+C:\Marcelo\2010\Especializacao\Exemplos\Copa2010\Copa2010\obj\Debug\Copa2010.Properties.Resources.resources
+C:\Marcelo\2010\Especializacao\Exemplos\Copa2010\Copa2010\obj\Debug\Copa2010.csproj.GenerateResource.Cache
+C:\Marcelo\2010\Especializacao\Exemplos\Copa2010\Copa2010\obj\Debug\Copa2010.exe
+C:\Marcelo\2010\Especializacao\Exemplos\Copa2010\Copa2010\obj\Debug\Copa2010.pdb
+C:\Marcelo\2010\Especializacao\Exemplos\Copa2010\Copa2010\obj\Debug\Copa2010.CamadaApresentacao.frmConsultaPadrao.resources
+C:\Marcelo\2010\Especializacao\Exemplos\Copa2010\Copa2010\obj\Debug\Copa2010.CamadaApresentacao.frmEquipes.resources
+D:\Copa2010\Copa2010\obj\Debug\Copa2010.exe
+D:\Copa2010\Copa2010\obj\Debug\Copa2010.pdb
+D:\Copa2010\Copa2010\bin\Debug\Copa2010.exe
+D:\Copa2010\Copa2010\bin\Debug\Copa2010.pdb
+D:\Copa2010\Copa2010\obj\Debug\ResolveAssemblyReference.cache
+D:\Copa2010\Copa2010\obj\Debug\Copa2010.CamadaApresentacao.frmConsultaPadrao.resources
+D:\Copa2010\Copa2010\obj\Debug\Copa2010.CamadaApresentacao.frmEquipes.resources
+D:\Copa2010\Copa2010\obj\Debug\Copa2010.CamadaApresentacao.frmGrupos.resources
+D:\Copa2010\Copa2010\obj\Debug\Copa2010.frmPrincipal.resources
+D:\Copa2010\Copa2010\obj\Debug\Copa2010.Properties.Resources.resources
+D:\Copa2010\Copa2010\obj\Debug\Copa2010.csproj.GenerateResource.Cache
+D:\Cristiano\Pós - Multiplataforma\Disciplina 4 - Programação Desktop I\Trabalho\Copa2010\Copa2010\obj\Debug\ResolveAssemblyReference.cache
+D:\Cristiano\Pós - Multiplataforma\Disciplina 4 - Programação Desktop I\Trabalho\Copa2010\Copa2010\obj\Debug\Copa2010.CamadaApresentacao.frmFases.resources
+D:\Cristiano\Pós - Multiplataforma\Disciplina 4 - Programação Desktop I\Trabalho\Copa2010\Copa2010\obj\Debug\Copa2010.CamadaApresentacao.frmConsultaPadrao.resources
+D:\Cristiano\Pós - Multiplataforma\Disciplina 4 - Programação Desktop I\Trabalho\Copa2010\Copa2010\obj\Debug\Copa2010.CamadaApresentacao.frmEquipes.resources
+D:\Cristiano\Pós - Multiplataforma\Disciplina 4 - Programação Desktop I\Trabalho\Copa2010\Copa2010\obj\Debug\Copa2010.frmPrincipal.resources
+D:\Cristiano\Pós - Multiplataforma\Disciplina 4 - Programação Desktop I\Trabalho\Copa2010\Copa2010\obj\Debug\Copa2010.CamadaApresentacao.frmSobre.resources
+D:\Cristiano\Pós - Multiplataforma\Disciplina 4 - Programação Desktop I\Trabalho\Copa2010\Copa2010\obj\Debug\Copa2010.Properties.Resources.resources
+D:\Cristiano\Pós - Multiplataforma\Disciplina 4 - Programação Desktop I\Trabalho\Copa2010\Copa2010\obj\Debug\Copa2010.csproj.GenerateResource.Cache
+D:\Cristiano\Pós - Multiplataforma\Disciplina 4 - Programação Desktop I\Trabalho\Copa2010\Copa2010\obj\Debug\Copa2010.CamadaApresentacao.frmGrupos.resources
+D:\Cristiano\Pós - Multiplataforma\Disciplina 4 - Programação Desktop I\Trabalho\Copa2010\Copa2010\bin\Debug\Copa2010.exe
+D:\Cristiano\Pós - Multiplataforma\Disciplina 4 - Programação Desktop I\Trabalho\Copa2010\Copa2010\bin\Debug\Copa2010.pdb
+D:\Cristiano\Pós - Multiplataforma\Disciplina 4 - Programação Desktop I\Trabalho\Copa2010\Copa2010\obj\Debug\Copa2010.exe
+D:\Cristiano\Pós - Multiplataforma\Disciplina 4 - Programação Desktop I\Trabalho\Copa2010\Copa2010\obj\Debug\Copa2010.pdb
+D:\Cristiano\Pós - Multiplataforma\Disciplina 4 - Programação Desktop I\Trabalho\Copa2010\Copa2010\obj\Debug\Copa2010.CamadaApresentacao.frmJogos.resources
+D:\Cristiano\Pós - Multiplataforma\Disciplina 4 - Programação Desktop I\Trabalho\Copa2010\Copa2010\obj\Debug\Copa2010.CamadaApresentacao.frmJogadores.resources
+D:\Cristiano\Pós - Multiplataforma\Disciplina 4 - Programação Desktop I\Trabalho\Copa2010\Copa2010\obj\Debug\Copa2010.CamadaApresentacao.frmResultadosJogos.resources
+D:\Cristiano\Pós - Multiplataforma\Disciplina 4 - Programação Desktop I\Trabalho\Copa2010\Copa2010\obj\Debug\Copa2010.Relatorios.frmRelBasicos.resources
+D:\Cristiano\Pós - Multiplataforma\Disciplina 4 - Programação Desktop I\Trabalho\Copa2010\Copa2010\obj\Debug\Copa2010.Relatorios.frmRelJogadores.resources
+D:\Cristiano\Pós - Multiplataforma\Disciplina 4 - Programação Desktop I\Trabalho\Copa2010\Copa2010\obj\Debug\Copa2010.Relatorios.frmRelTabelaJogos.resources
+C:\Users\Victor\Desktop\Copa2010\obj\Debug\Copa2010.exe
+C:\Users\Victor\Desktop\Copa2010\obj\Debug\Copa2010.pdb
+C:\Users\Victor\Desktop\Copa2010\bin\Debug\Copa2010.exe
+C:\Users\Victor\Desktop\Copa2010\bin\Debug\Copa2010.pdb
+C:\Users\Victor\Desktop\Copa2010\obj\Debug\Copa2010.csprojResolveAssemblyReference.cache
+C:\Users\Victor\Desktop\Copa2010\obj\Debug\Copa2010.CamadaApresentacao.frmFases.resources
+C:\Users\Victor\Desktop\Copa2010\obj\Debug\Copa2010.CamadaApresentacao.frmConsultaPadrao.resources
+C:\Users\Victor\Desktop\Copa2010\obj\Debug\Copa2010.CamadaApresentacao.frmEquipes.resources
+C:\Users\Victor\Desktop\Copa2010\obj\Debug\Copa2010.CamadaApresentacao.frmGrupos.resources
+C:\Users\Victor\Desktop\Copa2010\obj\Debug\Copa2010.CamadaApresentacao.frmJogadores.resources
+C:\Users\Victor\Desktop\Copa2010\obj\Debug\Copa2010.CamadaApresentacao.frmJogos.resources
+C:\Users\Victor\Desktop\Copa2010\obj\Debug\Copa2010.frmPrincipal.resources
+C:\Users\Victor\Desktop\Copa2010\obj\Debug\Copa2010.CamadaApresentacao.frmResultadosJogos.resources
+C:\Users\Victor\Desktop\Copa2010\obj\Debug\Copa2010.CamadaApresentacao.frmSobre.resources
+C:\Users\Victor\Desktop\Copa2010\obj\Debug\Copa2010.Properties.Resources.resources
+C:\Users\Victor\Desktop\Copa2010\obj\Debug\Copa2010.Relatorios.frmRelBasicos.resources
+C:\Users\Victor\Desktop\Copa2010\obj\Debug\Copa2010.Relatorios.frmRelJogadores.resources
+C:\Users\Victor\Desktop\Copa2010\obj\Debug\Copa2010.Relatorios.frmRelTabelaJogos.resources
+C:\Users\Victor\Desktop\Copa2010\obj\Debug\Copa2010.csproj.GenerateResource.Cache

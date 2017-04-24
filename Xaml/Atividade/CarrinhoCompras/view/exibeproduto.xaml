@@ -1,0 +1,33 @@
+﻿<Page
+    x:Class="CarrinhoCompras.view.exibeproduto"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CarrinhoCompras.view"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="600"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="0">
+            <Grid HorizontalAlignment="Center">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="400"/>
+                    <ColumnDefinition Width="200"/>
+                </Grid.ColumnDefinitions>
+
+                <StackPanel Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Center" Width="400">
+                    <Image Height="400" Source="{Binding Url}"></Image>
+                </StackPanel>
+                <StackPanel Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Center" Width="200">
+                    <TextBlock Margin="10" TextWrapping="Wrap" Text="{Binding Descricao}" FontSize="14"/>
+                    <TextBlock Margin="10" TextWrapping="Wrap" Text="{Binding Preco, Converter={StaticResource DecimalConverter}}" FontSize="14"/>
+                    <TextBox x:Name="tbQuantidade" Text="{Binding Quantidade, Mode=TwoWay}" Width="20" HorizontalAlignment="Left" ></TextBox>
+                    <Button x:Name="AddCarrinho" Content="Adicionar ao Carrinho" Click="AddCarrinho_Click"></Button>
+                </StackPanel>
+            </Grid>
+        </StackPanel>
+    </Grid>
+</Page>

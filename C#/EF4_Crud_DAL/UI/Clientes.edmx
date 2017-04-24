@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="CadastroModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+        <EntityContainer Name="CadastroModelStoreContainer">
+          <EntitySet Name="Clientes" EntityType="CadastroModel.Store.Clientes" store:Type="Tables" Schema="dbo" />
+        </EntityContainer>
+        <EntityType Name="Clientes">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="nome" Type="nvarchar" MaxLength="50" />
+          <Property Name="endereco" Type="nvarchar" MaxLength="80" />
+          <Property Name="cep" Type="nvarchar" MaxLength="10" />
+          <Property Name="cidade" Type="nvarchar" MaxLength="50" />
+          <Property Name="celular" Type="nvarchar" MaxLength="50" />
+          <Property Name="telefone" Type="nvarchar" MaxLength="50" />
+          <Property Name="email" Type="nvarchar" MaxLength="100" />
+          <Property Name="contato" Type="nvarchar" MaxLength="50" />
+          <Property Name="obs" Type="nvarchar" MaxLength="100" />
+        </EntityType>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="CadastroModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+        <EntityContainer Name="CadastroEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Clientes" EntityType="CadastroModel.Cliente" />
+        </EntityContainer>
+        <EntityType Name="Cliente">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="nome" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="endereco" Type="String" MaxLength="80" Unicode="true" FixedLength="false" />
+          <Property Name="cep" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+          <Property Name="cidade" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="celular" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="telefone" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="email" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="contato" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="obs" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="CadastroModelStoreContainer" CdmEntityContainer="CadastroEntities">
+          <EntitySetMapping Name="Clientes"><EntityTypeMapping TypeName="CadastroModel.Cliente"><MappingFragment StoreEntitySet="Clientes">
+            <ScalarProperty Name="id" ColumnName="id" />
+            <ScalarProperty Name="nome" ColumnName="nome" />
+            <ScalarProperty Name="endereco" ColumnName="endereco" />
+            <ScalarProperty Name="cep" ColumnName="cep" />
+            <ScalarProperty Name="cidade" ColumnName="cidade" />
+            <ScalarProperty Name="celular" ColumnName="celular" />
+            <ScalarProperty Name="telefone" ColumnName="telefone" />
+            <ScalarProperty Name="email" ColumnName="email" />
+            <ScalarProperty Name="contato" ColumnName="contato" />
+            <ScalarProperty Name="obs" ColumnName="obs" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams>
+      <Diagram Name="Clientes">
+        <EntityTypeShape EntityType="CadastroModel.Cliente" Width="1.5" PointX="0.75" PointY="0.75" Height="2.9417936197916665" IsExpanded="true" />
+      </Diagram>
+    </Diagrams>
+  </Designer>
+</edmx:Edmx>

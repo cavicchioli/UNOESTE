@@ -1,0 +1,82 @@
+/* ---------------------------------------------------------------------- */
+/* Script generated with: DeZign for Databases v4.2.0                     */
+/* Target DBMS:           MS SQL Server 2005                              */
+/* Project file:          Modelagem.dez                                   */
+/* Project name:                                                          */
+/* Author:                                                                */
+/* Script type:           Database creation script                        */
+/* Created on:            2011-11-22 15:15                                */
+/* ---------------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------------- */
+/* Tables                                                                 */
+/* ---------------------------------------------------------------------- */
+
+/* ---------------------------------------------------------------------- */
+/* Add table "disciplina"                                                 */
+/* ---------------------------------------------------------------------- */
+
+CREATE TABLE [disciplina] (
+    [disc_codigo] INTEGER NOT NULL,
+    [disc_nome] VARCHAR(40),
+    CONSTRAINT [PK_disciplina] PRIMARY KEY ([disc_codigo])
+)
+GO
+
+/* ---------------------------------------------------------------------- */
+/* Add table "aluno"                                                      */
+/* ---------------------------------------------------------------------- */
+
+CREATE TABLE [aluno] (
+    [aluno_ra] INTEGER NOT NULL,
+    [aluno_nome] VARCHAR(40),
+    [aluno_email] VARCHAR(40),
+    [aluno_foto] VARCHAR(70),
+    CONSTRAINT [PK_aluno] PRIMARY KEY ([aluno_ra])
+)
+GO
+
+/* ---------------------------------------------------------------------- */
+/* Add table "disciplina_aluno"                                           */
+/* ---------------------------------------------------------------------- */
+
+CREATE TABLE [disciplina_aluno] (
+    [disc_codigo] INTEGER NOT NULL,
+    [aluno_ra] INTEGER NOT NULL,
+    [discAluno_turma] CHAR VARYING(2),
+    [discAluno_semestre] CHAR(1),
+    [discAluno_nota1b] FLOAT,
+    [discAluno_nota2b] FLOAT,
+    [discAluno_min2b] FLOAT,
+    [discAluno_media] FLOAT,
+    [discAluno_exame] FLOAT,
+    [discAluno_minexame] FLOAT,
+    [discAluno_mediafinal] FLOAT,
+    [discAluno_situacao] NVARCHAR(10),
+    CONSTRAINT [PK_disciplina_aluno] PRIMARY KEY ([disc_codigo], [aluno_ra])
+)
+GO
+
+/* ---------------------------------------------------------------------- */
+/* Add table "administrador"                                              */
+/* ---------------------------------------------------------------------- */
+
+CREATE TABLE [administrador] (
+    [admin_login] VARCHAR(10) NOT NULL,
+    [admin_senha] VARCHAR(6),
+    CONSTRAINT [PK_administrador] PRIMARY KEY ([admin_login])
+)
+GO
+
+/* ---------------------------------------------------------------------- */
+/* Foreign key constraints                                                */
+/* ---------------------------------------------------------------------- */
+
+ALTER TABLE [disciplina_aluno] ADD CONSTRAINT [disciplina_disciplina_aluno] 
+    FOREIGN KEY ([disc_codigo]) REFERENCES [disciplina] ([disc_codigo])
+GO
+
+ALTER TABLE [disciplina_aluno] ADD CONSTRAINT [aluno_disciplina_aluno] 
+    FOREIGN KEY ([aluno_ra]) REFERENCES [aluno] ([aluno_ra])
+GO

@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <body>
+        <ui:composition template="./../WEB-INF/template/modelo.xhtml">
+
+            <ui:define name="conteudo">
+                <h:panelGroup rendered="#{not usuarioBean.pesquisando}">
+                    <h1>Cadastro de Usuários</h1>
+                    <h:form prependId="false" id="form">
+                        <h:outputLabel for="txtCodigo" value="Código"/>
+                        <h:inputText id="txtCodigo" size="7" maxlength="5"
+                                     required="true" requiredMessage="Código não informado."
+                                     converterMessage="O código deve ser um número inteiro."
+                                     validatorMessage="O código deve ser um número inteiro maior que zero."
+                                     value="#{usuarioBean.usuario.codigo}"
+                                     readonly="#{usuarioBean.alterando}">
+                            <f:validateLongRange minimum="1" />
+                        </h:inputText>
+
+                        <h:outputLabel for="txtNome" value="Nome"/>
+                        <h:inputText id="txtNome" size="80" maxlength="100"
+                                     required="true" requiredMessage="Nome não informado"
+                                     value="#{usuarioBean.usuario.nome}">
+                            <f:validateLength maximum="100"/>
+                        </h:inputText>
+
+                        <h:outputLabel for="txtLogin" value="Login"/>
+                        <h:inputText id="txtLogin" size="8" maxlength="6"
+                                     required="true" requiredMessage="Login não informado"
+                                     value="#{usuarioBean.usuario.login}">
+                            <f:validateLength maximum="6"/>
+                        </h:inputText>
+
+                        <h:outputLabel for="txtSenha" value="Senha"/>
+                        <h:inputSecret id="txtSenha" size="8" maxlength="6"
+                                       required="true" requiredMessage="Senha não informada"
+                                       validator="#{usuarioBean.validaSenhaDoUsuario}"
+                                       validatorMessage="O campo senha não pode conter números. Somente Letras."
+                                       value="#{usuarioBean.usuario.senha}">
+                        </h:inputSecret>
+                         <h:outputLabel for="txtConf" value="Confirmar Senha"/>
+                        <h:inputSecret id="txtConf" size="8" maxlength="6"
+                                       required="true" requiredMessage="Confirmação de Senha não informada"
+                                       validatorMessage="Senha e Confirmação não conferem."
+                                       value="#{usuarioBean.usuario.senha}">
+                            <f:validator validatorId="validadorConfirmacaoSenha"/>
+                            <f:attribute name="attID" value="#{component.parent.parent.clientId}:txtSenha" />
+                        </h:inputSecret>
+                        
+                        
+                        <h:outputLabel for="ckAdmin" value="Administrador"/>
+                        <h:selectBooleanCheckbox id="ckAdmin" value="#{usuarioBean.usuario.administrador}"/>
+                        <p>
+                            <h:commandButton value="Inserir" 
+                                             disabled="#{usuarioBean.alterando}"
+                                             action="#{usuarioBean.inserir()}"/>
+                            <h:commandButton value="Alterar" 
+                                             disabled="#{not usuarioBean.alterando}"
+                                             action="#{usuarioBean.alterar()}"/>
+                            <h:commandButton value="Consultar" immediate="true"
+                                             action="#{usuarioBean.ativarPesquisa()}"/>
+                            <h:commandButton value="Limpar" immediate="true"
+                                             action="#{usuarioBean.limpar()}"/>
+                        </p>
+                    </h:form>
+                </h:panelGroup>
+                <h:panelGroup rendered="#{usuarioBean.pesquisando}">
+                    <h1>Usuários Cadastrados</h1>
+                    <h:form>
+                        <h:dataTable var="usuario" value="#{usuarioBean.cadastrados}">
+                            <h:column>
+                                <f:facet name="header">
+                                    Código
+                                </f:facet>
+                                <h:outputText value="#{usuario.codigo}"/>
+                            </h:column>
+                            <h:column>
+                                <f:facet name="header">
+                                    Nome
+                                </f:facet>
+                                <h:outputText value="#{usuario.nome}"/>
+                            </h:column>
+                            <h:column>
+                                <f:facet name="header">
+                                    Login
+                                </f:facet>
+                                <h:outputText value="#{usuario.login}"/>
+                            </h:column>
+                            <h:column>
+                                <f:facet name="header">Admin.</f:facet>
+                                <h:selectBooleanCheckbox value="#{usuario.administrador}"
+                                                         disabled="true"/>
+                            </h:column>
+
+                            <h:column>
+                                <h:commandLink value="Selecionar"
+                                               action="#{usuarioBean.selecionar(usuario.codigo)}"/>
+                            </h:column>
+                            <h:column>
+                                <h:commandLink value="Excluir"
+                                               action="#{usuarioBean.excluir(usuario.codigo)}"
+                                               onclick="return confirm('Deseja excluir o registro?');"
+                                               />
+                            </h:column>
+
+                        </h:dataTable>
+                    </h:form>            
+                    <h:link value="Voltar" outcome="/on/cadastro_usuario.xhtml"/>
+                </h:panelGroup>
+            </ui:define>
+
+        </ui:composition>
+    </body>
+</html>

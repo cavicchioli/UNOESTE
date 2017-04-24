@@ -1,0 +1,48 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AppProdutos.Common">
+
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="/Common/StandardStyles.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+
+    <Style x:Key="OkAppBarButtonStyle" TargetType="Button"
+        BasedOn="{StaticResource AppBarButtonStyle}" >
+        <Setter Property="AutomationProperties.Name" Value="Ok" />
+        <Setter Property="Content" Value="&#xe0e7;" />
+    </Style>
+
+    <Style x:Key="BackAppBarButtonStyle" TargetType="Button"
+        BasedOn="{StaticResource AppBarButtonStyle}" >
+        <Setter Property="Content" Value="&#xe0d5;" />
+    </Style>
+
+    <Style x:Key="ListarProdutosAppBarButtonStyle" TargetType="Button"
+        BasedOn="{StaticResource AppBarButtonStyle}" >
+        <Setter Property="Content" Value="&#xe090;" />
+        <Setter Property="AutomationProperties.Name" Value="Listar" />
+    </Style>
+
+    <Style x:Key="CarrinhoAppBarButtonStyle" TargetType="Button"
+        BasedOn="{StaticResource AppBarButtonStyle}" >
+        <Setter Property="Content" Value="&#xe1a1;" />
+        <Setter Property="AutomationProperties.Name" Value="Carrinho" />
+    </Style>
+
+    <Style x:Key="PesquisarAppBarButtonStyle" TargetType="Button"
+        BasedOn="{StaticResource AppBarButtonStyle}" >
+        <Setter Property="AutomationProperties.Name" Value="Pesquisar" />
+        <Setter Property="Content" Value="&#xe11A;" />
+    </Style>
+
+    <DataTemplate x:Key="ProdutoTemplate">
+        <StackPanel Orientation="Horizontal">
+            <Image Height="300" Source="{Binding Url}" />
+            <TextBlock Margin="10" TextWrapping="NoWrap" Text="{Binding Id}" FontSize="12"/>
+            <TextBlock Margin="10" TextWrapping="wrap" Text="{Binding Descricao}"/>
+            <TextBlock Margin="10" TextWrapping="wrap" Text="{Binding Preco}"/>
+        </StackPanel>
+    </DataTemplate>
+
+</ResourceDictionary>

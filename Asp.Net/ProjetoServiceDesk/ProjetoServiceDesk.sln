@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoServiceDesk", "ProjetoServiceDesk\ProjetoServiceDesk.csproj", "{5A6F71AD-2320-49C0-8113-B5ABD17C5571}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoServiceDeskWeb", "ProjetoServiceDeskWeb\ProjetoServiceDeskWeb.csproj", "{AC7F7309-1279-4D4F-867C-1D2FB3DF453C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A6F71AD-2320-49C0-8113-B5ABD17C5571}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A6F71AD-2320-49C0-8113-B5ABD17C5571}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A6F71AD-2320-49C0-8113-B5ABD17C5571}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A6F71AD-2320-49C0-8113-B5ABD17C5571}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC7F7309-1279-4D4F-867C-1D2FB3DF453C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC7F7309-1279-4D4F-867C-1D2FB3DF453C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC7F7309-1279-4D4F-867C-1D2FB3DF453C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC7F7309-1279-4D4F-867C-1D2FB3DF453C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <body>
+        <ui:composition template="./../WEB-INF/template/modelo.xhtml">
+
+            <ui:define name="conteudo">
+
+                <h:panelGroup rendered="#{not contatoBean.pesquisando}">
+                    <h1>Cadastro de Contatos</h1>
+                    <h:form prependId="false">
+                        <h:outputLabel for="txtCodigo" value="Código"/>
+                        <h:inputText id="txtCodigo" size="7" maxlength="5"
+                                     required="true" requiredMessage="Código não informado."
+                                     converterMessage="O código deve ser um número inteiro."
+                                     validatorMessage="O código deve ser um número inteiro maior que zero."
+                                     value="#{contatoBean.contato.codigo}"
+                                     readonly="#{contatoBean.alterando}">
+                            <f:validateLongRange minimum="1" />
+                        </h:inputText>
+
+                        <h:outputLabel for="txtNome" value="Nome"/>
+                        <h:inputText id="txtNome" size="80" maxlength="150"
+                                     required="true" requiredMessage="Nome não informado"
+                                     value="#{contatoBean.contato.nome}">
+                            <f:validateLength maximum="150"/>
+                        </h:inputText>
+
+                        <h:outputLabel for="txtEmail" value="Email"/>
+                        <h:inputText id="txtEmail" size="80" maxlength="150"
+                                     required="true" requiredMessage="Email não informado"
+                                     value="#{contatoBean.contato.email}">
+                            <f:validateLength maximum="150"/>
+                        </h:inputText>
+
+                        <h:outputLabel for="txtTelefone" value="Telefone"/>
+                        <h:inputText id="txtTelefone" size="15" maxlength="20"
+                                     value="#{contatoBean.contato.telefone}">
+                            <f:validateLength maximum="20"/>
+                        </h:inputText>
+                        
+                        <h:outputLabel for="txtEndereco" value="Endereço"/>
+                        <h:inputText id="txtEndereco" size="120" maxlength="250"
+                                     required="true" requiredMessage="Endereço não informado"
+                                     value="#{contatoBean.contato.endereco}">
+                            <f:validateLength maximum="250"/>
+                        </h:inputText>
+                        
+                        <h:outputLabel for="txtBairro" value="Bairro"/>
+                        <h:inputText id="txtBairro" size="80" maxlength="250"
+                                     value="#{contatoBean.contato.bairro}">
+                            <f:validateLength maximum="250"/>
+                        </h:inputText>
+                        
+                        <h:outputLabel for="txtDataNascimento" value="Data de Nascimento"/>
+                        <h:inputText id="txtDataNascimento" size="10" maxlength="10"
+                                     required="true" requiredMessage="Data de Nascimento não informado"
+                                     
+                                     value="#{contatoBean.contato.data_nascimento}">
+                        </h:inputText>
+                        
+                        <h:outputLabel for="selEstado">Estados</h:outputLabel>
+                        <h:selectOneMenu id="selEstado" immediate="true"
+                                         required="true" requiredMessage="Escolha um estado!"
+                                         valueChangeListener="#{listaDeEstadosCidades.escolheuEstado}"
+                                         onchange="submit();" 
+                                         >
+                            <f:converter converterId="UFConverter"/>
+                            <f:selectItem itemLabel="-- Selecione um --" 
+                                          itemValue="#{null}"/>
+                            <f:selectItems value="#{listaDeEstadosCidades.estadosCadastrados}"
+                                           var="uf"
+                                           itemLabel="#{uf.nome}"
+                                           itemValue="#{uf}"
+                                           />
+                        </h:selectOneMenu>     
+
+                        <h:outputLabel for="selCidade">Cidades</h:outputLabel>
+                        <h:selectOneMenu id="selCidade"
+                                         value="#{contatoBean.contato.cidade}"
+                                         required="true" requiredMessage="Escolha uma Cidade!">
+                            <f:converter converterId="CidadeConverter"/>
+                            <f:selectItem itemLabel="-- Selecione uma --" 
+                                          itemValue="#{null}"/>
+                            <f:selectItems value="#{listaDeEstadosCidades.cidades}"
+                                           var="cidade"
+                                           itemLabel="#{cidade.nome}"
+                                           itemValue="#{cidade}"
+                                           />
+                        </h:selectOneMenu>
+                        <p>
+                            <h:commandButton value="Inserir" 
+                                             disabled="#{contatoBean.alterando}"
+                                             action="#{contatoBean.inserir()}"/>
+                            <h:commandButton value="Alterar" 
+                                             disabled="#{not contatoBean.alterando}"
+                                             action="#{contatoBean.alterar()}"/>
+                            <h:commandButton value="Consultar" immediate="true"
+                                             action="#{contatoBean.ativarPesquisa()}"/>
+                            <h:commandButton value="Limpar" immediate="true"
+                                             action="#{contatoBean.limpar()}"/>
+                        </p>
+                    </h:form>
+                </h:panelGroup>
+                <h:panelGroup rendered="#{contatoBean.pesquisando}">
+                    <h1>Contatos Cadastrados</h1>
+                    <h:form>
+                        <h:dataTable var="contato" value="#{contatoBean.cadastrados}">
+                            <h:column>
+                                <f:facet name="header">
+                                    Código
+                                </f:facet>
+                                <h:outputText value="#{contato.codigo}"/>
+                            </h:column>
+                            <h:column>
+                                <f:facet name="header">
+                                    Nome
+                                </f:facet>
+                                <h:outputText value="#{contato.nome}"/>
+                            </h:column>
+                            <h:column>
+                                <f:facet name="header">
+                                    Email
+                                </f:facet>
+                                <h:outputText value="#{contato.email}"/>
+                            </h:column>
+                            <h:column>
+                                <f:facet name="header">
+                                    Telefone
+                                </f:facet>
+                                <h:outputText value="#{contato.telefone}"/>
+                            </h:column>
+
+                            <h:column>
+                                <h:commandLink value="Selecionar"
+                                               action="#{contatoBean.selecionar(contato.codigo)}"/>
+                            </h:column>
+                            <h:column>
+                                <h:commandLink value="Excluir"
+                                               action="#{contatoBean.excluir(contato.codigo)}"
+                                               onclick="return confirm('Deseja excluir o registro?');"
+                                               />
+                            </h:column>
+
+                        </h:dataTable>
+                    </h:form>            
+                    <h:link value="Voltar" outcome="/on/cadastro_contato.xhtml"/>
+                </h:panelGroup>
+            </ui:define>
+
+        </ui:composition>
+    </body>
+</html>
+

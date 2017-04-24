@@ -1,0 +1,185 @@
+﻿
+    /* CONFIG */
+*{margin:0; padding:0;}
+body{background:#CCC url(../../imagens/bg.gif) repeat-x fixed; font:12px Arial, Helvetica, sans-serif; color:#000; line-height:18px; overflow-y:auto;}
+#ajusta_box{width:993px; height:auto; background:#fff; margin:0 auto;}
+#box{width:974px; background:#fff; float:left; padding:0 9px 0 10px;}
+h1{font:22px "Arial", Helvetica, sans-serif; color:#fff; float:left; margin:34px 0 0 40px; font-weight:bold;}
+.h1{width:100%; font:12pt "Arial", Helvetica, sans-serif; color: #605D5C; font-weight: bold; margin: 17px 0 14px; padding: 0;}
+.h2{width:100%; font:12pt "Arial", Helvetica, sans-serif; color: #605D5C; font-weight: bold; margin: 0 0 14px; padding: 0;}
+.tit_vagas{width:439px; font:12pt "Arial", Helvetica, sans-serif; color: #605D5C; font-weight: bold; margin:0; padding:0; padding-bottom:3px; border-bottom:1px solid #ccc; margin-bottom:5px; float:left;}
+.noticiash1{width:100%; float:left; text-align:center; font:12pt "Arial", Helvetica, sans-serif; color: #605D5C; font-weight: bold; margin: 5px 0 16px 0; padding: 0;}
+.noticiash11{width:100%; float:left; text-align:left; font:12pt "Arial", Helvetica, sans-serif; color: #605D5C; font-weight: bold; margin: 5px 0 16px 0; padding: 0;}
+h2{width:214px; text-align:center; float:left; font:16px Arial, Helvetica, sans-serif; color:#636363; float:left; font-weight:bold;}
+h3{font:14px Arial, Helvetica, sans-serif;  float:left; margin:0; padding:4px 3px; color:#fff;}
+h4{font:12px Arial, Helvetica, sans-serif; color:#fff; float:left; margin:0; padding:2px 3px;}
+a{color:#cc0001; text-decoration:none;}
+a:visited{color:#cc0001; text-decoration:none;}
+a:hover{color:#cc0001; text-decoration:none;}
+a:link{color:#cc0001; text-decoration:none;}
+.noborder{border:0;}
+.icon_salvar{float:left; margin:5px 3px 0 0;}
+.salvar{float:left; margin-top:6px; font-style:italic; font-size:8pt;}
+.icon_end{float:left; margin-right:6px;}
+.sem_margen{margin:0 0 0 0;}
+#ajusta_btn_ie6{float:left;}
+
+/* HEADER */
+#header{width:974px; height:auto; float:left; padding-bottom:30px; background:#fff; position:relative;}
+#header_topo{width:974px; height:96px; float:left; background:#cc0001;}
+#header_logo{width:234px; height:96px; float:left;}
+#header_menu{width:974px; height:29px; float:left; background:#dedede;}
+.selecionar_busca{width:234px; float:left; line-height:29px;}
+
+ul#menu{width:729px; height:23px; float:left; list-style:none; padding-top:6px;}
+ul#menu li{display:inline; padding:0; margin:0; float:left;}
+ul#menu li a{color:#000; text-decoration:none; font-weight:bold; padding:7px 15px 6px 15px; border-left:1px solid #dedede; border-right:1px solid #dedede; border-top:1px solid #dedede;}
+ul#menu li a:hover{background:#959595; padding:7px 15px 7px 15px; border-left:1px solid #fff; border-right:1px solid #fff; border-top:1px solid #fff; text-decoration:none; color:#fff;}
+
+form select{width:187px; clear:left; margin:5px 0 0 30px; border:1px solid #959595;}
+form .input2{width:166px; float:left; margin:5px 0 0 30px;}
+form .btn3{width:17px; height:17px; float:left; margin:6px 0 0 1px;}
+#header_search{width:974px; height:5px; float:left; background:#959595;}
+.login{float:right; margin:5px 29px 0 0;}
+
+#login{width:230px; float:left; margin:0 342px;}
+form#frmLogin{float:left;}
+form#frmLogin fieldset{width:220px; float:left; margin-top:50px; padding:5px;}
+form#frmLogin fieldset legend{font:12pt "Arial", Helvetica, sans-serif; color: #605D5C; font-weight: bold; margin: 0 0 10px 0; padding:0 3px;}
+form#frmLogin label{float:left; width:56px; text-align:right; margin-right:3px; padding-top:2px;}
+form#frmLogin input{float:left; width:145px; padding:2px; border:1px solid #F00; margin-bottom:5px;}
+form#frmLogin .checkbox{float:left; width:15px; padding:0; border:none; margin-bottom:5px; margin-right:3px;}
+.txt_check{float:left; padding-top:-2px; margin-bottom:10px;}
+form#frmLogin .btnAcao{background:url(../../imagens/bgBotao.jpg) no-repeat; padding:1px 0 1px 10px; color:#ffffff; width:70px; float:left; border:none;}
+#txt_login{width:914px; float:left; text-align:center; margin-top:30px;}
+
+form#frmNovaSenha{float:left;}
+form#frmNovaSenha fieldset{width:260px; float:left; margin-top:50px; padding:5px;}
+form#frmNovaSenha fieldset legend{font:12pt "Arial", Helvetica, sans-serif; color: #605D5C; font-weight: bold; margin: 0 0 10px 0; padding:0 3px;}
+form#frmNovaSenha label{float:left; width:90px; text-align:right; margin-right:3px; padding-top:2px;}
+form#frmNovaSenha input{float:left; width:145px; padding:2px; border:1px solid #F00; margin-bottom:5px;}
+form#frmNovaSenha .btnAcao{background:url(../../imagens/bgBotao.jpg) no-repeat; padding:1px 0 1px 10px; color:#ffffff; width:70px; float:left; border:none;}
+
+/* HOME */
+#content{width:914px; height:auto; float:left; background:#fff; padding:0 30px 40px 30px; position:relative;}
+#content2{width:914px; height:325px; float:left; background:#fff; padding:0 30px 40px 30px; position:relative;}
+#content2 a{text-decoration:underline; color:#0000FF;}
+#content2 a:hover{text-decoration:underline; color:#0000FF;}
+#banner_pager{float:left; margin-bottom:10px; margin-right:10px;}
+#banner{width:683px; height:220px;  background:#dfdfdf; overflow:hidden; position:relative;}
+#banner img{position:absolute; top:0; left:0; z-index:3; display:block;}
+#nav{right: 271px; position: absolute; top: 189px; z-index: 99999;}
+#nav a{font-size:14px; color:#ffffff; padding:3px 7px; float:left; background:#CC0001;}
+#nav a:hover{background:#959595; color:#ffffff;}
+#nav a.activeSlide{background:#959595; color:#ffffff;}
+
+.home_loja{width:221px; height:220px; float:left;}
+
+.home_bloco01{width:452px; height:auto; float:left; margin-right:10px;}
+.home_bloco01_tit{width:452px; float:left; margin-bottom:3px;}
+.home_bloco01_img{width:220px; height:110px; float:left; margin:0 10px 0 0;}
+.home_bloco01_txt{width:222px; height:110px; float:left;}
+
+.home_bloco02{width:452px; height:auto; float:left;}
+.home_bloco02_tit{width:452px; float:left; margin-bottom:3px;}
+.home_bloco02_img{width:220px; height:110px; float:left; margin:0 10px 0 0;}
+.home_bloco02_txt{width:222px; height:110px; float:left;}
+
+/* CHAVE ACESSO */
+#chave_acesso{width:550px; float:left; margin:0 180px;}
+
+form#frmChave{float:left;}
+form#frmChave img{float:left; text-align:center; margin:0 65px 15px 65px;}
+form#frmChave fieldset{width:550px; float:left; padding:5px; text-align:center;}
+form#frmChave fieldset legend{font:12pt "Arial", Helvetica, sans-serif; color: #605D5C; font-weight: bold; margin: 0 0 10px 0; padding:0 3px;}
+form#frmChave label{float:left; width:145px; text-align:right; margin-right:3px; padding-top:2px; margin-left:165px;}
+form#frmChave input{float:left; width:145px; padding:2px; border:1px solid #F00; margin-bottom:5px;}
+form#frmChave input.chave23{float:left; width:30px; padding:2px; border:1px solid #F00; margin-bottom:5px;}
+form#frmChave .checkbox{float:left; width:15px; padding:0; border:none; margin-bottom:5px; margin-right:3px;}
+.txt_check{float:left; padding-top:-2px; margin-bottom:10px;}
+form#frmChave .btnAcao{background:url(../../imagens/bgBotao.jpg) no-repeat; padding:1px 0 1px 10px; color:#ffffff; width:100px; float:left; border:none;}
+form#frmChave .btnAcao2{background:url(../../imagens/bgBotao.jpg) no-repeat; display:inline; padding:1px 0 1px 10px; color:#ffffff; width:40px; float:left; border:none; margin-right:10px; margin-left:248px;}
+#txt{width:550px; float:left; margin:5px 0 10px 0; text-align:center;}
+#txt2{width:550px; float:left; margin:15px 0 10px 0; text-align:center;}
+
+/* INTERNAS */
+#content_interno{width:944px; height:auto; float:left; background:#fff; padding:0 30px 40px 0;}
+#conteudo{width:440px; height:auto; float:left; position:relative;}
+#conteudo img{float:left; margin-bottom:10px;}
+#conteudo p{width:440px; height:auto; float:left; line-height:18px;}
+#conteudo2{width:683px; height:auto; float:left; position:relative;}
+#breadcumb{width:440px; color:#cc0001; font-size:11px; position:absolute; top:-10px; left:0; z-index:6;}
+#conteudo_produtos{width:671px; height:auto; float:left; position:relative; margin-left:30px;}
+#conteudo_imprensa{width:440px; height:auto; float:left; position:relative;}
+#conteudo_imprensa img{float:left; margin:0 8px 8px 0;}
+#conteudo_imprensa p{width:440px; float:left; line-height:18px;}
+#conteudo_fotos{width:440px; height:auto; float:left; position:relative;
+    top: 0px;
+    left: 0px;
+}
+#conteudo2 a{text-decoration:underline; color:#0000FF;}
+#conteudo2 a:hover{text-decoration:underline; color:#0000FF;}
+#conteudo a{text-decoration:underline; color:#0000FF;}
+#conteudo a:hover{text-decoration:underline; color:#0000FF;}
+#conteudo_interno a{text-decoration:underline; color:#0000FF;}
+#conteudo_interno a:hover{text-decoration:underline; color:#0000FF;}
+#conteudo_imprensa a{text-decoration:underline; color:#0000FF;}
+#conteudo_imprensa a:hover{text-decoration:underline; color:#0000FF;}
+#conteudo_produtos a{text-decoration:underline; color:#0000FF;}
+#conteudo_produtos a:hover{text-decoration:underline; color:#0000FF;}
+#conteudo_fotos a{text-decoration:underline; color:#0000FF;}
+#conteudo_fotos a:hover{text-decoration:underline; color:#0000FF;}
+#conteudo_fotos p{width:440px; float:left; line-height:18px;}
+
+/* NOTICIAS */
+ul#outras_noticias{width:100%; float:left; list-style:none;}
+ul#outras_noticias li{width:100%; float:left; display:block; margin-bottom:12px;}
+ul#outras_noticias li a{width:100%; float:left; display:block;}
+.data_hora{font-size:12px; font-weight:bold;}
+
+/* Endereços */
+ul#enderecos{width:440px; list-style:none; float:left;}
+ul#enderecos li{width:440px; display:block; float:left; margin-bottom:20px; line-height:20px;}
+.imagem_end{width:105px; height:105px; float:left; margin-right:10px;}
+.tit_end{float:left; display:block; font-weight:normal; width:100%; text-align:left; font-size:16px; padding-bottom:3px; border-bottom:1px solid #000000; margin-bottom:3px;}
+.inf_end{float:left; width:325px;}
+
+/* VAGAS */
+ul#outras_vagas{list-style:none; float:left; width:100%;}
+ul#outras_vagas li{display:block; float:left; margin-bottom:20px;}
+ul#outras_vagas li a{display:block; float:left; margin-bottom:20px;}
+
+/* RELEASES */
+ul#outros_releases{width:100%; float:left; list-style:none;}
+ul#outros_releases li{width:100%; float:left; display:block; margin-bottom:12px;}
+ul#outros_releases li a{width:100%; float:left; display:block;}
+
+/* DETALHES */
+ul#detalhes_documentos{width:100%; float:left; list-style:none; font-size:12px;}
+ul#detalhes_documentos li{display:inline;}
+ul#detalhes_documentos li a{float:left; margin-right:10px; margin-bottom:10px; text-align:center;}
+#produtos_detalhes{width:660px; float:left; font-size:12px; margin-left:10px;}
+.combo_smargen{width:187px; clear:left; margin:0px 0 0 0px; border:1px solid #959595;}
+
+/* CONTATOS */
+form#frmContatos{float:left;}
+form#frmContatos input{padding:8px; margin-bottom:5px; float:left;}
+
+/* SIDEBAR */
+#sidebar{width:234px; height:auto; float:left; margin-right:27px;}	
+ul#detalhes_documentos li a{float:left; margin-right:10px; margin-bottom:10px; text-align:center;}
+
+
+/* SIDEBAR */
+#sidebar{width:234px; height:auto; float:left; margin-right:27px;}	
+#sidebar_menu{width:234px; float:left;}	
+#sidebar_right{width:196px; height:auto; background:#dedede; float:left; margin-left:27px; padding:10px;}
+
+/* FOOTER */
+#footer{width:914px; background:#fff; float:left; padding:0 39px 13px 40px;}
+#footer img{float:left;}
+ul#footer_links{list-style:none; float:left; margin-left:10px;}
+ul#footer_links li{display:inline;}
+ul#footer_links li a{padding:0 6px; font-size:12px; color:#000;}
+
+#direitos{float:right; font-size:10px;}

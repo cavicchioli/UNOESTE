@@ -1,0 +1,9 @@
+D:\Faculdade\7º Termo\T.T.Comp\2 Bimestre\Trabalho\ConsomeWebService\ConsomeWebService\bin\ConsomeWebService.dll
+D:\Faculdade\7º Termo\T.T.Comp\2 Bimestre\Trabalho\ConsomeWebService\ConsomeWebService\bin\ConsomeWebService.pdb
+D:\Faculdade\7º Termo\T.T.Comp\2 Bimestre\Trabalho\ConsomeWebService\ConsomeWebService\obj\Debug\ResolveAssemblyReference.cache
+D:\Faculdade\7º Termo\T.T.Comp\2 Bimestre\Trabalho\ConsomeWebService\ConsomeWebService\obj\Debug\ConsomeWebService.dll
+D:\Faculdade\7º Termo\T.T.Comp\2 Bimestre\Trabalho\ConsomeWebService\ConsomeWebService\obj\Debug\ConsomeWebService.pdb
+D:\Trabalho\ConsomeWebService\ConsomeWebService\bin\ConsomeWebService.dll
+D:\Trabalho\ConsomeWebService\ConsomeWebService\bin\ConsomeWebService.pdb
+D:\Trabalho\ConsomeWebService\ConsomeWebService\obj\Debug\ConsomeWebService.dll
+D:\Trabalho\ConsomeWebService\ConsomeWebService\obj\Debug\ConsomeWebService.pdb

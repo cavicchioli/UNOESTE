@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <body>
+        <ui:composition template="./../WEB-INF/template/modelo.xhtml">
+
+            <ui:define name="conteudo">
+                <h:panelGroup rendered="#{not cidadeBean.pesquisando}">
+                    <h1>Cadastro de Cidades</h1>
+                    <h:form prependId="false">
+                        <h:outputLabel for="txtCodigo" value="Código"/>
+                        <h:inputText id="txtCodigo" size="7" maxlength="5"
+                                     required="true" requiredMessage="Código não informado."
+                                     converterMessage="O código deve ser um número inteiro."
+                                     validatorMessage="O código deve ser um número inteiro maior que zero."
+                                     value="#{cidadeBean.cidade.codigo}">
+                            <f:validateLongRange minimum="1" />
+                        </h:inputText>
+
+                        <h:outputLabel for="txtNome" value="Nome"/>
+                        <h:inputText id="txtNome" size="80" maxlength="100"
+                                     required="true" requiredMessage="Nome não informado"
+                                     value="#{cidadeBean.cidade.nome}">
+                            <f:validateLength maximum="100"/>
+                        </h:inputText>
+
+                        <h:outputLabel for="selEstado">Estados</h:outputLabel>
+                        <h:selectOneMenu id="selEstado" 
+                                         value="#{cidadeBean.cidade.estado}"
+                                         required="true" requiredMessage="Escolha um estado!">
+                            <f:converter converterId="UFConverter"/>
+                            <f:selectItem itemLabel="-- Selecione um --" 
+                                          itemValue="#{null}"/>
+                            <f:selectItems value="#{listaDeEstados.estadosCadastrados}"
+                                           var="uf"
+                                           itemLabel="#{uf.nome}"
+                                           itemValue="#{uf}"
+                                           />
+                        </h:selectOneMenu>
+
+                        <p>
+                            <h:commandButton value="Inserir" 
+                                             disabled="#{cidadeBean.alterando}"
+                                             action="#{cidadeBean.inserir()}"/>
+                            <h:commandButton value="Alterar" 
+                                             disabled="#{not cidadeBean.alterando}"
+                                             action="#{cidadeBean.alterar()}"/>
+                            <h:commandButton value="Consultar" immediate="true"
+                                             action="#{cidadeBean.ativarPesquisa()}"/>
+                            <h:commandButton value="Limpar" immediate="true"
+                                             action="#{cidadeBean.limpar()}"/>
+                        </p>
+                        
+                    </h:form>
+                </h:panelGroup>
+               <h:panelGroup rendered="#{cidadeBean.pesquisando}">
+                    <h1>Cidades Cadastradas</h1>
+                    <h:form>
+                        <h:dataTable var="cidade" value="#{cidadeBean.cadastrados}">
+                            <h:column>
+                                <f:facet name="header">
+                                    Código
+                                </f:facet>
+                                <h:outputText value="#{cidade.codigo}"/>
+                            </h:column>
+                            <h:column>
+                                <f:facet name="header">
+                                    Nome
+                                </f:facet>
+                                <h:outputText value="#{cidade.nome}"/>
+                            </h:column>
+                            <h:column>
+                                <f:facet name="header">
+                                    UF
+                                </f:facet>
+                                <h:outputText value="#{cidade.estado.sigla}"/>
+                            </h:column>
+                            <h:column>
+                                <h:commandLink value="Selecionar"
+                                               action="#{cidadeBean.selecionar(cidade.codigo)}"/>
+                            </h:column>
+                            <h:column>
+                                <h:commandLink value="Excluir"
+                                               action="#{cidadeBean.excluir(cidade.codigo)}"
+                                               onclick="return confirm('Deseja excluir o registro?');"/>
+                            </h:column>
+
+                        </h:dataTable>
+                    </h:form>            
+                    <h:link value="Voltar" outcome="/on/cadastro_cidade.xhtml"/>
+                </h:panelGroup>
+            </ui:define>
+
+        </ui:composition>
+    </body>
+</html>

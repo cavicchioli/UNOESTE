@@ -1,0 +1,30 @@
+D:\Trabalho\Especializacao\Frameworks para Persistência de Dados\Turma 2013-2014\Avaliacao2B\Avaliacao2B\bin\Debug\EntityFramework.dll
+D:\Trabalho\Especializacao\Frameworks para Persistência de Dados\Turma 2013-2014\Avaliacao2B\Avaliacao2B\bin\Debug\EntityFramework.xml
+D:\Trabalho\Especializacao\Frameworks para Persistência de Dados\Turma 2013-2014\Avaliacao2B\Avaliacao2B\bin\Debug\ExemploPos.dll.config
+D:\Trabalho\Especializacao\Frameworks para Persistência de Dados\Turma 2013-2014\Avaliacao2B\Avaliacao2B\bin\Debug\ExemploPos.dll
+D:\Trabalho\Especializacao\Frameworks para Persistência de Dados\Turma 2013-2014\Avaliacao2B\Avaliacao2B\bin\Debug\ExemploPos.pdb
+D:\Trabalho\Especializacao\Frameworks para Persistência de Dados\Turma 2013-2014\Avaliacao2B\Avaliacao2B\obj\Debug\ExemploPos.dll
+D:\Trabalho\Especializacao\Frameworks para Persistência de Dados\Turma 2013-2014\Avaliacao2B\Avaliacao2B\obj\Debug\ExemploPos.pdb
+D:\Trabalho\Especializacao\Frameworks para Persistência de Dados\Turma 2013-2014\ExemploPos\ExemploPos\bin\Debug\ExemploPos.dll.config
+D:\Trabalho\Especializacao\Frameworks para Persistência de Dados\Turma 2013-2014\ExemploPos\ExemploPos\bin\Debug\ExemploPos.dll
+D:\Trabalho\Especializacao\Frameworks para Persistência de Dados\Turma 2013-2014\ExemploPos\ExemploPos\bin\Debug\ExemploPos.pdb
+D:\Trabalho\Especializacao\Frameworks para Persistência de Dados\Turma 2013-2014\ExemploPos\ExemploPos\bin\Debug\EntityFramework.dll
+D:\Trabalho\Especializacao\Frameworks para Persistência de Dados\Turma 2013-2014\ExemploPos\ExemploPos\bin\Debug\EntityFramework.xml
+D:\Trabalho\Especializacao\Frameworks para Persistência de Dados\Turma 2013-2014\ExemploPos\ExemploPos\obj\Debug\ExemploPos.csprojResolveAssemblyReference.cache
+D:\Trabalho\Especializacao\Frameworks para Persistência de Dados\Turma 2013-2014\ExemploPos\ExemploPos\obj\Debug\ExemploPos.dll
+D:\Trabalho\Especializacao\Frameworks para Persistência de Dados\Turma 2013-2014\ExemploPos\ExemploPos\obj\Debug\ExemploPos.pdb
+C:\Users\Eduardo\Desktop\Pos\ExemploPos\ExemploPos\bin\Debug\ExemploPos.dll.config
+C:\Users\Eduardo\Desktop\Pos\ExemploPos\ExemploPos\bin\Debug\ExemploPos.dll
+C:\Users\Eduardo\Desktop\Pos\ExemploPos\ExemploPos\bin\Debug\ExemploPos.pdb
+C:\Users\Eduardo\Desktop\Pos\ExemploPos\ExemploPos\bin\Debug\EntityFramework.dll
+C:\Users\Eduardo\Desktop\Pos\ExemploPos\ExemploPos\bin\Debug\EntityFramework.xml
+C:\Users\Eduardo\Desktop\Pos\ExemploPos\ExemploPos\obj\Debug\ExemploPos.csprojResolveAssemblyReference.cache
+C:\Users\Eduardo\Desktop\Pos\ExemploPos\ExemploPos\obj\Debug\ExemploPos.dll
+C:\Users\Eduardo\Desktop\Pos\ExemploPos\ExemploPos\obj\Debug\ExemploPos.pdb
+G:\entity\ExemploPos\ExemploPos\bin\Debug\ExemploPos.dll.config
+G:\entity\ExemploPos\ExemploPos\bin\Debug\ExemploPos.dll
+G:\entity\ExemploPos\ExemploPos\bin\Debug\ExemploPos.pdb
+G:\entity\ExemploPos\ExemploPos\bin\Debug\EntityFramework.dll
+G:\entity\ExemploPos\ExemploPos\bin\Debug\EntityFramework.xml
+G:\entity\ExemploPos\ExemploPos\obj\Debug\ExemploPos.dll
+G:\entity\ExemploPos\ExemploPos\obj\Debug\ExemploPos.pdb

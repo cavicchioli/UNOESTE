@@ -1,0 +1,60 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="PhoneApp1.Database"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <phone:PhoneApplicationPage.Resources>
+        <DataTemplate x:Name="ProdutosTemplate">
+            <Grid Height="Auto" VerticalAlignment="Top">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="410"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <CheckBox Grid.Column="0" Width="410" Name="ckProdutos" Content="{Binding Nome}" IsChecked="{Binding Selecionado}" Tap="ckProdutos_Tap"/>
+                <TextBlock Grid.Column="0" Margin="70,45,0,0" Name="txtMarca" Text="{Binding Marca}"/>
+                <Image Grid.Column="1" Source="Assets/trash.png" Tap="Image_Tap" Width="40"/>
+                <Rectangle Grid.Column="0" Grid.ColumnSpan="2" Margin="0,75,0,0" Height="1" Width="480" Fill="Silver" />
+            </Grid>
+        </DataTemplate>
+    </phone:PhoneApplicationPage.Resources>
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock Text="ESPECIALIZAÇÃO UNOESTE" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock Text="banco de dados" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <StackPanel x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <TextBlock Text="Lista de Produtos" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <ListBox Name="lbProdutos"
+                 ItemTemplate="{StaticResource ProdutosTemplate}" MaxHeight="455"/>
+            <toolkit:PhoneTextBox Name="txtProdutos" Hint="Nome do Produto Marca"
+                                 ActionIcon="Assets/add.png"
+                                  MaxLength="30"
+                                  DisplayedMaxLength="30"
+                                  ActionIconTapped="txtProdutos_ActionIconTapped"
+                                  LengthIndicatorVisible="True"/>
+                                  
+        </StackPanel>
+    </Grid>
+
+</phone:PhoneApplicationPage>

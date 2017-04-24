@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>LF105M04</Machine>
+    <WindowsUser>Aluno</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>F5763378E583828163174DEC92E3C004A7CD42C55A592237F7BDE4483829A985</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>75640d60-bd81-4e86-954e-b30d61d2db1e_1.0.0.0_neutral__e3700t8fwz802</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>75640d60-bd81-4e86-954e-b30d61d2db1e_e3700t8fwz802!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>75640d60-bd81-4e86-954e-b30d61d2db1e</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Aluno</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="G:\SOLUCAOPOS\App1\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-12-06T15:41:56.746</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="G:\SOLUCAOPOS\App1\bin\Debug\App1.exe">
+      <PackagePath>App1.exe</PackagePath>
+      <Modified>2014-12-06T18:15:46.814</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\SOLUCAOPOS\App1\bin\Debug\App1.pdb">
+      <PackagePath>App1.pdb</PackagePath>
+      <Modified>2014-12-06T18:15:46.785</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\SOLUCAOPOS\App1\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-15T22:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\SOLUCAOPOS\App1\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-15T22:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\SOLUCAOPOS\App1\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-15T22:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\SOLUCAOPOS\App1\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-15T22:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\SOLUCAOPOS\App1\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2014-12-06T12:47:40.581</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\SOLUCAOPOS\App1\bin\Debug\Common\recursos.xaml">
+      <PackagePath>Common\recursos.xaml</PackagePath>
+      <Modified>2014-12-06T17:44:41.785</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\SOLUCAOPOS\App1\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2012-06-26T18:19:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\SOLUCAOPOS\App1\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+      <Modified>2014-12-06T12:03:00.667</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\SOLUCAOPOS\App1\bin\Debug\view\cadastranoticia.xaml">
+      <PackagePath>view\cadastranoticia.xaml</PackagePath>
+      <Modified>2014-12-06T17:49:42.508</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\SOLUCAOPOS\App1\bin\Debug\view\listanoticias.xaml">
+      <PackagePath>view\listanoticias.xaml</PackagePath>
+      <Modified>2014-12-06T17:28:55.681</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\SOLUCAOPOS\App1\bin\Debug\view\principal.xaml">
+      <PackagePath>view\principal.xaml</PackagePath>
+      <Modified>2014-12-06T13:07:29.167</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\SOLUCAOPOS\App1\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-12-06T13:08:57.418</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <title>Login de Usuário</title>
+        <style type="text/css">
+            #painel {
+                width: 50%;
+                border: 1px solid red;
+                margin: 0 auto;
+                padding: 10px
+            }
+            .erro {
+                color: red; font-weight: bolder; margin-left: 5px;
+            }
+            label {display: block; font-weight: bolder;}
+        </style>
+    </h:head>
+    <h:body>
+        <h1>Autenticação de Usuário</h1>
+        <h:form prependId="false">
+            <h:panelGroup id="painel" layout="block">
+                <p>
+                    <h:outputLabel for="txtLogin">
+                        Login
+                    </h:outputLabel>
+                    <h:inputText id="txtLogin" size="15" maxlength="10"
+                                 required="true"
+                                 requiredMessage="O Login deve ser informado."
+                                 value="#{loginBean.login}"/>
+                    <h:message for="txtLogin" styleClass="erro"/>
+                </p>
+                <p>
+                    <h:outputLabel for="txtSenha">
+                        Senha
+                    </h:outputLabel>
+                    <h:inputSecret id="txtSenha" size="10" maxlength="8"
+                                   required="true" requiredMessage="A senha deve ser informada."
+                                   value="#{loginBean.senha}"/>
+                    <h:message for="txtSenha" styleClass="erro"/>
+                </p>
+                <h:commandButton id="bOK" value="Entrar"
+                                 action="#{loginBean.efetuarLogin()}"/>
+            </h:panelGroup>
+        </h:form>
+    </h:body>
+</html>
+

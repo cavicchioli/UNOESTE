@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core">
+    <h:head>
+        <title>Cadastro de Funcionarios</title>
+    </h:head>
+    <h:body>
+        <h1>Cadastro de Funcionarios</h1>
+        <h:form>
+            <h:messages/>
+            Código<br/>
+            <h:inputText id="txtCodigo" value="#{funcionarioForm.funcionario.codigo}"
+                         size="5" maxlength="5"
+                         required="true" requiredMessage="O Código não foi informado!"
+                         validatorMessage="Código deve ser maior que Zero!"
+                         converterMessage="O Código deve ser um número inteiro positivo!">
+                <f:validateLongRange minimum="1"/>
+            </h:inputText>
+            <br/>
+            Nome<br/>
+            <h:inputText id="txtNome" value="#{funcionarioForm.funcionario.nome}" 
+                         size="80" maxlength="60"
+                         required="true" requiredMessage="Nome não informado!"
+                         validatorMessage="O nome deve ter no máximo 60 letras!">
+                <f:validateLength maximum="60"/>
+            </h:inputText>
+            <br/>
+            
+            Endereço<br/>
+            <h:inputText id="txtEndereco" value="#{funcionarioForm.funcionario.endereco}" 
+                         size="80" maxlength="60"
+                         required="true" requiredMessage="Endereço não informado!"
+                         validatorMessage="O nome deve ter no máximo 60 letras!">
+                <f:validateLength maximum="60"/>
+            </h:inputText>
+            <br/>
+            Número<br/>
+            <h:inputText id="txtNumero" value="#{funcionarioForm.funcionario.enderecoNumero}" 
+                         size="5" maxlength="5"
+                         required="true" requiredMessage="O Número não foi informado!"
+                         validatorMessage="Número deve ser maior que Zero!"
+                         converterMessage="O Número deve ser um número inteiro positivo!">
+                <f:validateLength maximum="60"/>
+            </h:inputText>
+            <br/>
+             Complemento<br/>
+             <h:inputText id="txtComplemento" value="#{funcionarioForm.funcionario.enderecoComplemento}" 
+                         size="80" maxlength="60"
+                         required="true" requiredMessage="Complemento não informado!"
+                         validatorMessage="O nome deve ter no máximo 60 letras!">
+                <f:validateLength maximum="60"/>
+            </h:inputText>
+            <br/>
+             Bairro<br/>
+             <h:inputText id="txtBairro" value="#{funcionarioForm.funcionario.bairro}" 
+                         size="80" maxlength="60"
+                         required="true" requiredMessage="Bairro não informado!"
+                         validatorMessage="O nome deve ter no máximo 60 letras!">
+                <f:validateLength maximum="60"/>
+            </h:inputText>
+            <br/>
+            
+            Departamento<br/>
+            <h:selectOneMenu id="selDepartamento"
+                             value="#{funcionarioForm.funcionario.departamento}">
+                <f:converter converterId="DepartamentoConverter"/>
+                <f:selectItem itemLabel="--- Escolha um ---" 
+                              itemValue="#{null}"/>
+                <f:selectItems value="#{funcionarioForm.departamentos}" 
+                               var="departamento"
+                               itemLabel="#{departamento.nome}" 
+                               itemValue="#{departamento}"
+                               />
+            </h:selectOneMenu>
+            <br/>
+            
+             Login<br/>
+             <h:inputText id="txtLogin" value="#{funcionarioForm.funcionario.login}" 
+                         size="80" maxlength="60"
+                         required="true" requiredMessage="Login não informado!"
+                         validatorMessage="O nome deve ter no máximo 60 letras!">
+                <f:validateLength maximum="60"/>
+            </h:inputText>
+            <br/>
+            
+            Senha<br/>
+            <h:inputSecret id="txtSenha" value="#{funcionarioForm.funcionario.senha}" 
+                         size="80" maxlength="60"
+                         required="true" requiredMessage="Senha não informado!"
+                         validatorMessage="O nome deve ter no máximo 60 letras!">
+                <f:validateLength maximum="60"/>
+            </h:inputSecret>
+            <br/>
+            
+            Funcionário Ativo<br/>
+            <h:selectBooleanCheckbox id="ckAtivo" value="#{funcionarioForm.funcionario.ativo}" 
+                                 required="true"
+                                 validatorMessage="O campo deve ter ser selecionado"
+                            />
+            <br/>
+            
+            <h:commandButton value="Inserir" action="#{funcionarioForm.inserir()}"/>
+            <h:commandButton id="btnAtualizar" value="Alterar" 
+                             action="#{funcionarioForm.alterar()}"/>
+            <h:commandButton id="btnDeletar" value="Deletar" 
+                             action="#{funcionarioForm.deletar()}"/>
+            <h:commandButton id="btnLimpar" value="Limpar" 
+                             action="#{funcionarioForm.limpar()}"/>
+        </h:form>
+        <ul>
+            <li>
+                <h:link outcome="funcionarios.xhtml" value="Lista de Funcionarios"/>
+            </li>
+            <li>
+                <h:link outcome="principal.xhtml" value="Página Principal"/>
+            </li>
+        </ul>
+    </h:body>
+</html>
+

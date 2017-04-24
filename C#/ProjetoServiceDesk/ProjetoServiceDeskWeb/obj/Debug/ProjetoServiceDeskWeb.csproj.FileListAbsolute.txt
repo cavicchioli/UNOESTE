@@ -1,0 +1,15 @@
+C:\Users\Eduardo\Desktop\ProjetoServiceDesk\ProjetoServiceDeskWeb\obj\Debug\ProjetoServiceDeskWeb.csprojResolveAssemblyReference.cache
+C:\Users\Eduardo\Desktop\ProjetoServiceDesk\ProjetoServiceDeskWeb\bin\ProjetoHelpDeskWeb.dll.config
+C:\Users\Eduardo\Desktop\ProjetoServiceDesk\ProjetoServiceDeskWeb\bin\ProjetoHelpDeskWeb.dll
+C:\Users\Eduardo\Desktop\ProjetoServiceDesk\ProjetoServiceDeskWeb\bin\ProjetoHelpDeskWeb.pdb
+C:\Users\Eduardo\Desktop\ProjetoServiceDesk\ProjetoServiceDeskWeb\bin\ProjetoHelpDesk.dll
+C:\Users\Eduardo\Desktop\ProjetoServiceDesk\ProjetoServiceDeskWeb\bin\ProjetoHelpDesk.pdb
+C:\Users\Eduardo\Desktop\ProjetoServiceDesk\ProjetoServiceDeskWeb\obj\Debug\ProjetoHelpDeskWeb.dll
+C:\Users\Eduardo\Desktop\ProjetoServiceDesk\ProjetoServiceDeskWeb\obj\Debug\ProjetoHelpDeskWeb.pdb
+C:\Users\Victor\Desktop\ProjetoServiceDesk\ProjetoServiceDesk\ProjetoServiceDeskWeb\obj\Debug\ProjetoServiceDeskWeb.csprojResolveAssemblyReference.cache
+C:\Users\Victor\Desktop\ProjetoServiceDesk\ProjetoServiceDesk\ProjetoServiceDeskWeb\obj\Debug\ProjetoHelpDeskWeb.dll
+C:\Users\Victor\Desktop\ProjetoServiceDesk\ProjetoServiceDesk\ProjetoServiceDeskWeb\bin\ProjetoHelpDeskWeb.dll
+C:\Users\Victor\Desktop\ProjetoServiceDesk\ProjetoServiceDesk\ProjetoServiceDeskWeb\bin\ProjetoHelpDeskWeb.pdb
+C:\Users\Victor\Desktop\ProjetoServiceDesk\ProjetoServiceDesk\ProjetoServiceDeskWeb\bin\ProjetoHelpDesk.dll
+C:\Users\Victor\Desktop\ProjetoServiceDesk\ProjetoServiceDesk\ProjetoServiceDeskWeb\bin\ProjetoHelpDesk.pdb
+C:\Users\Victor\Desktop\ProjetoServiceDesk\ProjetoServiceDesk\ProjetoServiceDeskWeb\obj\Debug\ProjetoHelpDeskWeb.pdb

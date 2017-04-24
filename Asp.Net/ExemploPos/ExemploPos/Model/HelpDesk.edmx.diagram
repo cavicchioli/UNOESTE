@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ba3c129c383840f4aac6f2114d48075a" Name="Diagram1">
+        <EntityTypeShape EntityType="HelpDeskModel.Atividade" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="HelpDeskModel.Classificacao" Width="1.5" PointX="5.25" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="HelpDeskModel.Funcionario" Width="1.5" PointX="0.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="HelpDeskModel.Solicitante" Width="1.5" PointX="0.75" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="HelpDeskModel.Status" Width="1.5" PointX="5.375" PointY="4.375" IsExpanded="true" />
+        <AssociationConnector Association="HelpDeskModel.FK_Atividade_Funcionario" ManuallyRouted="false" />
+        <AssociationConnector Association="HelpDeskModel.FK_Atividade_Solicitante" ManuallyRouted="false" />
+        <AssociationConnector Association="HelpDeskModel.FK_Atividade_StatusAtividade" ManuallyRouted="false" />
+        <AssociationConnector Association="HelpDeskModel.AtividadeClassificacao" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

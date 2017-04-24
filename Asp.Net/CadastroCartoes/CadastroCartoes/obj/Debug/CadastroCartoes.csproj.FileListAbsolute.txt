@@ -1,0 +1,5 @@
+C:\Users\Victor\Desktop\CadastroCartoes\CadastroCartoes\bin\CadastroCartoes.dll
+C:\Users\Victor\Desktop\CadastroCartoes\CadastroCartoes\bin\CadastroCartoes.pdb
+C:\Users\Victor\Desktop\CadastroCartoes\CadastroCartoes\obj\Debug\CadastroCartoes.csprojResolveAssemblyReference.cache
+C:\Users\Victor\Desktop\CadastroCartoes\CadastroCartoes\obj\Debug\CadastroCartoes.dll
+C:\Users\Victor\Desktop\CadastroCartoes\CadastroCartoes\obj\Debug\CadastroCartoes.pdb

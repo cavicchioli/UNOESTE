@@ -1,0 +1,17 @@
+label {
+    font-weight: bolder;
+    display: block;
+}
+.erro {
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid red;
+    background-color: #ece3a5;
+}
+.erro h1 {
+    text-align: center;
+    color: red;
+}
+#content p.botoes input {
+    margin: 5px;
+}

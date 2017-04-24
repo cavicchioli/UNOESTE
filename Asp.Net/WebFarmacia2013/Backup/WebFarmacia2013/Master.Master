@@ -1,0 +1,82 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="WebFarmacia2013.Master" %>
+
+<%@ Register assembly="AjaxControlToolkit" namespace="AjaxControlToolkit" tagprefix="cc1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div align="center">
+        <table class="style1" bgcolor="#000099">
+            <tr>
+                <td width="20%">
+                    <asp:ImageButton ID="ImageButton1" runat="server" Height="44px" 
+                        ImageUrl="~/Imagens/comprimido.gif" Width="63px" 
+                        onclick="ImageButton1_Click" />
+                </td>
+                <td>
+                    <table class="style1">
+                        <tr>
+                            <td>
+                                <asp:Image ID="Image1" runat="server" Height="58px" 
+                                    ImageUrl="~/Imagens/Logo-Farma.png" Width="278px" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <asp:Label ID="lblBenvindo" runat="server" ForeColor="White" 
+                                    Text="Benvindo visitante!"></asp:Label>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td width="20%">
+                    <asp:ImageButton ID="ImageButton2" runat="server" Height="45px" 
+                        ImageUrl="~/Imagens/farmacia.gif" Width="60px" 
+                        onclick="ImageButton2_Click" />
+                </td>
+            </tr>
+        </table>
+
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+            <p>
+                <br />
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    <div align="center">
+    <asp:Panel ID="Panel1" runat="server">
+        <asp:Label ID="Label2" runat="server" 
+            Text="Desenvolvido por Rodolpho dos Reis Junior - Todos direitos reservados." 
+            ForeColor="#000099" 
+            style="font-weight: 700; font-family: Arial, Helvetica, sans-serif; font-size: xx-small"></asp:Label>
+    </asp:Panel>
+        <cc1:AlwaysVisibleControlExtender ID="Panel1_AlwaysVisibleControlExtender" 
+            runat="server" Enabled="True" TargetControlID="Panel1" 
+            VerticalSide="Bottom" HorizontalSide="Center">
+        </cc1:AlwaysVisibleControlExtender>
+    </div>
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>
+    </form>
+</body>
+</html>

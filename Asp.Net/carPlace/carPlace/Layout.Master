@@ -1,0 +1,70 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Layout.master.cs" Inherits="carPlace.Layout" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+        		
+                <meta charset="utf-8">
+                <title>Automotive</title>
+                <meta name="description" content="">
+                <meta name="author" content="">
+                
+				<meta name="viewport" content="width=device-width" />
+
+                <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,400italic' rel='stylesheet' type='text/css'>
+                <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+                
+				<link rel="stylesheet" href="rs-plugin/css/settings.css" media="screen" />
+                <link rel="stylesheet" href="css/style.css"> <!--Your Styles-->
+				<link rel="stylesheet" href="css/responsive.css">
+				<link rel="stylesheet" href="css/timeline.css">
+                <link rel="stylesheet" href="rs-plugin/css/responsive.css" media="screen" />
+                
+				<link rel="shortcut icon" href="images/favicon.png">
+   				
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header>
+                        <div class="header-wrapper clearfix">
+                        	<div class="header clearfix">
+                        		<div class="logo clearfix">
+                        			<img src="images/logo.png" alt="Logo"/>
+                        		</div>
+                        	</div>
+                        </div>					
+		</header>
+        <div class="fullwidthbanner-container slider-wrapper">
+   					<div class="fullwidthbanner slider">
+                    	<ul>
+                            <li class="slide" data-transition="boxfade" data-slotamount="7">
+                               <img src="Imagens_Layout/07-All_Photogallery_L319_11MY_LHD_EXT_sea_shot_with_cliff_view-850x425.jpg" 
+                                    alt="pic"/>
+                               <h2 class="caption sft heading-a" data-x="0" data-y="100" data-start="1700">&nbsp;</h2>
+                            </li>
+                        </ul>
+                    </div>
+ 
+				</div>
+        <div>
+        <div class="container-wrapper">
+                
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    </div>
+    <div class="footer-wrapper">
+                    <footer class="clearfix">
+                    	<div class="copy-right">
+                    		<p>Powered By Victor Cavicchioli RA: 0261030370</p>
+                    		<p>Copyright ©.  All rights reserved</p>
+                    	</div>   
+                    </footer>
+                </div>
+</body>
+</html>

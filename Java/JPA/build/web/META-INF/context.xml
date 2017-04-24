@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" 
+         antiResourceLocking="true"
+         path="/JPA">
+    <Resource auth="Container"
+              description="Exemplo JPA"
+              driverClassName="org.postgresql.Driver"
+              maxActive="30"
+              maxIdle="15"
+              name="jdbc/posgrad"
+              removeAbandoned="true"
+              removeAbandonedTimeout="60"
+              type="javax.sql.DataSource"
+              url="jdbc:postgresql://localhost:5432/postgres"
+              username="postgres"
+              password="postgres123"
+              validationQuery="SELECT 1;"
+              />
+</Context>

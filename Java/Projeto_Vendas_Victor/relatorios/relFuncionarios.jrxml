@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="relFuncionarios" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="f759fa4e-c9ce-4134-bf5d-b61c866dfb49">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="SQL">
+		<![CDATA[select * from pessoas p, fisicas fi, funcionarios f where p.pes_codigo = fi.fis_codigo and fi.fis_codigo = f.func_codigo]]>
+	</queryString>
+	<field name="fis_nome" class="java.lang.String"/>
+	<field name="func_matricula" class="java.lang.Integer"/>
+	<field name="pes_ddd" class="java.lang.Integer"/>
+	<field name="pes_telefone" class="java.lang.String"/>
+	<field name="fis_cpf" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch">
+			<staticText>
+				<reportElement x="62" y="10" width="410" height="36" uuid="56337292-7bf0-435f-a26c-8383d912e9c9"/>
+				<textElement textAlignment="Center">
+					<font size="24" isBold="true"/>
+				</textElement>
+				<text><![CDATA[RELATÓRIO DE FUNCIONÁRIOS]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="455" y="46" width="100" height="20" uuid="73f82b8c-b7e8-4f37-8060-c7594d7ec428"/>
+				<textFieldExpression><![CDATA[new java.text.SimpleDateFormat("dd/MM/yyyy HH:mm").format(new Date())]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<detail>
+		<band height="81" splitType="Stretch">
+			<staticText>
+				<reportElement x="259" y="34" width="34" height="20" uuid="bce8ed96-e628-43e3-b3b8-3a002cc46c2f"/>
+				<textElement>
+					<font size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[CPF:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="12" y="10" width="68" height="20" uuid="e7d325f9-1950-4974-9592-b254057dd84b"/>
+				<textElement>
+					<font size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Funcionário:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="12" y="4" width="535" height="1" uuid="3b2f3d6a-506c-4c2d-bd13-012ea70fba19"/>
+			</line>
+			<staticText>
+				<reportElement x="13" y="58" width="68" height="20" uuid="796a976c-b28e-4ad8-a289-0c5215a2ca1f"/>
+				<textElement>
+					<font size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Telefone:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="80" y="10" width="467" height="20" uuid="3c05aee6-84cf-40d7-8a3a-e56eefbe25af"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{fis_nome}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="12" y="34" width="68" height="20" uuid="133be918-7cb8-4093-b828-2d6d407e29bc"/>
+				<textElement>
+					<font size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Matrícula:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="80" y="34" width="156" height="20" uuid="844bb056-bade-4954-b08b-5f84262d722a"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{func_matricula}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="81" y="58" width="56" height="20" uuid="cc7e5df3-326c-45ac-b0ad-6da97ef5aba9"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{pes_ddd}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="137" y="58" width="157" height="20" uuid="e7d631a3-5a1f-4619-8a41-78a0e1be4f56"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{pes_telefone}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="293" y="34" width="100" height="20" uuid="6e8d407d-1a55-4a05-bd14-91d96037f38f"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{fis_cpf}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="25" splitType="Stretch">
+			<textField evaluationTime="Report">
+				<reportElement x="513" y="0" width="40" height="20" uuid="5fa7cd18-ba2c-43f3-bbd2-de035996cb67"/>
+				<textFieldExpression><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="433" y="0" width="80" height="20" uuid="7998315f-5374-4885-9194-1a0fdd89e496"/>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA["Page "+$V{PAGE_NUMBER}+" of"]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+</jasperReport>

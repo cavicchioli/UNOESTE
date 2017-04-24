@@ -1,0 +1,43 @@
+D:\Copa2014\Copa2014\Copa2014\bin\Debug\Copa2014.exe.config
+D:\Copa2014\Copa2014\Copa2014\bin\Debug\Copa2014.exe
+D:\Copa2014\Copa2014\Copa2014\bin\Debug\Copa2014.pdb
+D:\Copa2014\Copa2014\Copa2014\obj\Debug\Copa2014.csprojResolveAssemblyReference.cache
+D:\Copa2014\Copa2014\Copa2014\obj\Debug\Copa2014.frmPrincipal.resources
+D:\Copa2014\Copa2014\Copa2014\obj\Debug\Copa2014.Properties.Resources.resources
+D:\Copa2014\Copa2014\Copa2014\obj\Debug\Copa2014.csproj.GenerateResource.Cache
+D:\Copa2014\Copa2014\Copa2014\obj\Debug\Copa2014.exe
+D:\Copa2014\Copa2014\Copa2014\obj\Debug\Copa2014.pdb
+D:\Copa2014\Copa2014\Copa2014\obj\Debug\Copa2014.Apresentacao.frmGrupos.resources
+D:\Copa2014\Copa2014\Copa2014\obj\Debug\Copa2014.Apresentacao.fConsultaGrupos.resources
+F:\Material C# VS Pos\2014\Copa2014\Copa2014\Copa2014\bin\Debug\Copa2014.exe.config
+F:\Material C# VS Pos\2014\Copa2014\Copa2014\Copa2014\obj\Debug\Copa2014.exe
+F:\Material C# VS Pos\2014\Copa2014\Copa2014\Copa2014\obj\Debug\Copa2014.pdb
+F:\Material C# VS Pos\2014\Copa2014\Copa2014\Copa2014\bin\Debug\Copa2014.exe
+F:\Material C# VS Pos\2014\Copa2014\Copa2014\Copa2014\bin\Debug\Copa2014.pdb
+F:\Material C# VS Pos\2014\Copa2014\Copa2014\Copa2014\obj\Debug\Copa2014.csprojResolveAssemblyReference.cache
+F:\Material C# VS Pos\2014\Copa2014\Copa2014\Copa2014\obj\Debug\Copa2014.Apresentacao.fConsultaGrupos.resources
+F:\Material C# VS Pos\2014\Copa2014\Copa2014\Copa2014\obj\Debug\Copa2014.Apresentacao.frmGrupos.resources
+F:\Material C# VS Pos\2014\Copa2014\Copa2014\Copa2014\obj\Debug\Copa2014.frmPrincipal.resources
+F:\Material C# VS Pos\2014\Copa2014\Copa2014\Copa2014\obj\Debug\Copa2014.Properties.Resources.resources
+F:\Material C# VS Pos\2014\Copa2014\Copa2014\Copa2014\obj\Debug\Copa2014.csproj.GenerateResource.Cache
+D:\Copa2014\Copa2014\Copa2014\obj\Debug\Copa2014.Relatorios.fRelGrupos.resources
+C:\Users\Victor\Desktop\Copa2014\Copa2014\Copa2014\bin\Debug\Copa2014.exe.config
+C:\Users\Victor\Desktop\Copa2014\Copa2014\Copa2014\obj\Debug\Copa2014.exe
+C:\Users\Victor\Desktop\Copa2014\Copa2014\Copa2014\obj\Debug\Copa2014.pdb
+C:\Users\Victor\Desktop\Copa2014\Copa2014\Copa2014\bin\Debug\Copa2014.exe
+C:\Users\Victor\Desktop\Copa2014\Copa2014\Copa2014\bin\Debug\Copa2014.pdb
+C:\Users\Victor\Desktop\Copa2014\Copa2014\Copa2014\obj\Debug\Copa2014.csprojResolveAssemblyReference.cache
+C:\Users\Victor\Desktop\Copa2014\Copa2014\Copa2014\obj\Debug\Copa2014.Apresentacao.fConsultaGrupos.resources
+C:\Users\Victor\Desktop\Copa2014\Copa2014\Copa2014\obj\Debug\Copa2014.frmPrincipal.resources
+C:\Users\Victor\Desktop\Copa2014\Copa2014\Copa2014\obj\Debug\Copa2014.Properties.Resources.resources
+C:\Users\Victor\Desktop\Copa2014\Copa2014\Copa2014\obj\Debug\Copa2014.Relatorios.fRelGrupos.resources
+C:\Users\Victor\Desktop\Copa2014\Copa2014\Copa2014\obj\Debug\Copa2014.csproj.GenerateResource.Cache
+C:\Users\Victor\Desktop\Copa2014\Copa2014\Copa2014\obj\Debug\Copa2014.Apresentacao.fFases.resources
+C:\Users\Victor\Desktop\Copa2014\Copa2014\Copa2014\obj\Debug\Copa2014.Apresentacao.fConsultaFases.resources
+C:\Users\Victor\Desktop\Copa2014\Copa2014\Copa2014\obj\Debug\Copa2014.Apresentacao.fEquipes.resources
+C:\Users\Victor\Desktop\Copa2014\Copa2014\Copa2014\obj\Debug\Copa2014.Apresentacao.fSobre.resources
+C:\Users\Victor\Desktop\Copa2014\Copa2014\Copa2014\obj\Debug\Copa2014.Apresentacao.fGrupos.resources
+C:\Users\Victor\Desktop\Copa2014\Copa2014\Copa2014\obj\Debug\Copa2014.Apresentacao.fJogadores.resources
+C:\Users\Victor\Desktop\Copa2014\Copa2014\Copa2014\obj\Debug\Copa2014.Apresentacao.fConsulta.resources
+C:\Users\Victor\Desktop\Copa2014\Copa2014\Copa2014\obj\Debug\Copa2014.Apresentacao.fJogos.resources
+C:\Users\Victor\Desktop\Copa2014\Copa2014\Copa2014\obj\Debug\Copa2014.Apresentacao.fResultados.resources

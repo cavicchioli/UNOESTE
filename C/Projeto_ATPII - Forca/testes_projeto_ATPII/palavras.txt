@@ -1,0 +1,50 @@
+Professor
+Profissional que atua nas escolas.
+Aula
+10
+1
+Treino
+Preparacao para partida esportiva.
+Esporte
+10
+1
+Oscar
+Premio do Cinema norte-americano.
+Cinema
+10
+1
+Reator
+O Coracao da usina Nuclear.
+Quimica
+10
+1
+Saldo
+Opcao de consulta no caixa eletronico.
+Dinheiro
+10
+1
+Poca
+Buraco com Agua.
+Agua
+10
+1
+Ricota
+Queijo de dietas.
+Comida
+10
+1
+Esta
+Pronome demostrativo feminino.
+Portugues
+10
+1
+Acai
+Fruto energetico usado em refrescos.
+Fruta
+10
+1
+Aspirador
+Com ele limpamos nossa casa.
+Eletrodomestico
+10
+1

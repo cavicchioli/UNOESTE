@@ -1,0 +1,82 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Sistema.master.cs" Inherits="ProjetoServiceDeskWeb.Sistema" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Exemplo Entity Framework</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="CSS/Geral.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div style="width:900px;margin:0 auto; background-color:#b4dba4;">
+        <table border="0" style="width:100%;">
+            <tr>
+                <td style="width:300px;">
+                    <img src="Imagens/logo-fipp.png" alt="FIPP - Faculdade de Informática de Presidente Prudente" align="middle" />
+                </td>
+                <td style="width:auto;vertical-align:bottom;padding-bottom:6px">
+                    <span style="font-size:17px;font-weight:bold;">Esp. Desenvolvimento de Apps Multiplataformas - FIPP/Unoeste</span><br />
+                    <strong>Módulo:</strong> Programação Web II
+                    <br />
+                    <strong>Professor:</strong> Eduardo Henrique Rizo (@eduardorizo)<br />
+                    <br />
+                    <strong>Exercício para conclusão do módulo</strong></td>
+            </tr>
+        </table>
+    </div>
+    <asp:Panel ID="pnlMenu" runat="server" style="width:900px;margin:0 auto;background-color:#E3EAEB">
+        <table style="width:100%" border="0">
+            <tr>
+                <td style="width:auto">
+                    <asp:Menu ID="Menu1" runat="server" BackColor="#E3EAEB" DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="12px" ForeColor="#666666" Orientation="Horizontal" StaticSubMenuIndent="10px">
+                        <DynamicHoverStyle BackColor="#666666" ForeColor="White" />
+                        <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                        <DynamicMenuStyle BackColor="#E3EAEB" />
+                        <DynamicSelectedStyle BackColor="#1C5E55" />
+                        <Items>
+                            <asp:MenuItem Text="Cadastros" Value="Cadastros">
+                                <asp:MenuItem Text="Funcionários" Value="Funcionários"></asp:MenuItem>
+                                <asp:MenuItem Text="Solicitantes" Value="Solicitantes"></asp:MenuItem>
+                                <asp:MenuItem Text="Status" Value="Status"></asp:MenuItem>
+                                <asp:MenuItem Text="Classificação" Value="Classificação"></asp:MenuItem>
+                            </asp:MenuItem>
+                            <asp:MenuItem Text="Movimentações" Value="Movimentações">
+                                <asp:MenuItem Text="Atividades" Value="Atividades" NavigateUrl="~/Atividades.aspx"></asp:MenuItem>
+                            </asp:MenuItem>
+                            <asp:MenuItem Text="Relatórios" Value="Relatórios"></asp:MenuItem>
+                            <asp:MenuItem Text="Sair" Value="Sair" NavigateUrl="~/Logout.aspx"></asp:MenuItem>
+                        </Items>
+                        <StaticHoverStyle BackColor="#666666" ForeColor="White" />
+                        <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                        <StaticSelectedStyle BackColor="#1C5E55" />
+                    </asp:Menu>
+                </td>
+                <td style="width:400px;text-align:right;">
+
+                    <strong>Usuário:</strong>
+                    <asp:Label ID="lblUsuario" runat="server"></asp:Label>
+
+                </td>
+            </tr>
+        </table>
+    </asp:Panel>
+    <div style="width:900px;margin:0 auto;min-height:300px">
+
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+
+
+    </div>
+     <div style="width:900px;margin:0 auto;text-align:center;">
+         <hr style="width:80%" />
+         Rua José Bongiovani, 700 - Cidade Universitária - Pres. Prudente - SP - CEP 19050-920<br />
+         Fone: (18) 3229-1000 - Todos os direitos reservados - Política de Privacidade
+
+     </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="HelpDeskModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="HelpDeskModelStoreContainer">
+    <EntitySet Name="Atividade" EntityType="HelpDeskModel.Store.Atividade" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="AtividadeClassificacao" EntityType="HelpDeskModel.Store.AtividadeClassificacao" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Classificacao" EntityType="HelpDeskModel.Store.Classificacao" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Funcionario" EntityType="HelpDeskModel.Store.Funcionario" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Solicitante" EntityType="HelpDeskModel.Store.Solicitante" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Status" EntityType="HelpDeskModel.Store.Status" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_Atividade_Funcionario" Association="HelpDeskModel.Store.FK_Atividade_Funcionario">
+      <End Role="Funcionario" EntitySet="Funcionario" />
+      <End Role="Atividade" EntitySet="Atividade" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Atividade_Solicitante" Association="HelpDeskModel.Store.FK_Atividade_Solicitante">
+      <End Role="Solicitante" EntitySet="Solicitante" />
+      <End Role="Atividade" EntitySet="Atividade" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Atividade_StatusAtividade" Association="HelpDeskModel.Store.FK_Atividade_StatusAtividade">
+      <End Role="Status" EntitySet="Status" />
+      <End Role="Atividade" EntitySet="Atividade" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AtividadeClassificacao_Atividade" Association="HelpDeskModel.Store.FK_AtividadeClassificacao_Atividade">
+      <End Role="Atividade" EntitySet="Atividade" />
+      <End Role="AtividadeClassificacao" EntitySet="AtividadeClassificacao" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AtividadeClassificacao_Classificacao" Association="HelpDeskModel.Store.FK_AtividadeClassificacao_Classificacao">
+      <End Role="Classificacao" EntitySet="Classificacao" />
+      <End Role="AtividadeClassificacao" EntitySet="AtividadeClassificacao" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Atividade">
+    <Key>
+      <PropertyRef Name="ati_codigo" />
+    </Key>
+    <Property Name="ati_codigo" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ati_descricao" Type="varchar" Nullable="false" MaxLength="255" />
+    <Property Name="ati_dtinicio" Type="datetime" Nullable="false" />
+    <Property Name="ati_dtfim" Type="datetime" />
+    <Property Name="fun_codigo" Type="int" Nullable="false" />
+    <Property Name="sta_codigo" Type="smallint" Nullable="false" />
+    <Property Name="sol_email" Type="varchar" Nullable="false" MaxLength="70" />
+  </EntityType>
+  <EntityType Name="AtividadeClassificacao">
+    <Key>
+      <PropertyRef Name="ati_codigo" />
+      <PropertyRef Name="cla_codigo" />
+    </Key>
+    <Property Name="ati_codigo" Type="int" Nullable="false" />
+    <Property Name="cla_codigo" Type="smallint" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Classificacao">
+    <Key>
+      <PropertyRef Name="cla_codigo" />
+    </Key>
+    <Property Name="cla_codigo" Type="smallint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="cla_nome" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="cla_ativa" Type="char" Nullable="false" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="Funcionario">
+    <Key>
+      <PropertyRef Name="fun_codigo" />
+    </Key>
+    <Property Name="fun_codigo" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="fun_nome" Type="varchar" Nullable="false" MaxLength="70" />
+    <Property Name="fun_dtcontratacao" Type="date" Nullable="false" />
+    <Property Name="fun_dtdemissao" Type="date" />
+    <Property Name="fun_ativo" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="fun_senha" Type="varchar" Nullable="false" MaxLength="15" />
+    <Property Name="fun_tipo" Type="char" Nullable="false" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="Solicitante">
+    <Key>
+      <PropertyRef Name="sol_email" />
+    </Key>
+    <Property Name="sol_email" Type="varchar" Nullable="false" MaxLength="70" />
+    <Property Name="sol_nome" Type="varchar" Nullable="false" MaxLength="70" />
+    <Property Name="sol_telefone" Type="varchar" MaxLength="20" />
+    <Property Name="sol_observacao" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="Status">
+    <Key>
+      <PropertyRef Name="sta_codigo" />
+    </Key>
+    <Property Name="sta_codigo" Type="smallint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="sta_status" Type="varchar" Nullable="false" MaxLength="20" />
+    <Property Name="sta_ativo" Type="char" Nullable="false" MaxLength="1" />
+  </EntityType>
+  <Association Name="FK_Atividade_Funcionario">
+    <End Role="Funcionario" Type="HelpDeskModel.Store.Funcionario" Multiplicity="1" />
+    <End Role="Atividade" Type="HelpDeskModel.Store.Atividade" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Funcionario">
+        <PropertyRef Name="fun_codigo" />
+      </Principal>
+      <Dependent Role="Atividade">
+        <PropertyRef Name="fun_codigo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Atividade_Solicitante">
+    <End Role="Solicitante" Type="HelpDeskModel.Store.Solicitante" Multiplicity="1" />
+    <End Role="Atividade" Type="HelpDeskModel.Store.Atividade" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Solicitante">
+        <PropertyRef Name="sol_email" />
+      </Principal>
+      <Dependent Role="Atividade">
+        <PropertyRef Name="sol_email" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Atividade_StatusAtividade">
+    <End Role="Status" Type="HelpDeskModel.Store.Status" Multiplicity="1" />
+    <End Role="Atividade" Type="HelpDeskModel.Store.Atividade" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Status">
+        <PropertyRef Name="sta_codigo" />
+      </Principal>
+      <Dependent Role="Atividade">
+        <PropertyRef Name="sta_codigo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AtividadeClassificacao_Atividade">
+    <End Role="Atividade" Type="HelpDeskModel.Store.Atividade" Multiplicity="1" />
+    <End Role="AtividadeClassificacao" Type="HelpDeskModel.Store.AtividadeClassificacao" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Atividade">
+        <PropertyRef Name="ati_codigo" />
+      </Principal>
+      <Dependent Role="AtividadeClassificacao">
+        <PropertyRef Name="ati_codigo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AtividadeClassificacao_Classificacao">
+    <End Role="Classificacao" Type="HelpDeskModel.Store.Classificacao" Multiplicity="1" />
+    <End Role="AtividadeClassificacao" Type="HelpDeskModel.Store.AtividadeClassificacao" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Classificacao">
+        <PropertyRef Name="cla_codigo" />
+      </Principal>
+      <Dependent Role="AtividadeClassificacao">
+        <PropertyRef Name="cla_codigo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

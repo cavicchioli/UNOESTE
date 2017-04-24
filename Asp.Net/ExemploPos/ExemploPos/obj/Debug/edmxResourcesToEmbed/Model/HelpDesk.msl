@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="HelpDeskModelStoreContainer" CdmEntityContainer="HelpDeskEntities">
+    <EntitySetMapping Name="Atividade">
+      <EntityTypeMapping TypeName="HelpDeskModel.Atividade">
+        <MappingFragment StoreEntitySet="Atividade">
+          <ScalarProperty Name="Codigo" ColumnName="ati_codigo" />
+          <ScalarProperty Name="Descricao" ColumnName="ati_descricao" />
+          <ScalarProperty Name="DataInicio" ColumnName="ati_dtinicio" />
+          <ScalarProperty Name="DataFim" ColumnName="ati_dtfim" />
+          <ScalarProperty Name="CodigoFuncionario" ColumnName="fun_codigo" />
+          <ScalarProperty Name="CodigoStatus" ColumnName="sta_codigo" />
+          <ScalarProperty Name="EmailSolicitante" ColumnName="sol_email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Classificacao">
+      <EntityTypeMapping TypeName="HelpDeskModel.Classificacao">
+        <MappingFragment StoreEntitySet="Classificacao">
+          <ScalarProperty Name="Codigo" ColumnName="cla_codigo" />
+          <ScalarProperty Name="Nome" ColumnName="cla_nome" />
+          <ScalarProperty Name="Ativa" ColumnName="cla_ativa" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Funcionario">
+      <EntityTypeMapping TypeName="HelpDeskModel.Funcionario">
+        <MappingFragment StoreEntitySet="Funcionario">
+          <ScalarProperty Name="Codigo" ColumnName="fun_codigo" />
+          <ScalarProperty Name="Nome" ColumnName="fun_nome" />
+          <ScalarProperty Name="DataContratacao" ColumnName="fun_dtcontratacao" />
+          <ScalarProperty Name="DataDemissao" ColumnName="fun_dtdemissao" />
+          <ScalarProperty Name="Ativo" ColumnName="fun_ativo" />
+          <ScalarProperty Name="Senha" ColumnName="fun_senha" />
+          <ScalarProperty Name="Tipo" ColumnName="fun_tipo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Solicitante">
+      <EntityTypeMapping TypeName="HelpDeskModel.Solicitante">
+        <MappingFragment StoreEntitySet="Solicitante">
+          <ScalarProperty Name="Email" ColumnName="sol_email" />
+          <ScalarProperty Name="Nome" ColumnName="sol_nome" />
+          <ScalarProperty Name="Telefone" ColumnName="sol_telefone" />
+          <ScalarProperty Name="Observacao" ColumnName="sol_observacao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Status">
+      <EntityTypeMapping TypeName="HelpDeskModel.Status">
+        <MappingFragment StoreEntitySet="Status">
+          <ScalarProperty Name="Codigo" ColumnName="sta_codigo" />
+          <ScalarProperty Name="Descricao" ColumnName="sta_status" />
+          <ScalarProperty Name="Ativo" ColumnName="sta_ativo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="AtividadeClassificacao" TypeName="HelpDeskModel.AtividadeClassificacao" StoreEntitySet="AtividadeClassificacao">
+      <EndProperty Name="Atividade">
+        <ScalarProperty Name="Codigo" ColumnName="ati_codigo" />
+      </EndProperty>
+      <EndProperty Name="Classificacao">
+        <ScalarProperty Name="Codigo" ColumnName="cla_codigo" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

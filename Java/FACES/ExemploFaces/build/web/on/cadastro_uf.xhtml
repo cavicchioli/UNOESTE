@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <body>
+        <ui:composition template="./../WEB-INF/template/modelo.xhtml">
+
+            <ui:define name="conteudo">
+                <h:panelGroup rendered="#{not uFBean.pesquisando}">
+                    <h1>Cadastro de Estados</h1>
+                    <h:form prependId="false">
+                        <h:outputLabel for="txtCodigo" value="Código"/>
+                        <h:inputText id="txtCodigo" size="7" maxlength="5"
+                                     required="true" requiredMessage="Código não informado."
+                                     converterMessage="O código deve ser um número inteiro."
+                                     validatorMessage="O código deve ser um número inteiro maior que zero."
+                                     value="#{uFBean.estado.codigo}">
+                            <f:validateLongRange minimum="1" />
+                        </h:inputText>
+
+                        <h:outputLabel for="txtNome" value="Nome"/>
+                        <h:inputText id="txtNome" size="80" maxlength="100"
+                                     required="true" requiredMessage="Nome não informado"
+                                     value="#{uFBean.estado.nome}">
+                            <f:validateLength maximum="100"/>
+                        </h:inputText>
+
+                        <h:outputLabel for="txtSigla">Sigla</h:outputLabel>
+                        <h:inputText id="txtSigla" size="4" maxlength="2"
+                                     required="true" requiredMessage="Sigla não informada."
+                                     value="#{uFBean.estado.sigla}">
+                            <f:validateLength maximum="2" minimum="2"/>
+                        </h:inputText>
+                        <p class="botoes">
+                            <h:commandButton value="Inserir" alt="Inserir" title="Inserir"
+                                             rendered="#{uFBean.usuarioLogado.administrador and not uFBean.alterando}"
+                                             action="#{uFBean.inserir()}"/>
+                            <h:commandButton value="Alterar" alt="Alterar" title="Alterar"
+                                             rendered="#{uFBean.usuarioLogado.administrador and uFBean.alterando}"
+                                             action="#{uFBean.alterar()}"/>
+                            <h:commandButton value="Consultar" immediate="true" alt="Consultar" title="Consultar"
+                                             action="#{uFBean.ativarPesquisa()}"/>
+                            <h:commandButton value="Limpar" immediate="true" alt="Limpar" title="Limpar"
+                                             action="#{uFBean.limpar()}"/>
+                        </p>
+                    </h:form>
+                </h:panelGroup>
+                <h:panelGroup rendered="#{uFBean.pesquisando}">
+                    <h1>Estados Cadastrados</h1>
+                    <h:form>
+                        <h:dataTable var="estado" value="#{uFBean.estadosCadastrados}">
+                            <h:column>
+                                <f:facet name="header">
+                                    Código
+                                </f:facet>
+                                <h:outputText value="#{estado.codigo}"/>
+                            </h:column>
+                            <h:column>
+                                <f:facet name="header">
+                                    Nome
+                                </f:facet>
+                                <h:outputText value="#{estado.nome}"/>
+                            </h:column>
+                            <h:column>
+                                <f:facet name="header">
+                                    Sigla
+                                </f:facet>
+                                <h:outputText value="#{estado.sigla}"/>
+                            </h:column>
+                            <h:column>
+                                <h:commandLink value="Selecionar"
+                                               action="#{uFBean.selecionar(estado.codigo)}"/>
+                            </h:column>
+                            <h:column>
+                                <h:commandLink value="Excluir"
+                                               action="#{uFBean.excluir(estado.codigo)}"
+                                               onclick="return confirm('Deseja excluir o registro?');"/>
+                            </h:column>
+
+                        </h:dataTable>
+                    </h:form>            
+                    <h:link value="Voltar" outcome="/on/cadastro_uf.xhtml"/>
+                </h:panelGroup>
+            </ui:define>
+
+        </ui:composition>
+    </body>
+</html>

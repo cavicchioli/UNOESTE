@@ -1,0 +1,4 @@
+D:\TTC 2º bimestre - pedidos\Prova\bin\Prova.dll
+D:\TTC 2º bimestre - pedidos\Prova\bin\Prova.pdb
+D:\TTC 2º bimestre - pedidos\Prova\obj\Debug\Prova.dll
+D:\TTC 2º bimestre - pedidos\Prova\obj\Debug\Prova.pdb

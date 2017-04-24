@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExemploPos", "ExemploPos\ExemploPos.csproj", "{D88730F0-9681-42D1-AA62-DF2028D8B15C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExemploPosWeb", "ExemploPosWeb\ExemploPosWeb.csproj", "{1F268543-C42A-49B7-8AE5-BDCA82405A7E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D88730F0-9681-42D1-AA62-DF2028D8B15C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D88730F0-9681-42D1-AA62-DF2028D8B15C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D88730F0-9681-42D1-AA62-DF2028D8B15C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D88730F0-9681-42D1-AA62-DF2028D8B15C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F268543-C42A-49B7-8AE5-BDCA82405A7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F268543-C42A-49B7-8AE5-BDCA82405A7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F268543-C42A-49B7-8AE5-BDCA82405A7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F268543-C42A-49B7-8AE5-BDCA82405A7E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

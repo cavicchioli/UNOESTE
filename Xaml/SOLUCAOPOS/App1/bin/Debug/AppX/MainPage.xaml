@@ -1,0 +1,107 @@
+﻿<Page
+    x:Class="App1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Left">
+            <TextBlock Text="Valor"></TextBlock>
+            <TextBox x:Name="ttbValor" Width="100" Text="{Binding Value, ElementName=sldValor, Mode=TwoWay}"></TextBox>
+            <Slider x:Name="sldValor"></Slider>
+            <Button x:ConnectionId='1' x:Name="btnBotao" Style="{StaticResource TextButtonStyle}" Content="Clique Aqui 1!"                       />
+        </StackPanel>
+        <!--<Button>
+            Clique Aqui 2!
+        </Button>-->
+
+        <!--CANVAS
+        <Canvas>
+            <Rectangle Canvas.Left="100" Canvas.Top="55" Fill="Red" Width="400" Height="50" RenderTransformOrigin="0.866,3.806"/>
+            <Rectangle Canvas.Left="100" Canvas.Top="165" Canvas.ZIndex="3" Fill="Green" Width="400" Height="50"/>
+            <Rectangle Canvas.Left="100" Canvas.Top="110" Fill="Yellow" Width="400" Height="50"/>
+            <Rectangle Fill="Blue" Width="400" Height="50" Canvas.Left="100"/>
+        </Canvas>-->
+
+        <!--FLIPVIEW
+        <FlipView>
+            <Rectangle Fill="Red" Width="400" Height="50"/>
+            <Rectangle Fill="Green" Width="400" Height="50"/>
+            <Rectangle Fill="Yellow" Width="400" Height="50"/>
+            <Rectangle Fill="Blue" Width="400" Height="50"/>
+        </FlipView>-->
+
+        <!--LIST VIEW-->
+        <!--<ListView>
+            <Rectangle Fill="Red" Width="400" Height="50"/>
+            <Rectangle Fill="Green" Width="400" Height="50"/>
+            <Rectangle Fill="Yellow" Width="400" Height="50"/>
+            <Rectangle Fill="Blue" Width="400" Height="50"/>
+        </ListView>-->
+
+
+        <!--TRABALAHNDO COM WIDTH-->
+        <!--<Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100"></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition Width="500"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Rectangle Grid.Row="0" Grid.Column="0" Fill="Red" Width="400" Height="50"/>
+            <Rectangle Grid.Row="0" Grid.Column="1" Fill="Green" Width="400" Height="50"/>
+            <Rectangle Grid.Row="1" Grid.Column="0" Fill="Yellow" Width="400" Height="50"/>
+            <Rectangle Grid.Row="1" Grid.Column="1" Fill="Blue" Width="400" Height="50"/>
+        </Grid>-->
+
+
+
+        <!--ROW SPAN DA GRID-->
+        <!--<Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Rectangle Grid.Row="0" Grid.Column="0" Grid.RowSpan="2" Fill="Red" Width="400" Height="50"/>
+            <Rectangle Grid.Row="0" Grid.Column="1" Fill="Green" Width="400" Height="50"/>
+            <Rectangle Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Fill="Yellow" Width="400" Height="50"/>
+            
+        </Grid>-->
+
+        <!--TRABALHO COM GRID-->
+        <!--<Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Rectangle Grid.Row="0" Grid.Column="0" Fill="Red" Width="400" Height="50"/>
+            <Rectangle Grid.Row="0" Grid.Column="1" Fill="Green" Width="400" Height="50"/>
+            <Rectangle Grid.Row="1" Grid.Column="0" Fill="Yellow" Width="400" Height="50"/>
+            <Rectangle Grid.Row="1" Grid.Column="1" Fill="Blue" Width="400" Height="50"/>
+        </Grid>-->
+
+        <!--STACKPANEL-->
+        <!--<StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <Rectangle Fill="Red" Width="400" Height="50"/>
+            <StackPanel VerticalAlignment="Center">
+                <Rectangle Fill="Green" Width="400" Height="50"/>
+                <Rectangle Fill="Yellow" Width="400" Height="50"/>
+            </StackPanel>
+            <Rectangle Fill="Blue" Width="400" Height="50"/>
+        </StackPanel>-->
+    </Grid>
+</Page>
+

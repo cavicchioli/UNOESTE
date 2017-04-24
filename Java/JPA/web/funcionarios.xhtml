@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core">
+    <h:head>
+        <title>Funcionários Cadastrados </title>
+    </h:head>
+    <h:body>
+        <h:form>
+            <h:dataTable value="#{funcionarioForm.funcionarios}" var="f">
+                <h:column>
+                    <f:facet name="header">
+                        <f:verbatim>Código</f:verbatim>
+                    </f:facet>
+                    <h:outputText value="#{f.codigo}"/>
+                </h:column>
+                <h:column>
+                    <f:facet name="header">
+                        <f:verbatim>Nome</f:verbatim>
+                    </f:facet>
+                    <h:outputText value="#{f.nome}"/>
+                </h:column>
+                <h:column>
+                    <f:facet name="header">
+                        <f:verbatim>Departamento</f:verbatim>
+                    </f:facet>
+                    <h:outputText value="#{f.departamento.nome}"/>
+                </h:column>
+                <h:column>
+                    <f:facet name="header">
+                        <f:verbatim>Ação</f:verbatim>
+                    </f:facet>
+                    
+                    <h:commandLink id="lnkSelecionar" value="selecionar"
+                                   action="#{funcionarioForm.selecionar(f.codigo)}"/>
+                    
+                </h:column>
+                <h:column>
+                    <h:commandLink id="lnkExcluir" value="excluir" action="#{funcionarioForm.deletar(f.codigo)}"/>
+                </h:column>
+
+            </h:dataTable>
+        </h:form>
+        <ul>
+            <li>
+                <h:link outcome="principal.xhtml" value="Página Principal"/>
+            </li>
+        </ul>
+    </h:body>
+</html>
+

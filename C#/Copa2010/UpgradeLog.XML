@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Copa2010">
+</Property><Property Name="Solution File" Value="C:\Users\Victor\Desktop\Copa2010\Copa2010.sln">
+</Property><Property Name="Date" Value="sexta-feira, 6 de junho de 2014">
+</Property><Property Name="Time" Value="18:38:39">
+</Property></Properties><Event ErrorLevel="4" Project="Copa2010" Source="http://go.microsoft.com/fwlink/?LinkId=159919" Description="Warning: this project requires Crystal Reports, which is no longer included with Visual Studio. Please click here for more information.">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="Copa2010.csproj" Description="Project file successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\Copa2010.csproj">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="Copa2010.csproj.user" Description="Project user file successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\Copa2010.csproj.user">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="CamadaApresentacao\frmFases.cs" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\CamadaApresentacao\frmFases.cs">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="CamadaApresentacao\frmFases.Designer.cs" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\CamadaApresentacao\frmFases.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="CamadaApresentacao\frmConsultaPadrao.cs" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\CamadaApresentacao\frmConsultaPadrao.cs">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="CamadaApresentacao\frmConsultaPadrao.Designer.cs" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\CamadaApresentacao\frmConsultaPadrao.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="CamadaApresentacao\frmEquipes.cs" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\CamadaApresentacao\frmEquipes.cs">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="CamadaApresentacao\frmEquipes.Designer.cs" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\CamadaApresentacao\frmEquipes.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="CamadaApresentacao\frmGrupos.cs" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\CamadaApresentacao\frmGrupos.cs">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="CamadaApresentacao\frmGrupos.Designer.cs" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\CamadaApresentacao\frmGrupos.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="CamadaApresentacao\frmJogadores.cs" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\CamadaApresentacao\frmJogadores.cs">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="CamadaApresentacao\frmJogadores.Designer.cs" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\CamadaApresentacao\frmJogadores.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="CamadaApresentacao\frmJogos.cs" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\CamadaApresentacao\frmJogos.cs">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="CamadaApresentacao\frmJogos.Designer.cs" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\CamadaApresentacao\frmJogos.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="CamadaApresentacao\frmPrincipal.cs" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\CamadaApresentacao\frmPrincipal.cs">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="CamadaApresentacao\frmPrincipal.Designer.cs" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\CamadaApresentacao\frmPrincipal.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="CamadaApresentacao\frmResultadosJogos.cs" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\CamadaApresentacao\frmResultadosJogos.cs">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="CamadaApresentacao\frmResultadosJogos.Designer.cs" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\CamadaApresentacao\frmResultadosJogos.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="CamadaApresentacao\frmSobre.cs" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\CamadaApresentacao\frmSobre.cs">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="CamadaApresentacao\frmSobre.Designer.cs" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\CamadaApresentacao\frmSobre.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="CamadaLogica\BancoDados.cs" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\CamadaLogica\BancoDados.cs">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="CamadaLogica\Funcoes.cs" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\CamadaLogica\Funcoes.cs">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="CamadaNegocio\Equipes.cs" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\CamadaNegocio\Equipes.cs">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="CamadaNegocio\Grupos.cs" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\CamadaNegocio\Grupos.cs">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="CamadaNegocio\Fases.cs" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\CamadaNegocio\Fases.cs">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="CamadaNegocio\Jogadores.cs" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\CamadaNegocio\Jogadores.cs">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="CamadaNegocio\Jogos.cs" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\CamadaNegocio\Jogos.cs">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="Program.cs" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\Program.cs">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="Properties\Resources.Designer.cs" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="Properties\Settings.Designer.cs" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="Relatorios\frmRelBasicos.cs" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\Relatorios\frmRelBasicos.cs">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="Relatorios\frmRelBasicos.Designer.cs" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\Relatorios\frmRelBasicos.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="Relatorios\frmRelJogadores.cs" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\Relatorios\frmRelJogadores.cs">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="Relatorios\frmRelJogadores.Designer.cs" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\Relatorios\frmRelJogadores.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="Relatorios\frmRelTabelaJogos.cs" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\Relatorios\frmRelTabelaJogos.cs">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="Relatorios\frmRelTabelaJogos.Designer.cs" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\Relatorios\frmRelTabelaJogos.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="Relatorios\relEquipes.cs" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\Relatorios\relEquipes.cs">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="Relatorios\relFases.cs" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\Relatorios\relFases.cs">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="Relatorios\relGrupos.cs" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\Relatorios\relGrupos.cs">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="Relatorios\relJogadores.cs" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\Relatorios\relJogadores.cs">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="Relatorios\relTabelaJogos.cs" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\Relatorios\relTabelaJogos.cs">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="Properties\Settings.settings" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="Resources\Add.png" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\Resources\Add.png">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="Resources\Back.png" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\Resources\Back.png">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="Resources\Delete.png" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\Resources\Delete.png">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="Resources\Exit.png" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\Resources\Exit.png">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="Resources\Load.png" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\Resources\Load.png">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="Resources\Loading.png" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\Resources\Loading.png">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="DiagramaClasses.cd" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\DiagramaClasses.cd">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="Resources\Modify.png" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\Resources\Modify.png">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="Resources\logoCopa2010.png" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\Resources\logoCopa2010.png">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="Resources\copa2010.jpg" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\Resources\copa2010.jpg">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="Resources\search_48.png" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\Resources\search_48.png">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="CamadaApresentacao\frmFases.resx" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\CamadaApresentacao\frmFases.resx">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="CamadaApresentacao\frmConsultaPadrao.resx" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\CamadaApresentacao\frmConsultaPadrao.resx">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="CamadaApresentacao\frmEquipes.resx" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\CamadaApresentacao\frmEquipes.resx">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="CamadaApresentacao\frmGrupos.resx" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\CamadaApresentacao\frmGrupos.resx">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="CamadaApresentacao\frmJogadores.resx" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\CamadaApresentacao\frmJogadores.resx">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="CamadaApresentacao\frmJogos.resx" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\CamadaApresentacao\frmJogos.resx">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="CamadaApresentacao\frmPrincipal.resx" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\CamadaApresentacao\frmPrincipal.resx">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="CamadaApresentacao\frmResultadosJogos.resx" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\CamadaApresentacao\frmResultadosJogos.resx">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="CamadaApresentacao\frmSobre.resx" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\CamadaApresentacao\frmSobre.resx">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="Properties\Resources.resx" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="Relatorios\frmRelBasicos.resx" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\Relatorios\frmRelBasicos.resx">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="Relatorios\frmRelJogadores.resx" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\Relatorios\frmRelJogadores.resx">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="Relatorios\frmRelTabelaJogos.resx" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\Relatorios\frmRelTabelaJogos.resx">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="Relatorios\relEquipes.rpt" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\Relatorios\relEquipes.rpt">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="Relatorios\relFases.rpt" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\Relatorios\relFases.rpt">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="Relatorios\relGrupos.rpt" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\Relatorios\relGrupos.rpt">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="Relatorios\relJogadores.rpt" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\Relatorios\relJogadores.rpt">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="Relatorios\relTabelaJogos.rpt" Description="File successfully backed up as C:\Users\Victor\Desktop\Copa2010\Backup\Relatorios\relTabelaJogos.rpt">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="Copa2010.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Copa2010" Source="Copa2010.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Copa2010" Source="Copa2010.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

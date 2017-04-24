@@ -1,0 +1,18 @@
+D:\PrjCadastro\bin\Debug\PrjCadastro.exe
+D:\PrjCadastro\bin\Debug\PrjCadastro.pdb
+D:\PrjCadastro\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\PrjCadastro\obj\x86\Debug\PrjCadastro.FrmCadCidades.resources
+D:\PrjCadastro\obj\x86\Debug\PrjCadastro.Properties.Resources.resources
+D:\PrjCadastro\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\PrjCadastro\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\PrjCadastro\obj\x86\Debug\PrjCadastro.exe
+D:\PrjCadastro\obj\x86\Debug\PrjCadastro.pdb
+G:\__2 SEMESTRE\LP2\PrjCadastro\obj\x86\Debug\PrjCadastro.exe
+G:\__2 SEMESTRE\LP2\PrjCadastro\obj\x86\Debug\PrjCadastro.pdb
+G:\__2 SEMESTRE\LP2\PrjCadastro\bin\Debug\PrjCadastro.exe
+G:\__2 SEMESTRE\LP2\PrjCadastro\bin\Debug\PrjCadastro.pdb
+G:\__2 SEMESTRE\LP2\PrjCadastro\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\__2 SEMESTRE\LP2\PrjCadastro\obj\x86\Debug\PrjCadastro.FrmCadCidades.resources
+G:\__2 SEMESTRE\LP2\PrjCadastro\obj\x86\Debug\PrjCadastro.Properties.Resources.resources
+G:\__2 SEMESTRE\LP2\PrjCadastro\obj\x86\Debug\GenerateResource.read.1.tlog
+G:\__2 SEMESTRE\LP2\PrjCadastro\obj\x86\Debug\GenerateResource.write.1.tlog

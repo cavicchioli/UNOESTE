@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="relVendasMae" language="groovy" pageWidth="595" pageHeight="842" columnWidth="535" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="3da5bcc4-0fee-4073-840e-c5fcdf95ff3a">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<style name="Title" forecolor="#FFFFFF" fontName="Arial" fontSize="26" isBold="true" pdfFontName="Helvetica-Bold"/>
+	<style name="SubTitle" forecolor="#666666" fontName="Arial" fontSize="18"/>
+	<style name="Column header" forecolor="#666666" fontName="Arial" fontSize="12" isBold="true"/>
+	<style name="Detail" fontName="Arial" fontSize="12"/>
+	<parameter name="SUBREPORT_DIR" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA["G:\\__pos\\desktop2\\2-Aula\\Projeto_Vendas_Victor\\relatorios\\"]]></defaultValueExpression>
+	</parameter>
+	<queryString language="SQL">
+		<![CDATA[select * from vendas order by vend_codigo]]>
+	</queryString>
+	<field name="vend_codigo" class="java.lang.Integer"/>
+	<field name="vend_data" class="java.sql.Date"/>
+	<field name="vend_valor_total" class="java.math.BigDecimal"/>
+	<field name="func_codigo" class="java.lang.Integer"/>
+	<field name="cli_codigo" class="java.lang.Integer"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="70" splitType="Stretch">
+			<image>
+				<reportElement x="-20" y="0" width="595" height="64" uuid="65f7d1ba-2e61-4467-9d21-e76fdbba7739"/>
+				<imageExpression><![CDATA["wood.jpg"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement style="Title" x="0" y="5" width="263" height="33" uuid="7580ffd8-ff00-4ffc-91a7-0c7761a2f4bd"/>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[Wood Title]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="SubTitle" x="63" y="39" width="200" height="22" forecolor="#FFFFFF" uuid="66319660-dc84-425e-a01a-20f7c34f161c"/>
+				<textElement textAlignment="Right"/>
+				<text><![CDATA[Wood SubTitle]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="36" splitType="Stretch">
+			<line>
+				<reportElement positionType="FixRelativeToBottom" x="0" y="35" width="555" height="1" uuid="c2712965-9d4f-42cf-9f9c-d672736e7dcd"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineColor="#999999"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement style="Column header" x="0" y="19" width="111" height="15" uuid="fad71f32-2957-466e-8f6a-307876e4fb35"/>
+				<text><![CDATA[vend_codigo]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="Column header" x="111" y="19" width="111" height="15" uuid="15d03cf6-95bc-47f1-9804-10b3ecdf7669"/>
+				<text><![CDATA[vend_data]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="Column header" x="222" y="19" width="111" height="15" uuid="0afffcde-ebc4-4341-ab08-f3bd215ddb15"/>
+				<text><![CDATA[vend_valor_total]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="Column header" x="333" y="19" width="111" height="15" uuid="84ecc51d-652e-4423-b55d-d666b7305ca9"/>
+				<text><![CDATA[func_codigo]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="Column header" x="444" y="19" width="111" height="15" uuid="01fc006d-a316-4e8c-b4a5-d181f05187b3"/>
+				<text><![CDATA[cli_codigo]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="130" splitType="Stretch">
+			<line>
+				<reportElement positionType="FixRelativeToBottom" x="0" y="18" width="555" height="1" uuid="c81e6ca9-ea30-45f4-9f8b-6d15a4efb93c"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineColor="#999999"/>
+				</graphicElement>
+			</line>
+			<textField>
+				<reportElement style="Detail" x="0" y="0" width="111" height="15" uuid="5f672932-bb76-4169-9b11-396e93c72479"/>
+				<textFieldExpression><![CDATA[$F{vend_codigo}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement style="Detail" x="111" y="0" width="111" height="15" uuid="5204ccd4-f49d-4f4c-b65b-d858037ba63e"/>
+				<textFieldExpression><![CDATA[$F{vend_data}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement style="Detail" x="333" y="0" width="111" height="15" uuid="828998b0-0b86-43ac-84ad-7a8d57810b96"/>
+				<textFieldExpression><![CDATA[$F{func_codigo}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement style="Detail" x="433" y="0" width="111" height="15" uuid="f38229a1-09fe-41e9-87fa-ee6c37e35da4"/>
+				<textFieldExpression><![CDATA[$F{cli_codigo}]]></textFieldExpression>
+			</textField>
+			<subreport>
+				<reportElement x="0" y="21" width="200" height="100" uuid="fb99262b-15e7-41de-aede-29da63e8184d"/>
+				<subreportParameter name="vend_codigo">
+					<subreportParameterExpression><![CDATA[$F{vend_codigo}]]></subreportParameterExpression>
+				</subreportParameter>
+				<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+				<subreportExpression><![CDATA[$P{SUBREPORT_DIR} + "relVendasMae_subreport.jasper"]]></subreportExpression>
+			</subreport>
+			<textField>
+				<reportElement style="Detail" x="222" y="1" width="111" height="15" uuid="0f196744-2aba-47ef-850c-13fab1788c5b"/>
+				<textFieldExpression><![CDATA[$F{vend_valor_total}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="20" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="20" splitType="Stretch">
+			<textField>
+				<reportElement style="Column header" x="433" y="0" width="80" height="20" uuid="b8ee9d7c-283f-452e-9d77-1c0b53989d62"/>
+				<textElement textAlignment="Right">
+					<font size="10" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Page "+$V{PAGE_NUMBER}+" of"]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Report">
+				<reportElement style="Column header" x="513" y="0" width="40" height="20" uuid="fb41e44f-08aa-4e05-a4e8-6bed8b0b8d4b"/>
+				<textElement>
+					<font size="10" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<textField pattern="EEEEE dd MMMMM yyyy">
+				<reportElement style="Column header" x="0" y="0" width="197" height="20" uuid="1b8b02d1-d2ff-4784-be72-7a14a3c0711a"/>
+				<textElement>
+					<font size="10" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>

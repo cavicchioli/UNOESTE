@@ -1,0 +1,6 @@
+D:\TrabalhoAula3\TrabalhoAula3\bin\TrabalhoAula3.dll
+D:\TrabalhoAula3\TrabalhoAula3\bin\TrabalhoAula3.pdb
+D:\TrabalhoAula3\TrabalhoAula3\obj\Debug\TrabalhoAula3.csprojResolveAssemblyReference.cache
+D:\TrabalhoAula3\TrabalhoAula3\obj\Debug\TrabalhoAula3.dll
+D:\TrabalhoAula3\TrabalhoAula3\obj\Debug\TrabalhoAula3.pdb
+D:\TrabalhoAula3\TrabalhoAula3\bin\TrabalhoAula3.dll.config

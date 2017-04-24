@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html">
+    <h:head>
+        <title>Menu</title>
+    </h:head>
+    <h:body>
+        Menu do Sistema
+        <ul>
+            <li>
+                <h:link outcome="estado.xhtml" value="Cadastro de Estados"/>
+            </li>
+            <li>
+                <h:link outcome="estados.xhtml" value="Lista de Estados"/>
+            </li>
+            <li>
+                <h:link outcome="cidade.xhtml" value="Cadastro de Cidade"/>
+            </li>
+             <li>
+                <h:link outcome="cidades.xhtml" value="Lista de Cidades"/>
+            </li>
+            <li>
+                <h:link outcome="departamento.xhtml" value="Cadastro de Departamento"/>
+            </li>
+             <li>
+                <h:link outcome="departamentos.xhtml" value="Lista de Departamentos"/>
+            </li>
+            <li>
+                <h:link outcome="funcionario.xhtml" value="Cadastro de Funcionarios"/>
+            </li>
+             <li>
+                <h:link outcome="funcionarios.xhtml" value="Lista de Funcionarios"/>
+            </li>
+            <li>
+                <h:form>
+                    <h:commandLink action="#{loginForm.logout_action()}" value="Sair"/>
+                </h:form>
+            </li>
+        </ul>
+    </h:body>
+</html>
+

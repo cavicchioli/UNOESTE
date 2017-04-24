@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core">
+    <h:head>
+        <title>Cidades Cadastradas</title>
+    </h:head>
+    <h:body>
+        <h:form>
+            <h:dataTable value="#{cidadeForm.cidades}" var="cid">
+                <h:column>
+                    <f:facet name="header">
+                        <f:verbatim>Código</f:verbatim>
+                    </f:facet>
+                    <h:outputText value="#{cid.codigo}"/>
+                </h:column>
+                <h:column>
+                    <f:facet name="header">
+                        <f:verbatim>Nome</f:verbatim>
+                    </f:facet>
+                    <h:outputText value="#{cid.nome}"/>
+                </h:column>
+                <h:column>
+                    <f:facet name="header">
+                        <f:verbatim>Estado</f:verbatim>
+                    </f:facet>
+                    <h:outputText value="#{cid.uf.sigla}"/>
+                </h:column>
+                <h:column>
+                    <f:facet name="header">
+                        <f:verbatim>Ação</f:verbatim>
+                    </f:facet>
+                    <h:commandLink id="lnkSelecionar" value="selecionar"
+                                   action="#{cidadeForm.selecionar(cid.codigo)}"/>
+                </h:column>
+                <h:column>
+                    <h:commandLink id="lnkExcluir" value="excluir" action="#{cidadeForm.deletar(cid.codigo)}"/>
+                </h:column>
+
+            </h:dataTable>
+        </h:form>
+        <ul>
+            <li>
+                <h:link outcome="principal.xhtml" value="Página Principal"/>
+            </li>
+        </ul>
+    </h:body>
+</html>
+

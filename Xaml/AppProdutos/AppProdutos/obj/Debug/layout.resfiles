@@ -1,0 +1,13 @@
+Assets\Logo.png
+Assets\produtos.xml
+Assets\SmallLogo.png
+Assets\SplashScreen.png
+Assets\StoreLogo.png
+App.xaml
+Common\Recursos.xaml
+Common\StandardStyles.xaml
+MainPage.xaml
+View\Carrinho.xaml
+View\ExibeProduto.xaml
+View\ListaProdutos.xaml
+View\Principal.xaml

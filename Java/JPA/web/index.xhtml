@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core">
+    <h:head>
+        <title>Autenticação de Usuário</title>
+    </h:head>
+    <h:body>
+        <h1>Autenticação de Usuário</h1>
+        <h:form>
+            <h:messages />
+            <table>
+                <tr>
+                    <th>Login:</th>
+                    <td>
+                        <h:inputText id="txtLogin" size="10" maxlength="6"
+                                     value="#{loginForm.login}"
+                                     required="true" requiredMessage="O Login não foi informado!"
+                                     validatorMessage="Tamanho máximo do campo Login excedido!"
+                                     title="Login">
+                            <f:validateLength maximum="6"/>
+                        </h:inputText>
+
+                    </td>
+                </tr>
+                <tr>
+                    <th>Senha:</th>
+                    <td>
+                        <h:inputSecret id="txtSenha" size="10" maxlength="6"
+                                       value="#{loginForm.senha}"
+                                       required="true" requiredMessage="A senha não foi informada!"
+                                       validatorMessage="Tamanho máximo do campo Senha excedido!"
+                                       title="Senha">
+                            <f:validateLength maximum="6"/>
+                        </h:inputSecret>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <h:commandButton id="btnEnviar" value="Entrar"
+                                         action="#{loginForm.efetuaLogin_action}" />
+                        <h:commandButton id="btnLimpar" value="Limpar" immediate="true"
+                                         action="#{loginForm.limpaTelaCadastro_action}" />
+                    </td>
+                </tr>
+            </table>
+        </h:form>
+
+    </h:body>
+</html>
+
