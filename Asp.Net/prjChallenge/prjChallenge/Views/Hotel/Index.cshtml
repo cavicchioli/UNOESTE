@@ -1,0 +1,32 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div> 
+        <form action="ExtractData" method="post">
+            Enter Booking.com URL: <br />
+            <input type="text" name="url" size="80" value="https://www.booking.com/hotel/de/kempinskibristolberlin.en-gb.html"/>
+            <input type="submit" value="Extract Data" />
+            <br/>
+            Example: https://www.booking.com/hotel/de/kempinskibristolberlin.en-gb.html
+
+            <br/><br/>
+            <strong>OUTPUT JSON</strong>
+            <br/>
+            @ViewData["JSON"]
+
+        </form>
+
+    </div>
+</body>
+</html>
