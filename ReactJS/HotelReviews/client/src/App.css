@@ -1,0 +1,33 @@
+.center{
+  text-align: center;
+}
+
+.rating-block{
+  background-color:#FAFAFA;
+  border:1px solid #EFEFEF;
+  border-radius:3px;
+}
+
+.rating-block-review{
+  background-color:#e2e2e2;
+  border:1px solid #c9c9c9;
+  border-radius:3px;
+}
+.rating-block-padding{
+  padding:13px 10px 30px 13px;
+}
+
+.bold{
+  font-weight:700;
+}
+.padding-bottom{
+  padding-bottom:10px;
+}
+
+.review{
+  background-color: #FAFAFA;
+  border:1px solid #EFEFEF;
+  border-radius:4px;
+  padding:13px 10px 30px 13px;
+  margin-bottom: 7px;
+}
