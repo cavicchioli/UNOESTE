@@ -2,9 +2,9 @@ import { ADD_REMINDER } from '../constants';
 
 const reminder = (action)=>{
   return (
-    text: action.text,
-    id: Math.random()
-  )
+    //text: action.text//,
+    //id: Math.random()
+  );
 }
 
 const reminders = (state = [], action) => {
